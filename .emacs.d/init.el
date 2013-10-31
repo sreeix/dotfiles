@@ -18,6 +18,7 @@
 (load "setup-sml.el")
 (load "setup-javascript.el")
 (load "setup-ido.el")
+(load "setup-mac.el")
 ;;(require 'ui)
 ;;(vendor-require 'cl-lib)
 
@@ -36,18 +37,18 @@
 
 (package-initialize)
 
-
+(projectile-global-mode)
+(setq projectile-completion-system 'grizzl)
+(setq projectile-indexing-method 'git)
  ;; Navigate between windows using Alt-1, Alt-2, Shift-left, shift-up, shift-right
  (windmove-default-keybindings)
-
- ;; Enable copy and pasting from clipboard
- (setq x-select-enable-clipboard t)
-
-
- (autoload 'dash-at-point "dash-at-point"
-            "Search the word at point with Dash." t nil)
-  (global-set-key "\C-cd" 'dash-at-point)
 
 
 (set-face-attribute 'default nil
                 :family "Inconsolata" :height 145 :weight 'normal)
+
+
+;; Key bindings.
+
+;;(global-set-key (kbd "C-c h") 'helm-mini)
+(global-set-key (kbd "C-c m") 'magit-status)
