@@ -1,1 +1,1 @@
-("~/dotfiles/" "~/code/pulse/code/pulsecheck/")
+("~/dotfiles/" "~/code/plcourse/" "~/code/pulse/code/pulse-upm/" "~/code/haproxy_manager/" "~/code/pulse/code/pulsecheck/")
