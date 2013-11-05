@@ -40,16 +40,23 @@
 (projectile-global-mode)
 (setq projectile-completion-system 'grizzl)
 (setq projectile-indexing-method 'git)
- ;; Navigate between windows using Alt-1, Alt-2, Shift-left, shift-up, shift-right
- (windmove-default-keybindings)
-
-
-(set-face-attribute 'default nil
-                :family "Inconsolata" :height 145 :weight 'normal)
-
 
 ;; Key bindings.
 
 (global-set-key (kbd "C-c h") 'helm-projectile)
 (global-set-key (kbd "C-c m") 'magit-status)
 (yas-global-mode 1)
+;;(load-theme 'solarized-light)
+(load-theme 'wombat)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(js2-basic-offset 8 nil nil "For Pulse"))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

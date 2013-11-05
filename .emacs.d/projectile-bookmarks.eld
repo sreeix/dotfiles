@@ -1,1 +1,1 @@
-("~/dotfiles/" "~/code/plcourse/" "~/code/pulse/code/pulse-upm/" "~/code/haproxy_manager/" "~/code/pulse/code/pulsecheck/")
+("~/dotfiles/" "~/code/pulse/code/pulsecheck/" "~/code/pulse/code/pulse-emis/" "~/code/pulse/code/program-service/" "~/code/ascc/" "~/code/plcourse/" "~/code/foodshop/" "~/code/diskusage/" "~/emacs24-starter-kit/" "~/code/pulse/code/pulse-upm/" "~/code/haproxy_manager/")

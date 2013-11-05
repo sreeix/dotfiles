@@ -34,5 +34,12 @@
   (when (boundp 'ns-toggle-fullscreen)
     (ns-toggle-fullscreen)))
 
+;; Navigate between windows using Alt-1, Alt-2, Shift-left, shift-up, shift-right
+(windmove-default-keybindings)
+
+
+(set-face-attribute 'default nil
+                :family "Inconsolata" :height 145 :weight 'normal)
+
 
 (provide 'init-mac)
