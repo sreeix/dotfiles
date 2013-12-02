@@ -53,7 +53,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(js2-basic-offset 8 nil nil "For Pulse"))
+ '(js2-basic-offset 8 nil nil "For Pulse")
+ '(safe-local-variable-values (quote ((zencoding- (insert) ndentation . 8) (sgml-basic-offset . 8) (js2-strict-inconsistent-return-warning)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
