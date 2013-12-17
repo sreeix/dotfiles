@@ -45,7 +45,7 @@
 
 (global-set-key (kbd "C-c h") 'helm-projectile)
 (global-set-key (kbd "C-c m") 'magit-status)
-(setq ns-right-option-modifier ‘super)
+;;(setq ns-right-option-modifier ‘super)
 (yas-global-mode 1)
 ;;(load-theme 'solarized-light)
 (load-theme 'wombat)
