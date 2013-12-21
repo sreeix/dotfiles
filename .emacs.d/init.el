@@ -15,6 +15,7 @@
 (add-to-list 'load-path emacs-home)
 
 (load "betterdefaults.el")
+(load "setup-basics.el")
 (load "setup-sml.el")
 (load "setup-javascript.el")
 (load "setup-ido.el")
@@ -30,7 +31,7 @@
 
 
 (require 'package)
-(add-to-list 'package-archives 
+(add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
@@ -57,6 +58,7 @@
  '(js2-basic-offset 8 nil nil "For Pulse")
  '(safe-local-variable-values (quote ((zencoding- (insert) ndentation . 8) (sgml-basic-offset . 8) (js2-strict-inconsistent-return-warning))))
  '(show-paren-mode t)
+
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
