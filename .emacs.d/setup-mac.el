@@ -39,7 +39,7 @@
 
 
 (set-face-attribute 'default nil
-                :family "Inconsolata" :height 145 :weight 'normal)
+                :family "Inconsolata" :height 110 :weight 'normal)
 
 
 (provide 'init-mac)
