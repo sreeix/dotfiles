@@ -1,6 +1,6 @@
 ;; path constants
-(defvar emacs-home "~/dotfiles/.emacs.d/")
-(add-to-list 'exec-path "~/dotfiles/bin/")
+(defvar emacs-home "~/.emacs.d/")
+(add-to-list 'exec-path "~/code/dotfiles/bin/")
 (add-to-list 'exec-path "/opt/local/bin")
 
 (defvar vendor (concat emacs-home "vendor/"))
@@ -14,12 +14,13 @@
 ;; load the files in emacs home
 (add-to-list 'load-path emacs-home)
 
-(load "betterdefaults.el")
+;;(load "betterdefaults.el")
 (load "setup-basics.el")
 (load "setup-sml.el")
 (load "setup-javascript.el")
 (load "setup-ido.el")
 (load "setup-mac.el")
+(load "setup-erlang.el")
 ;;(require 'ui)
 ;;(vendor-require 'cl-lib)
 
@@ -32,9 +33,9 @@
 
 (require 'package)
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
+	     '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
 (package-initialize)
 
@@ -55,7 +56,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(js2-basic-offset 8 nil nil "For Pulse")
  '(safe-local-variable-values (quote ((zencoding- (insert) ndentation . 8) (sgml-basic-offset . 8) (js2-strict-inconsistent-return-warning))))
  '(show-paren-mode t)
 
