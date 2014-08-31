@@ -1,6 +1,6 @@
-(add-to-list 'load-path (car (file-expand-wildcards "/opt/local/lib/erlang/lib/tools-*/emacs")))
-(setq erlang-root-dir "/opt/local/lib/erlang")
-(setq exec-path (cons "/opt/local/lib/erlang/bin" exec-path))
+(add-to-list 'load-path (car (file-expand-wildcards "/usr/local/Cellar/erlang/latest/lib/erlang/lib/tools-*/emacs")))
+(setq erlang-root-dir "/usr/local/Cellar/erlang/latest")
+(setq exec-path (cons "/usr/local/Cellar/erlang/latest/bin" exec-path))
 
 (require 'erlang-start)
 

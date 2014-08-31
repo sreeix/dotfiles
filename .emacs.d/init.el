@@ -14,6 +14,8 @@
 ;; load the files in emacs home
 (add-to-list 'load-path emacs-home)
 
+(when window-system (set-frame-size (selected-frame) 200 80))
+
 ;;(load "betterdefaults.el")
 (load "setup-basics.el")
 (load "setup-sml.el")

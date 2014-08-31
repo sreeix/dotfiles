@@ -6,7 +6,7 @@ Add the following to your .emacs:
 
   (add-to-list 'load-path "/path/to/dash-at-point")
   (autoload 'dash-at-point "dash-at-point"
-            "Search the word at point with Dash." t nil)
+	    "Search the word at point with Dash." t nil)
   (global-set-key "\C-cd" 'dash-at-point)
 
 Run `dash-at-point' to search the word at point, then Dash is
@@ -23,4 +23,4 @@ be set in a specific mode hook (or file/directory local variables)
 to programmatically override the guessed docset.  For example:
 
   (add-hook 'rinari-minor-mode-hook
-            (lambda () (setq dash-at-point-docset "rails")))
+	    (lambda () (setq dash-at-point-docset "rails")))

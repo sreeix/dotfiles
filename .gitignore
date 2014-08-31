@@ -1,3 +1,10 @@
 *.elc
 .emacs.d/*.eld
 .emacs.d/places
+/.emacs.d/auto-save-list/
+/.emacs.d/elpa/archives/gnu/archive-contents~
+/.emacs.d/elpa/archives/marmalade/archive-contents~
+/.emacs.d/elpa/archives/melpa/archive-contents~
+/.emacs.d/elpa/dash-at-point-readme.txt~
+/.emacs.d/init.el~
+/.emacs.d/setup-erlang.el~
