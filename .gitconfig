@@ -1,0 +1,30 @@
+[user]
+name = V Sreekanth
+email = sreeix@gmail.com
+[color]
+diff = auto
+status = auto
+branch = auto
+interactive = auto
+ui = true
+pager = true
+[apply]
+	whitespace = fix
+[core]
+	editor = emacsclient
+	excludesfile = /Users/sreekanth/.gitignore
+[diff]
+	algorithm = patience
+[alias]
+	snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+	assume = update-index --assume-unchanged
+	unassume = update-index --no-assume-unchanged
+	assumed = "!git ls-files -v | grep ^h | cut -c 3-"
+	 co = checkout
+	  ci = commit
+	  st = status
+	  br = branch
+	  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	  type = cat-file -t
+	  dump = cat-file -p
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
