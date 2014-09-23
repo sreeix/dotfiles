@@ -8,3 +8,10 @@
 /.emacs.d/elpa/dash-at-point-readme.txt~
 /.emacs.d/init.el~
 /.emacs.d/setup-erlang.el~
+*.pyc
+*~
+*#!*#
+.emacs.d/session.*
+.notes
+tramp
+bin/*
