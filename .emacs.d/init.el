@@ -16,18 +16,6 @@
 
 (when window-system (set-frame-size (selected-frame) 200 80))
 
-;;(load "betterdefaults.el")
-(load "setup-basics.el")
-(load "setup-sml.el")
-(load "setup-javascript.el")
-(load "setup-ido.el")
-(load "setup-mac.el")
-(load "setup-erlang.el")
-;;(require 'ui)
-;;(vendor-require 'cl-lib)
-
-;;(load-theme 'zenburn t)
-
 (defvar elpa-dir (concat emacs-home "elpa"))
 (setq package-user-dir elpa-dir)
 (add-to-list 'load-path elpa-dir)
@@ -40,6 +28,21 @@
 	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
 (package-initialize)
+
+
+
+;;(load "betterdefaults.el")
+(load "setup-basics.el")
+(load "setup-sml.el")
+(load "setup-javascript.el")
+(load "setup-ido.el")
+(load "setup-mac.el")
+(load "setup-erlang.el")
+(load "setup-haskell.el")
+;;(require 'ui)
+;;(vendor-require 'cl-lib)
+
+;;(load-theme 'zenburn t)
 
 (projectile-global-mode)
 (setq projectile-completion-system 'grizzl)
@@ -62,9 +65,3 @@
  '(show-paren-mode t)
 
  '(tool-bar-mode nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
