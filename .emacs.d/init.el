@@ -4,7 +4,7 @@
 (add-to-list 'exec-path "/opt/local/bin")
 
 (defvar vendor (concat emacs-home "vendor/"))
-
+(defvar my-lisp (concat emacs-home "lisp/"))
 (defun vendor-require (feature &optional dir)
   (if dir
       (add-to-list 'load-path (concat vendor dir))
@@ -12,7 +12,7 @@
   (require feature))
 
 ;; load the files in emacs home
-(add-to-list 'load-path emacs-home)
+ (add-to-list 'load-path  my-lisp)
 
 (when window-system (set-frame-size (selected-frame) 200 80))
 
@@ -23,15 +23,15 @@
 
 (require 'package)
 (add-to-list 'package-archives
-	     '("marmalade" . "http://marmalade-repo.org/packages/"))
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
-	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
 (package-initialize)
 
 
 
-;;(load "betterdefaults.el")
+(load "betterdefaults.el")
 (load "setup-basics.el")
 (load "setup-sml.el")
 (load "setup-javascript.el")
@@ -40,9 +40,9 @@
 (load "setup-erlang.el")
 (load "setup-haskell.el")
 ;;(require 'ui)
-;;(vendor-require 'cl-lib)
+(vendor-require 'cl-lib)
 
-;;(load-theme 'zenburn t)
+(load-theme 'zenburn t)
 
 (projectile-global-mode)
 (setq projectile-completion-system 'grizzl)
