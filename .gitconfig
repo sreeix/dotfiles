@@ -12,7 +12,7 @@ pager = true
 	whitespace = fix
 [core]
 	editor = emacsclient
-	excludesfile = /Users/sreekanth/.gitignore
+	excludesfile = ~/.gitignore
 [diff]
 	algorithm = patience
 [alias]
