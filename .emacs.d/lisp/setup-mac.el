@@ -38,8 +38,20 @@
 (windmove-default-keybindings)
 
 
+
 (set-face-attribute 'default nil
-                :family "Inconsolata" :height 110 :weight 'normal)
+                    :family "Inconsolata"
+                    :height 120
+                    :weight 'normal
+                    :width 'normal)
+
+(when (functionp 'set-fontset-font)
+  (set-fontset-font "fontset-default"
+                    'unicode
+                    (font-spec :family "DejaVu Sans Mono"
+                               :width 'normal
+                               :size 12.4
+                               :weight 'normal)))
 
 
 (provide 'init-mac)

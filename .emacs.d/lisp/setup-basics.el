@@ -9,3 +9,18 @@
 
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+(setq inhibit-startup-screen +1)
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)
+
+;; (when (window-system)
+;;   (require 'git-gutter-fringe))
+
+(global-git-gutter-mode +1)
+(setq-default indicate-buffer-boundaries 'left)
+(setq-default indicate-empty-lines +1)
+
+'(powerline-center-theme)
+
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)
