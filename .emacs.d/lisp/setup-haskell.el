@@ -4,11 +4,6 @@
 
 ;; cabal install alex happy hasktags stylish-haskell present ghc-mod hlint hoogle structured-haskell-mode
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> Updates
 (add-hook 'haskell-mode-hook 'turn-on-haskell-indent)
 (eval-after-load 'haskell-mode
           '(define-key haskell-mode-map [f8] 'haskell-navigate-imports))
