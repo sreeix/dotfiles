@@ -4,9 +4,9 @@
 
 ;; cabal install alex happy hasktags stylish-haskell present ghc-mod hlint hoogle structured-haskell-mode
 
-(add-hook 'haskell-mode-hook 'turn-on-haskell-simple-indent)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-indent)
 (eval-after-load 'haskell-mode
-	  '(define-key haskell-mode-map [f8] 'haskell-navigate-imports))
+          '(define-key haskell-mode-map [f8] 'haskell-navigate-imports))
 
 (let ((my-cabal-path (expand-file-name "~/.cabal/bin")))
   (setenv "PATH" (concat my-cabal-path ":" (getenv "PATH")))
@@ -38,7 +38,6 @@
   '(define-key haskell-mode-map (kbd "C-c C-o") 'haskell-compile))
 (eval-after-load 'haskell-cabal
   '(define-key haskell-cabal-mode-map (kbd "C-c C-o") 'haskell-compile))
-
 
 
 (require 'company)
