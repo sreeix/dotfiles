@@ -9,3 +9,11 @@
 
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+
+;; This ensures that if you are editing a readonly file it will ask for sudo password for editing it.
+;; not useful all the time but useful when you open a file and want to edit it in sudo mode
+(defadvice ido-find-file (after find-file-sudo activate)
+  "Find file as root if necessary."
+  (unless (and buffer-file-name
+               (file-writable-p buffer-file-name))
+    (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name))))

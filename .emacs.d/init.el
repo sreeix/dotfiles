@@ -29,7 +29,7 @@
 
 (package-initialize)
 
-
+(server-start)
 
 (load "betterdefaults.el")
 (load "setup-basics.el")
