@@ -1,4 +1,5 @@
 (set-face-attribute 'trailing-whitespace nil :background "red1" :weight 'bold)
+(set-default-font "Consolas 13")
 (whitespace-cleanup)
 (setq show-trailing-whitespace t)
 (add-hook 'before-save-hook 'whitespace-cleanup)

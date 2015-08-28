@@ -39,6 +39,7 @@
 (load "setup-mac.el")
 (load "setup-erlang.el")
 (load "setup-haskell.el")
+(load "setup-keybindings.el")
 ;;(require 'ui)
 (vendor-require 'cl-lib)
 
@@ -48,10 +49,6 @@
 (setq projectile-completion-system 'grizzl)
 (setq projectile-indexing-method 'git)
 
-;; Key bindings.
-
-(global-set-key (kbd "C-c h") 'helm-projectile)
-(global-set-key (kbd "C-c m") 'magit-status)
 ;;(setq ns-right-option-modifier ‘super)
 (yas-global-mode 1)
 ;;(load-theme 'solarized-light)
