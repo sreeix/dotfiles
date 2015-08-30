@@ -13,10 +13,11 @@
 
 (add-hook 'js2-mode-hook (lambda () (flycheck-mode 1)))
 
-;;(require 'js2-mode)
-;;(require 'js2-refactor)
+(require 'js2-mode)
+(require 'js2-refactor)
+(add-hook 'js2-mode-hook #'js2-refactor-mode)
+(js2r-add-keybindings-with-prefix "C-c C-m")
 ;;(js2r-add-keybindings-with-prefix "C-c C-m")
 
 
 (setq-default js2-global-externs '("module" "require" "buster" "sinon" "assert" "refute" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "__dirname" "console" "JSON"))
-
