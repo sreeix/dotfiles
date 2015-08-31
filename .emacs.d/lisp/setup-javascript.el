@@ -1,6 +1,6 @@
 ;; JS mode
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-
+;;(setenv "PATH" (concat "~/.npm/bin:" (getenv "PATH")))
 
 (show-paren-mode)
 (electric-pair-mode)
@@ -17,7 +17,24 @@
 (require 'js2-refactor)
 (add-hook 'js2-mode-hook #'js2-refactor-mode)
 (js2r-add-keybindings-with-prefix "C-c C-m")
-;;(js2r-add-keybindings-with-prefix "C-c C-m")
 
 
+;; tern setup, following the default tern setup.
+;; http://ternjs.net/doc/manual.html#emacs
+;; clone it into code/misc/tern
+;; npm install
+
+(add-to-list 'load-path "/home/v/code/misc/tern/emacs")
+(autoload 'tern-mode "tern.el" nil t)
+(add-hook 'js-mode-hook (lambda () (tern-mode t)))
+(eval-after-load 'tern
+   '(progn
+      (require 'tern-auto-complete)
+      (tern-ac-setup)))
+
+;; allow tern process to be killed(and restarted)
+(defun delete-tern-process ()
+  (interactive)
+  (delete-process "Tern"))
+;; end of tern
 (setq-default js2-global-externs '("module" "require" "buster" "sinon" "assert" "refute" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "__dirname" "console" "JSON"))
