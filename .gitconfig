@@ -1,6 +1,6 @@
 [user]
 name = V Sreekanth
-email = sreeix@gmail.com
+email = sreekanth@bluejeansnet.com
 [color]
 diff = auto
 status = auto
@@ -28,3 +28,9 @@ pager = true
         type = cat-file -t
         dump = cat-file -p
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[sendemail]
+	from = V Sreekanth <sreekanth@bluejeansnet.com>
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+	smtpencryption = tls
+	smtpuser = sreekanth@bluejeansnet.com
