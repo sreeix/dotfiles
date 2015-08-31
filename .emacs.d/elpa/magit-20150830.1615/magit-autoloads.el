@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "git-rebase" "git-rebase.el" (21987 6992 766612
-;;;;;;  160000))
+;;;### (autoloads nil "git-rebase" "git-rebase.el" (21987 59596 572682
+;;;;;;  494000))
 ;;; Generated autoloads from git-rebase.el
 
 (autoload 'git-rebase-mode "git-rebase" "\
@@ -23,7 +23,7 @@ running 'man git-rebase' at the command line) for details.
 
 ;;;***
 
-;;;### (autoloads nil "magit" "magit.el" (21987 6992 830613 138000))
+;;;### (autoloads nil "magit" "magit.el" (21987 59596 636675 715000))
 ;;; Generated autoloads from magit.el
 
 (autoload 'magit-status "magit" "\
@@ -337,8 +337,8 @@ Run the command in the top-level directory of the current repository.
 
 ;;;***
 
-;;;### (autoloads nil "magit-apply" "magit-apply.el" (21987 6992
-;;;;;;  782612 404000))
+;;;### (autoloads nil "magit-apply" "magit-apply.el" (21987 59596
+;;;;;;  588680 801000))
 ;;; Generated autoloads from magit-apply.el
 
 (autoload 'magit-stage-file "magit-apply" "\
@@ -374,8 +374,8 @@ Remove all changes from the staging area.
 
 ;;;***
 
-;;;### (autoloads nil "magit-bisect" "magit-bisect.el" (21987 6992
-;;;;;;  774612 283000))
+;;;### (autoloads nil "magit-bisect" "magit-bisect.el" (21987 59596
+;;;;;;  584681 224000))
 ;;; Generated autoloads from magit-bisect.el
  (autoload 'magit-bisect-popup "magit-bisect" nil t)
 
@@ -422,8 +422,8 @@ Bisect automatically by running commands after each step.
 
 ;;;***
 
-;;;### (autoloads nil "magit-blame" "magit-blame.el" (21987 6992
-;;;;;;  826613 77000))
+;;;### (autoloads nil "magit-blame" "magit-blame.el" (21987 59596
+;;;;;;  632676 138000))
 ;;; Generated autoloads from magit-blame.el
  (autoload 'magit-blame-popup "magit-blame" nil t)
 
@@ -447,8 +447,8 @@ only arguments available from `magit-blame-popup' should be used.
 
 ;;;***
 
-;;;### (autoloads nil "magit-commit" "magit-commit.el" (21987 6992
-;;;;;;  730611 610000))
+;;;### (autoloads nil "magit-commit" "magit-commit.el" (21987 59596
+;;;;;;  536686 310000))
 ;;; Generated autoloads from magit-commit.el
 
 (autoload 'magit-commit "magit-commit" "\
@@ -538,8 +538,8 @@ Create a squash commit and instantly rebase.
 
 ;;;***
 
-;;;### (autoloads nil "magit-diff" "magit-diff.el" (21987 6992 818612
-;;;;;;  955000))
+;;;### (autoloads nil "magit-diff" "magit-diff.el" (21987 59596 624676
+;;;;;;  984000))
 ;;; Generated autoloads from magit-diff.el
 
 (autoload 'magit-diff-dwim "magit-diff" "\
@@ -614,8 +614,8 @@ for a commit.
 
 ;;;***
 
-;;;### (autoloads nil "magit-ediff" "magit-ediff.el" (21987 6992
-;;;;;;  806612 771000))
+;;;### (autoloads nil "magit-ediff" "magit-ediff.el" (21987 59596
+;;;;;;  616677 834000))
 ;;; Generated autoloads from magit-ediff.el
  (autoload 'magit-ediff-popup "magit-ediff" nil t)
 
@@ -695,8 +695,8 @@ Show changes introduced by COMMIT using Ediff.
 
 ;;;***
 
-;;;### (autoloads nil "magit-extras" "magit-extras.el" (21987 6992
-;;;;;;  738611 731000))
+;;;### (autoloads nil "magit-extras" "magit-extras.el" (21987 59596
+;;;;;;  540685 887000))
 ;;; Generated autoloads from magit-extras.el
 
 (autoload 'magit-run-git-gui "magit-extras" "\
@@ -766,8 +766,8 @@ on a position in a file-visiting buffer.
 
 ;;;***
 
-;;;### (autoloads nil "magit-log" "magit-log.el" (21987 6992 810612
-;;;;;;  832000))
+;;;### (autoloads nil "magit-log" "magit-log.el" (21987 59596 620677
+;;;;;;  409000))
 ;;; Generated autoloads from magit-log.el
 
 (autoload 'magit-log-current "magit-log" "\
@@ -835,8 +835,8 @@ Show commits in a branch that are not merged in the upstream branch.
 
 ;;;***
 
-;;;### (autoloads nil "magit-remote" "magit-remote.el" (21987 6992
-;;;;;;  850613 443000))
+;;;### (autoloads nil "magit-remote" "magit-remote.el" (21987 59596
+;;;;;;  652674 18000))
 ;;; Generated autoloads from magit-remote.el
 
 (autoload 'magit-clone "magit-remote" "\
@@ -967,7 +967,7 @@ is asked to pull.  START has to be reachable from that commit.
 ;;;***
 
 ;;;### (autoloads nil "magit-sequence" "magit-sequence.el" (21987
-;;;;;;  6992 838613 260000))
+;;;;;;  59596 644674 866000))
 ;;; Generated autoloads from magit-sequence.el
 
 (autoload 'magit-sequencer-continue "magit-sequence" "\
@@ -1111,8 +1111,8 @@ Abort the current rebase operation, restoring the original branch.
 
 ;;;***
 
-;;;### (autoloads nil "magit-stash" "magit-stash.el" (21987 6992
-;;;;;;  794612 588000))
+;;;### (autoloads nil "magit-stash" "magit-stash.el" (21987 59596
+;;;;;;  604679 104000))
 ;;; Generated autoloads from magit-stash.el
  (autoload 'magit-stash-popup "magit-stash" nil t)
 
@@ -1203,8 +1203,8 @@ Show all diffs of a stash in a buffer.
 
 ;;;***
 
-;;;### (autoloads nil "magit-wip" "magit-wip.el" (21987 6992 746611
-;;;;;;  854000))
+;;;### (autoloads nil "magit-wip" "magit-wip.el" (21987 59596 552684
+;;;;;;  613000))
 ;;; Generated autoloads from magit-wip.el
 
 (defvar magit-wip-after-save-mode nil "\
@@ -1271,7 +1271,7 @@ command which is about to be called are committed.
 
 ;;;### (autoloads nil nil ("magit-core.el" "magit-git.el" "magit-mode.el"
 ;;;;;;  "magit-pkg.el" "magit-process.el" "magit-section.el" "magit-utils.el")
-;;;;;;  (21987 6992 892031 305000))
+;;;;;;  (21987 59596 704321 632000))
 
 ;;;***
 
