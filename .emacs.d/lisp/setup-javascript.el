@@ -24,7 +24,7 @@
 ;; clone it into code/misc/tern
 ;; npm install
 
-(add-to-list 'load-path "/home/v/code/misc/tern/emacs")
+(add-to-list 'load-path "~/code/misc/tern/emacs")
 (autoload 'tern-mode "tern.el" nil t)
 
 (with-eval-after-load 'company
