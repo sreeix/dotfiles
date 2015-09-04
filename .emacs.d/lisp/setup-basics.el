@@ -1,5 +1,8 @@
+;; Setup the fonts
 (set-face-attribute 'trailing-whitespace nil :background "red1" :weight 'bold)
-(set-default-font "Consolas 13")
+(set-default-font "Consolas 12")
+
+
 (whitespace-cleanup)
 (global-auto-complete-mode t)
 (setq show-trailing-whitespace t)
@@ -11,13 +14,13 @@
 
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
-;; This ensures that if you are editing a readonly file it will ask for sudo password for editing it.
+;;This ensures that if you are editing a readonly file it will ask for sudo password for editing it.
 ;; not useful all the time but useful when you open a file and want to edit it in sudo mode
-;; (defadvice ido-find-file (after find-file-sudo activate)
-;;   "Find file as root if necessary."
-;;   (unless (and buffer-file-name
-;;                (file-writable-p buffer-file-name))
-;;     (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name))))
+(defadvice ido-find-file (after find-file-sudo activate)
+  "Find file as root if necessary."
+  (unless (and buffer-file-name
+               (file-writable-p buffer-file-name))
+    (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name))))
 
 (setq inhibit-startup-screen +1)
 (require 'uniquify)
@@ -31,3 +34,6 @@
 (setq-default indicate-empty-lines +1)
 
 '(powerline-center-theme)
+
+;;(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+(add-hook 'after-init-hook 'global-company-mode)

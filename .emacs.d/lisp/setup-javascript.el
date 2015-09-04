@@ -26,11 +26,16 @@
 
 (add-to-list 'load-path "/home/v/code/misc/tern/emacs")
 (autoload 'tern-mode "tern.el" nil t)
-(add-hook 'js-mode-hook (lambda () (tern-mode t)))
-(eval-after-load 'tern
-   '(progn
-      (require 'tern-auto-complete)
-      (tern-ac-setup)))
+
+(with-eval-after-load 'company
+  (add-to-list 'company-backends 'company-tern))
+
+
+;; (add-hook 'js-mode-hook (lambda () (tern-mode t)))
+;; (eval-after-load 'tern
+;;    '(progn
+;;       (require 'tern-auto-complete)
+;;       (tern-ac-setup)))
 
 ;; allow tern process to be killed(and restarted)
 (defun delete-tern-process ()
