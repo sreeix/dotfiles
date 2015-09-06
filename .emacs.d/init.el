@@ -29,14 +29,16 @@
 
 (package-initialize)
 
-(server-start)
+(defconst *is-a-mac* (eq system-type 'darwin))
 
 (load "betterdefaults.el")
 (load "setup-basics.el")
 (load "setup-sml.el")
 (load "setup-javascript.el")
 (load "setup-ido.el")
-(load "setup-mac.el")
+(when *is-a-mac*
+  (load "setup-mac.el"))
+
 (load "setup-erlang.el")
 (load "setup-haskell.el")
 (load "setup-keybindings.el")
@@ -79,3 +81,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
+
+;;----------------------------------------------------------------------------
+;; Allow access from emacsclient
+;;----------------------------------------------------------------------------
+(require 'server)
+(unless (server-running-p)
+  (server-start))

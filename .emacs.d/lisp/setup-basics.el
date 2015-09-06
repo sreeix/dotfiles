@@ -12,6 +12,15 @@
 (global-linum-mode 1)
 ;;(global-hl-line-mode 1)
 
+(setq user-full-name "V Sreekanth")
+(setq user-mail-address "sreeix@gmail.com")
+
+;; Ask "y" or "n" instead of "yes" or "no". Yes, laziness is great.
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; start full screen.
+(custom-set-variables
+ '(initial-frame-alist (quote ((fullscreen . maximized)))))
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 ;;This ensures that if you are editing a readonly file it will ask for sudo password for editing it.
@@ -26,6 +35,19 @@
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
 
+
+;; Highlight tabulations
+(setq-default highlight-tabs t)
+
+;; Show trailing white spaces
+(setq-default show-trailing-whitespace t)
+
+;; Remove useless whitespace before saving a file
+(add-hook 'before-save-hook 'whitespace-cleanup)
+(add-hook 'before-save-hook (lambda() (delete-trailing-whitespace)))
+
+
+
 (when (window-system)
   (require 'git-gutter-fringe))
 
@@ -33,7 +55,12 @@
 (setq-default indicate-buffer-boundaries 'left)
 (setq-default indicate-empty-lines +1)
 
-'(powerline-center-theme)
+(require 'powerline)
+(powerline-default-theme)
 
-;;(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'after-init-hook 'global-company-mode)
+
+;; Setup recentf-mode
+(require 'recentf)
+(recentf-mode 1)
+(setq recentf-max-menu-items 25)
