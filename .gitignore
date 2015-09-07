@@ -16,3 +16,5 @@
 tramp
 bin/*
 *.DS_Store
+/.emacs.d/recentf
+/.emacs.d/ac-comphist.dat
