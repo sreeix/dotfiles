@@ -2,6 +2,10 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/v/notes/" . "es_platform4/")
+ ("/home/v/code/dist-components/" . "db/")
+ ("/home/v/code/seam/services/event-service/node_modules/" . "node-zookeeper-client/")
+ ("/home/v/code/dotfiles/.emacs.d/elpa/" . "projectile-20150831.1127/")
  ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/recipes/" . "leader/")
  ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/" . "recipes/")
  ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/" . "zookeeper/")
@@ -33,14 +37,14 @@
  ("/home/v/code/c.js/node_modules/node-zookeeper-client/" . "lib/")
  ("/home/v/code/c.js/node_modules/" . "grunt-contrib-jshint/")
  ("/home/v/code/c.js/lib/" . "recipies/")
- ("/home/v/code/c.js/test/" . "recipies/")
+ ("/home/v/code/c.js/test/" . "lib/")
  ("/home/v/code/c.js/" . "lib/")
  ("/sudo:root@localhost:/" . "etc/")
  ("/usr/local/zookeeper-3.4.5/" . "conf/")
  ("/usr/local/" . "zookeeper-3.4.5/")
  ("/usr/" . "local/")
  ("/home/v/code/rivet/" . "build/")
- ("/home/v/.config/" . "fish/")
+ ("/home/v/.config/" . "autostart/")
  ("/sudo:root@localhost:/etc/" . "init/")
  ("/sudo:root@localhost:/etc/apt/" . "sources.list.d/")
  ("/etc/" . "network/")
@@ -48,36 +52,50 @@
  ("/home/v/code/seam/services/event-service/" . "core/")
  ("/home/v/code/seam/services/" . "event-service/")
  ("/home/v/code/seam/" . "services/")
- ("/home/v/code/" . "dotfiles/")
- ("/home/v/" . "code/")
+ ("/home/v/code/" . "AofMP/")
+ ("/home/v/" . "notes/")
  ("/home/" . "v/")
  ("/" . "home/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/v/notes/es_platform4/"
+ "/home/v/notes/lsmtree/"
+ "/home/v/notes/"
+ "/home/v/code/AofMP/"
+ "/home/v/tmp/"
  "/home/v/code/c.js/lib/"
+ "/home/v/code/c.js/lib/recipies/"
+ "/home/v/code/c.js/"
+ "/home/v/code/dist-components/db/"
+ "/home/v/code/dist-components/random/"
+ "/home/v/code/dist-components/ds/"
+ "/home/v/code/dist-components/"
+ "/home/v/code/seam/services/event-service/"
+ "/home/v/code/node-zookeeper-client/"
+ "/home/v/code/seam/services/event-service/core/"
+ "/home/v/code/seam/services/event-service/node_modules/node-zookeeper-client/"
+ "/home/v/.config/autostart/"
  "/home/v/code/dotfiles/.emacs.d/lisp/"
- "/home/v/.emacs.d/elpa/rainbow-delimiters-20150320.17/"
+ "/home/v/code/dotfiles/.emacs.d/elpa/projectile-20150831.1127/"
+ "/home/v/.emacs.d/lisp/"
  "/home/v/code/dotfiles/.emacs.d/"
+ "/home/v/code/c.js/test/lib/"
+ "/home/v/code/dotfiles/"
+ "/home/v/.emacs.d/elpa/rainbow-delimiters-20150320.17/"
  "/etc/"
  "/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/recipes/leader/"
  "/home/v/code/tmp/zookeeper/src/recipes/election/"
  "/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/zookeeper/recipes/lock/"
- "/home/v/code/c.js/lib/recipies/"
  "/home/v/code/c.js/test/recipies/"
- "/home/v/code/seam/services/event-service/"
- "/home/v/code/seam/services/event-service/core/"
- "/home/v/code/c.js/"
  "/home/v/code/event-service/"
- "/home/v/.emacs.d/lisp/"
  "/home/v/code/misc/tern/emacs/"
  "/home/v/code/"
  "/home/v/"
  "/home/v/.config/fish/"
  "/home/v/code/event-service/core/"
  "/etc/network/"
- "/home/v/code/c.js/test/lib/"
  "/home/v/.emacs.d/"
  "/home/v/code/c.js/node_modules/grunt-contrib-jshint/tasks/lib/"
  "/home/v/code/c.js/node_modules/grunt-contrib-jshint/tasks/"
@@ -85,7 +103,6 @@
  "/sudo:root@localhost:/etc/"
  "/etc/apache2/"
  "/etc/xdg/autostart/"
- "/home/v/.config/autostart/"
  "/home/v/code/c.js/node_modules/node-zookeeper-client/lib/"
  "/home/v/.ssh/"
  "/home/v/code/c.js/test/"
@@ -93,47 +110,101 @@
  "/sudo:root@localhost:/etc/init/"
  "/home/v/code/rivet/build/"
  "/home/v/code/rivet/bjn/"
- "/etc/mysql/"
- "/home/v/code/oldlove/"
- "/sudo:root@localhost:/etc/gdm/"
- "/etc/gdm/"
- "/sudo:root@localhost:/etc/apache2/"
- "/etc/apt/"
- "/sudo:root@localhost:/etc/default/"
- "/tmp/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "promiseHelper.js"
- "setup-javascript.el"
- "zkLib.js"
+ "ES Protocol.md"
+ "LSM-tree.md"
+ "notes.md"
+ "event-service.mm"
+ "lsmtree.md"
+ "01~README.txt"
+ "wfh.js"
  "fsm.js"
- "setup-basics.el"
- "rainbow-delimiters.el"
- "init.el"
- "hosts"
- "betterdefaults.el"
- "setup-mac.el"
+ "2pc.js"
+ "aggregation_service.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/v/code/c.js/lib/" (21993 51971 805446 789000) "#fsm.js#" "promiseHelper.js" "#zkLib.js#" "zkLib.js" ".#zkLib.js" ".#promiseHelper.js" "recipies/" "zkPath.js" "fsm.js" "../" "./")
+ ("/home/v/notes/es_platform4/" (22030 47901 439462 344000) ".git/" "event-service.mm" "notes.md" "ES Protocol.md" "../" "./" "aggregation_service.md")
 
- ("/home/v/code/dotfiles/.emacs.d/lisp/" (21993 47290 969440 636000) "betterdefaults.el" "setup-haskell.el" "setup-sml.el" "setup-javascript.el" "setup-basics.el" "setup-mac.el" "setup-ido.el" "../" "setup-erlang.el" "./" "setup-keybindings.el")
+ ("/home/v/" (22034 5244 125687 996000) ".Rhistory" ".dbshell" ".Private/" ".ant/" ".Skype/" ".adobe/" ".mission-control/" ".mongorc.js" ".juniper_networks/" "Templates/" ".fontconfig/" ".thunderbird/" ".pki/" "Snapshots/" "nc/" ".msjnc-profiles.cfg" ".xsession-errors" ".ivy2/" "Music/" "Videos/" ".ssh/" ".oh-my-fish/" ".gnome/" ".cache/" "examples.desktop" "mindmaps/" ".dropbox/" ".ecryptfs/" ".pulse/" ".gitconfig" ".erlang.cookie" ".msjnc.log" ".subversion/" "Public/" ".xsession-errors.old" ".gnupg/" ".synaptic/" ".yjp/" ".dropbox-dist/" ".gradle/" ".npmrc" ".rvm/" ".pulse-cookie" ".gtk-bookmarks" ".gconf/" "bin/" ".gksu.lock" ".local/" "notes/" ".dbus/" ".ICEauthority" "duplicity-full.20150911T183206Z.vol1.difftar.gz" ".fonts/" ".java/" ".mkshrc" ".bash_history" "vpn.tgz" ".viminfo.tmp" ".npm/" ".bash_logout" ".hplip/" ".pip/" ".FontForge/" ".macromedia/" ".gem/" "pass" ".compiz/" "sci1760_fa12_01.mp4" ".zinc/" "Desktop/" ".sane/" "sp.jpeg" ".m2/" "fontconfig/" "Downloads/" "Pictures/" ".gnome2/" ".Xauthority" ".xsel.log" ".rstudio-desktop/" ".fonts.conf" "Documents/" ".node-gyp/" ".IntelliJIdea15/" ".gstreamer-0.10/" ".bash_profile" ".zlogin" "tmp/" ".profile" ".gvfs/" "Dropbox/" ".mozilla/" ".xscreensaver" "code/" ".bashrc" "duplicity-full-signatures.20150911T183206Z.sigtar.gz" ".viminfo" "duplicity-full.20150911T183206Z.manifest" ".freemind/" ".emacs.d/" ".goutputstream-F9L82X" "apps/" ".sbt/" ".config/" ".nvidia-settings-rc" ".zshrc" ".scala_history" "../" "./")
 
- ("/home/v/code/dotfiles/.emacs.d/" (21993 47314 337357 205000) "projectile-bookmarks.eld" "backups/" "ido.last" "session.10bb2025eb6919a10143979925060109700000020790053" "elpa/" "%backup%~" "session.1077828dd8e72e4c2a144035815566745700000031950053" "session.10fcfdba8e6d751476144060925220142500000026970056" "init.el" "session.10fd3c6d502191ddfc144049077450512700000033710058" "session.104a1f6c0742e77f61143991408080765800000035740054" "session.1072d4da287c8e7045144064817221143100000029770054" "session.103b228da8ad56ce18144075477747354200000029040062" "session.10c06f154f3d021270144030194078623800000032470053" "session.1043e26ecbf271c0dd143988663973087300000021880057" "session.1010fbd334defc208f144079711155437000000032250060" "ac-comphist.dat" "url/" "lisp/" "session.1037d9260b8dea7b8d143982349087572800000021660057" "session.102919c611d9ee2eb4143987006935113400000021650056" "session.10522c54cc14b0d8ef144013242196865600000035840053" "session.10c5bfc83c5cf6e9fb144068794855614200000034340059" "tutorial/" "places" "../" "tramp" "session.10130590c65d2db133143979425132621200000018000056" "auto-save-list/" "./" "session.10b4a143cc922c1e2d14410835877291500000034020078")
+ ("/home/v/notes/lsmtree/" (22030 62829 341553 130000) "LSM-tree.md" "#LSM-tree.md#" ".git/" "lsmtree-my-notes.md" "../" "./")
 
- ("/home/v/code/dotfiles/.emacs.d/elpa/" (21993 42321 615996 502000) "rainbow-delimiters-20150320.17/" "magit-find-file-readme.txt" "company-tern-20150525.216/" "f-20150605.927/" "guide-key-20150107.2235/" "gnupg/" "popwin-20150315.600/" "git-gutter-20150903.22/" "cask-readme.txt" "flycheck-tip-20150726.156/" "pcache-20150125.1653/" "markdown-mode-20150901.1047/" "helm-projectile-20150831.1127/" "company-ghc-20150613.123/" "company-20150727.1415/" "yaml-mode-20150816.2235/" "dash-20150829.433/" "git-rebase-mode-20140928.1547/" "dash-functional-20150828.413/" "magit-log-edit-20131220.757/" "guide-key-tip-20140406.1820/" "pkg-info-20150517.443/" "magit-filenotify-20150831.1759/" "fringe-helper-20140620.1409/" "auto-complete-20150618.1949/" "helm-20150904.148/" "epl-20150517.433/" "popup-20150626.711/" "haskell-mode-20150904.447/" "git-commit-20150903.1204/" "projectile-20150831.1127/" "multi-web-mode-20130824.54/" "zenburn-theme-20150831.716/" "flycheck-hdevtools-20150329.323/" "spinner-1.4/" "nrepl-0.2.0/" "json-reformat-20150901.542/" "creole-readme.txt" "erlang-20150622.644/" "helm-rails-readme.txt" "yasnippet-readme.txt" "ztree-readme.txt" "clojure-mode-20150804.1311/" "dash-at-point-20140626.35/" "solarized-theme-20150831.823/" "helm-flymake-readme.txt" "gist-20150505.1341/" "json-mode-20150413.1948/" "projectile-readme.txt" "flymake-css-readme.txt" "let-alist-1.0.4/" "alect-themes-readme.txt" "haskell-mode-readme.txt" "magit-push-remote-20140108.1300/" "magit-log-edit-20140522.1137/" "magit-push-remote-20130906.135/" "whitespace-cleanup-mode-20150603.447/" "with-editor-20150903.1204/" "multiple-cursors-20150710.456/" "git-gutter-fringe-20150331.2139/" "helm-projectile-readme.txt" "paradox-20150812.732/" "tern-20150830.1256/" "flymake-elixir-readme.txt" "js2-refactor-20150806.159/" "popup-kill-ring-20131020.1154/" "magit-readme.txt" "yasnippet-20150811.1222/" "archives/" "s-20150825.50/" "flycheck-haskell-20150626.644/" "dash-20150826.1136/" "ack-and-a-half-20130815.1917/" "mocha-snippets-20150116.800/" "shm-20150526.124/" "git-commit-mode-20141014.1634/" "magit-popup-20150903.1204/" "multi-web-mode-readme.txt" "flymake-jshint-readme.txt" "2048-game-readme.txt" "logito-20120225.2155/" "flycheck-color-mode-line-20131125.2138/" "grizzl-20150711.2230/" "dash-at-point-readme.txt" "sml-mode-6.7/" "magit-commit-training-wheels-20130730.1121/" "groovy-mode-201203310931/" "ghc-20150830.2213/" "sml-mode-6.7.signed" "magit-20150903.1204/" "json-snatcher-20150511.2047/" "js2-mode-readme.txt" "flycheck-20150831.1343/" "whitespace-cleanup-mode-readme.txt" "spinner-1.4.signed" "gh-20150126.1125/" "pos-tip-20150318.813/" "helm-gist-readme.txt" "js2-mode-20150825.1256/" "helm-core-20150904.148/" "async-20150818.1154/" "seq-20150709.1040/" "let-alist-1.0.4.signed" "../" "./")
+ ("/home/v/notes/" (22028 3947 846776 89000) "es_platform4/" "#lsmtree.md#" "lsmtree/" "../" "./")
+
+ ("/etc/" (22022 48478 549457 985000) "inputrc" "newt/" "resolv.conf" "gnome-vfs-2.0/" "hostname" "protocols" "network/" "rpc" "pam.conf" "crypttab" "localtime" "vim/" "wildmidi/" "timidity/" "adjtime" "usb_modeswitch.conf" "hdparm.conf" "rc4.d/" "snmp/" "terminfo/" "opt/" "selinux/" "networks" "bash.bashrc" "bluetooth/" "thunderbird/" "sensors3.conf" "snmp-mibs-downloader/" "blkid.tab" "brltty/" "environment" "emacs/" "chromium-browser/" "acpi/" "dnsmasq.d/" "pcmcia/" "gai.conf" "kerneloops.conf" "anacrontab" "brlapi.key" "perl/" "deluser.conf" "rc1.d/" "usb_modeswitch.d/" "zsh/" "cron.daily/" "passwd.org" "ntp.conf" "gdb/" "shadow-" "fstab.d/" "grub.d/" "papersize" "blkid.conf" "update-motd.d/" "mongodb.conf" "kernel-img.conf" "rc5.d/" "UPower/" "groff/" "doc-base/" "locale.alias" "sysctl.conf" "ucf.conf" "request-key.conf" "initramfs-tools/" "rc3.d/" "cron.weekly/" "gconf/" "bindresvport.blacklist" "hp/" "update-notifier/" "aliases" "aliases.db" "magic.mime" "rsyslog.d/" "subgid" "rc0.d/" "nsswitch.conf" "sound/" "libpaper.d/" "hosts.allow" "popularity-contest.conf" "apport/" "pam.d/" "ssl/" "postfix/" "zsh_command_not_found" "gshadow" "apparmor/" "dkms/" "openal/" "iproute2/" "samba/" "shadow.org" "ts.conf" "gtk-2.0/" "modules" "vdpau_wrapper.cfg" "compizconfig/" "skel/" "dictionaries-common/" "cups/" "apache2/" "printcap" "security/" "ca-certificates.conf.dpkg-old" "calendar/" "mailcap.order" "gnome-app-install/" "shells" "legal" "python3.4/" "lsb-release" "ginn/" "magic" "sysctl.d/" "kbd/" "pm/" "subversion/" "hosts.deny" "brltty.conf" "checkbox.d/" "crontab" "mtab.fuselock" "rcS.d/" "ld.so.conf.d/" "resolvconf/" "cron.monthly/" "os-release" "udev/" "firefox/" "ImageMagick/" "chatscripts/" "signond.conf" "apg.conf" "mtools.conf" "python3/" "mail.rc" "gtk-3.0/" "sensors.d/" "request-key.d/" "sane.d/" "prime-discrete" "wpa_supplicant/" "dhcp/" "vtrgb" "ld.so.cache" "manpath.config" "sudoers.d/" "alternatives/" "aptdaemon/" "fstab" "dconf/" "console-setup/" "xul-ext/" "cracklib/" "group.org" "rsyslog.conf" "rc.local" "services" "drirc" "python2.7/" "lightdm/" "mime.types" "X11/" "dpkg/" "odbc.ini" "update-manager/" "pki/" "libnl-3/" "java-7-openjdk/" "xdg/" "insserv/" "NetworkManager/" "gshadow-" "apt/" "fonts/" "xml/" "ca-certificates.conf" ".java/" "cupshelpers/" "bash_completion.d/" "namebench/" "modprobe.d/" "shadow" "mysql/" "polkit-1/" "profile.d/" "python/" "cron.hourly/" "init.d/" "logrotate.d/" "obex-data-server/" "depmod.d/" "ppp/" "updatedb.conf" "icedtea-web/" "logrotate.conf" "geoclue/" "group-" "ConsoleKit/" "R/" "pkcs11/" "netscsid.conf" "insserv.conf" "ldap/" "speech-dispatcher/" "ghostscript/" "debian_version" "gnome/" "rc6.d/" "gimp/" "avahi/" "bash_completion" "bonobo-activation/" "libaudit.conf" "ltrace.conf" "hosts" "ld.so.conf" "lintianrc" "upstart-xsessions" "pnm2ppa.conf" "passwd-" "mtab" "fuse.conf" "default/" "rc2.d/" "issue" "profile" "ifplugd/" "udisks2/" "rmt" "ca-certificates/" ".pwd.lock" "insserv.conf.d/" "colord.conf" "ssh/" "sudoers" "texmf/" "subuid" "kernel/" "login.defs" "racket/" "passwd" "pulse/" "odbcinst.ini" "init/" "ODBCDataSources/" "gdm/" "nanorc" "ufw/" "sgml/" "signon-ui/" "apparmor.d/" "at.deny" "foomatic/" "GNUstep/" "mailcap" "wgetrc" "issue.net" "logcheck/" "modules-load.d/" "dbus-1/" "debconf.conf" "cron.d/" "libreoffice/" "apm/" "fish/" "host.conf" "at-spi2/" "systemd/" "adduser.conf" "mke2fs.conf" "timezone" "wodim.conf" "rabbitmq/" "group" "securetty" "../" "./")
+
+ ("/home/v/code/dotfiles/.emacs.d/" (22021 42810 186229 841000) "projectile-bookmarks.eld" "backups/" "session.1014a05d5c8a7a86d3144229147727693500000038090055" "ido.last" "session.10bb2025eb6919a10143979925060109700000020790053" "elpa/" "%backup%~" "session.103dd50926ab9faf4f144212668297648400000033230056" "session.1077828dd8e72e4c2a144035815566745700000031950053" "session.10fcfdba8e6d751476144060925220142500000026970056" "init.el" "session.10fd3c6d502191ddfc144049077450512700000033710058" "session.104a1f6c0742e77f61143991408080765800000035740054" "session.1072d4da287c8e7045144064817221143100000029770054" "session.103b228da8ad56ce18144075477747354200000029040062" "session.10c06f154f3d021270144030194078623800000032470053" "session.1043e26ecbf271c0dd143988663973087300000021880057" "session.1010fbd334defc208f144079711155437000000032250060" "ac-comphist.dat" "url/" "session.10461f640195494f38144284951795215600000032630056" "lisp/" "session.10e30964736b86f8b144163566486908300000033690058" ".mc-lists.el" "session.1037d9260b8dea7b8d143982349087572800000021660057" "recentf" "session.102919c611d9ee2eb4143987006935113400000021650056" "session.10522c54cc14b0d8ef144013242196865600000035840053" "session.10c5bfc83c5cf6e9fb144068794855614200000034340059" "tutorial/" "places" "session.1071ffab159822a36144317489755461600000033630056" "tramp" "session.10c96800abdae8d292144213027712892400000033370060" "session.10130590c65d2db133143979425132621200000018000056" "auto-save-list/" "session.10c96cc66ac9e5064144198926721350300000038950056" "session.10b4a143cc922c1e2d14410835877291500000034020078" "../" "./")
+
+ ("/home/v/code/seam/services/event-service/core/" (22021 3504 461789 422000) "mongow.js" "roster-manager.js" "amqp-wrapper.js" "request-wrapper.js" "../" "couchbase-wrapper.js" "./" "admin.js")
+
+ ("/home/v/code/seam/services/event-service/" (22021 3504 465789 133000) "roster_memcache.js" "service/" "event-service" "build.gradle" "transport/" "services_event-service.iml" "backend/" "config.json" "core/" "run" ".gitignore" "install" "build.xml" "app_download.js" "package.json" "zk.js" "../" "common/" "node_modules/" "roster.js" "tests/" "config.js" "conf/" "./" "logger.js" "server.js")
+
+ ("/home/v/code/dist-components/db/" (22016 8777 669293 874000) "#two_phase_commit.erl#" "../" "two_phase_commit.erl" "./")
+
+ ("/home/v/code/c.js/lib/recipies/" (22021 6372 202391 791000) "lock.js" "persistentEphemeralNode.js" "leaderElection.js" "../" "#2pc.js#" "./" "2pc.js")
+
+ ("/home/v/tmp/" (22018 48769 432062 564000) ".juniper_networks/" "wfh.js" "../" "./")
+
+ ("/home/v/code/AofMP/" (22020 228 87433 202000) "04~Chapter_07.zip" "09~Chapter_13.zip" "10~Chapter_14.zip" "08~Chapter_12.zip" "01~README.txt" "csci1760_fa12_01.mp4.1" "03~Chapter_04.zip" "05~Chapter_08.zip" "../" "07~Chapter_10.zip" "02~Chapter_02.zip" "06~Chapter_09.zip" "./")
+
+ ("/home/v/code/" (22019 63211 764468 307000) "dotfiles/" "databases/" "c.js/" "event-service/" "npm-global/" "oldlove/" "rivet/" "denim/" "courses/" "ev/" "node-zookeeper-client/" "authentication-service/" "bj.fish" "dist-components/" "AofMP/" "seam/" "../" "tmp/" "cobalt/" "./" "misc/")
+
+ ("/home/v/code/dist-components/random/" (22009 54387 424612 796000) "flavius.erl" "turing.erl" "karatsuba.beam" "turing.beam" "ring.erl" "../" "karatsuba.erl" "./")
+
+ ("/home/v/code/dist-components/readings on distributed computing/" (21965 65132 645994 536000) "amazon-dynamo-sosp2007.pdf" "consistencybaseball.pdf" "Distributed.Algorithms.pdf" "ConsistenHashingandRandomTreesDistributedCachingprotocolsforrelievingHotSpotsontheworldwideweb.pdf" "practical-byzantine-fault-tolerance-and-proactive-recovery.pdf" "book.mixu.net-Distributed_systems.pdf" "Paxos made code.pdf" "Quorum based commit protocol.pdf" "PaxosCommit_Techfest.ppt" "Berkeley-Latency-Mar2012-jeff dean.pdf" "CRDT.pdf" "pbft- Miguel Castro.pdf" "Paxos Made moderately Complex.pdf" "raft.pdf" "dean-keynote-ladis2009.pdf" "Notes on Distributed Algorithms.ppt" "Recognizing Safety and Liveness.pdf" "fallacies.pdf" "32-paxos1.pptx" "../" "Time-clocks and Ordering of events- Lamport.pdf" "reaching Consensus in presense of faults.pdf" "Distributed Systems Consensus.ppt" "Apps/" "./" "cap-dynamo.pdf" "Timestamps in Message passing systems -Implementing Vector clocksFidge.pdf")
+
+ ("/home/v/code/dist-components/consistent-hashing/" (21965 65132 465994 530000) "../" "./" "consistent.erl")
+
+ ("/etc/xdg/autostart/" (22005 8123 631613 912000) "gnome-keyring-secrets.desktop" "orca-autostart.desktop" "nvidia-settings-autostart.desktop" "indicator-messages.desktop" "unity-settings-daemon.desktop" "indicator-sound.desktop" "pulseaudio-kde.desktop" "polkit-gnome-authentication-agent-1.desktop" "indicator-application.desktop" "indicator-datetime.desktop" "indicator-session.desktop" "gnome-settings-daemon.desktop" "nautilus-autostart.desktop" "onboard-autostart.desktop" "vino-server.desktop" "gsettings-data-convert.desktop" "unity-fallback-mount-helper.desktop" "indicator-power.desktop" "tracker-store.desktop" "gnome-screensaver.desktop" "pulseaudio.desktop" "gnome-keyring-ssh.desktop" "print-applet.desktop" "nm-applet.desktop" "gnome-sound-applet.desktop" "tracker-miner-fs.desktop" "hplip-systray.desktop" "jockey-gtk.desktop" "telepathy-indicator.desktop" "indicator-printers.desktop" "update-notifier.desktop" "gnome-user-share.desktop" "zeitgeist-datahub.desktop" "indicator-bluetooth.desktop" "../" "at-spi-dbus-bus.desktop" "ubuntuone-launch.desktop" "./" "gnome-keyring-pkcs11.desktop" "deja-dup-monitor.desktop" "screensaver.desktop" "tracker-extract.desktop" "gwibber.desktop" "gnome-keyring-gpg.desktop" "user-dirs-update-gtk.desktop")
+
+ ("/home/v/.emacs.d/" (22005 43392 788415 61000) "projectile-bookmarks.eld" "backups/" "ido.last" "session.10bb2025eb6919a10143979925060109700000020790053" "elpa/" "%backup%~" "session.103dd50926ab9faf4f144212668297648400000033230056" "session.1077828dd8e72e4c2a144035815566745700000031950053" "session.10fcfdba8e6d751476144060925220142500000026970056" "init.el" "session.10fd3c6d502191ddfc144049077450512700000033710058" "session.104a1f6c0742e77f61143991408080765800000035740054" "session.1072d4da287c8e7045144064817221143100000029770054" "session.103b228da8ad56ce18144075477747354200000029040062" "session.10c06f154f3d021270144030194078623800000032470053" "session.1043e26ecbf271c0dd143988663973087300000021880057" "session.1010fbd334defc208f144079711155437000000032250060" "ac-comphist.dat" "url/" "lisp/" "session.10e30964736b86f8b144163566486908300000033690058" ".mc-lists.el" "session.1037d9260b8dea7b8d143982349087572800000021660057" "recentf" "session.102919c611d9ee2eb4143987006935113400000021650056" "session.10522c54cc14b0d8ef144013242196865600000035840053" "session.10c5bfc83c5cf6e9fb144068794855614200000034340059" "tutorial/" "places" "tramp" "session.10130590c65d2db133143979425132621200000018000056" "auto-save-list/" "session.10c96cc66ac9e5064144198926721350300000038950056" "session.10b4a143cc922c1e2d14410835877291500000034020078" "../" "./")
+
+ ("/home/v/.config/fish/" (22005 34481 781158 443000) "fish_history" "fishd.34e6d77d9707" "functions/" "config.fish" "../" "./")
+
+ ("/home/v/code/dist-components/kvs/" (21965 65132 465994 530000) "src/" "../" "./")
+
+ ("/home/v/code/dist-components/kvs/src/" (21965 65132 465994 530000) "cached.erl" "../" "./")
+
+ ("/home/v/code/dist-components/ds/" (21965 65132 465994 530000) "sorts.erl" "bloom.erl" "../" "qf.erl" "./")
+
+ ("/tmp/" (22002 56504 664729 555000) "qtsingleapp-hipcha-2c5e-3e8-lockfile" ".X0-lock" ".ICE-unix/" "sni-qt_python2.7_3141-uiFApv/" "hsperfdata_v/" "mongodb-27017.sock" "hsperfdata_root/" "ZealLocalServer" "../" "yjp201411140810.jar" "fluxgui_v.pid" "fluxlog.txt" ".X11-unix/" "./" "emacs1000/")
+
+ ("/home/v/code/c.js/test/recipies/" (21999 46298 419218 594000) "dist_lock_test.js" "persistentEphemeralNodeTest.js" "leaderElectionTest.js" "../" "2pc_test.js" "./")
+
+ ("/home/v/code/dotfiles/" (21996 31061 937943 997000) ".gitconfig" "osx.sh" "README.md" "LICENSE" ".gitignore" ".git/" "../" "./" ".emacs.d/")
+
+ ("/home/v/code/c.js/test/lib/" (21999 38177 376123 41000) "fsm_test.js" "promiseHelperTest.js" "../" "./")
+
+ ("/home/v/.emacs.d/lisp/" (21996 29888 910821 960000) "betterdefaults.el" "setup-haskell.el" "setup-sml.el" "setup-javascript.el" "setup-basics.el" "setup-mac.el" "setup-ido.el" "../" "setup-erlang.el" "./" "setup-keybindings.el")
+
+ ("/home/v/.config/autostart/" (21996 30389 677924 444000) "fluxgui.desktop" "emacs.desktop" "screensaver.desktop" "dropbox.desktop" "../" "./")
+
+ ("/home/v/code/dist-components/" (22002 56609 304960 668000) "random/" "gossip/" "Readme.md" "writings/" "db/" "kvs/" ".gitignore" ".git/" "ds/" "../" "readings on distributed computing/" "consistent-hashing/" "./" "vector-clock/")
+
+ ("/home/v/code/c.js/" (22002 13168 865237 987000) "test/" ".jshintrc" ".tern-port" "index.js" "Gruntfile.js" "npm-debug.log" ".gitignore" ".git/" ".tern-project" "package.json" "../" "node_modules/" "lib/" "./")
+
+ ("/home/v/code/c.js/lib/" (21999 38060 644201 172000) "promiseHelper.js" "zkLib.js" "recipies/" "zkPath.js" "fsm.js" "../" "./")
+
+ ("/home/v/code/node-zookeeper-client/" (21997 40262 831003 248000) "examples/" "test/" "CHANGELOG.md" "index.js" "README.md" ".travis.yml" "LICENSE" ".gitignore" ".git/" "package.json" "../" "lib/" "./")
+
+ ("/home/v/code/seam/services/event-service/node_modules/node-zookeeper-client/" (21972 2468 363419 218000) "examples/" ".npmignore" "test/" "index.js" "README.md" ".travis.yml" "LICENSE" "package.json" "../" "lib/" "./")
+
+ ("/home/v/code/seam/services/event-service/node_modules/" (21972 2469 303425 428000) "underscore/" ".bin/" "amqp/" "portfinder/" "async/" "readable-stream/" "winston-filerotatedate/" "express/" "daemon/" "nconf/" "pm2/" "sockjs/" "heapdump/" "node-zookeeper-client/" "uuid/" "restler/" "mkdirp/" "mongodb/" "combined-stream2/" "needle/" "sockjs-client/" "newrelic/" "../" "memcached/" "couchbase/" "request/" "q/" "./" "qs/" "optimist/" "winston/")
+
+ ("/home/v/code/dotfiles/.emacs.d/lisp/" (21996 29888 910821 960000) "betterdefaults.el" "setup-haskell.el" "setup-sml.el" "setup-javascript.el" "setup-basics.el" "setup-mac.el" "setup-ido.el" "../" "setup-erlang.el" "./" "setup-keybindings.el")
+
+ ("/home/v/code/dotfiles/.emacs.d/elpa/projectile-20150831.1127/" (21993 42256 384468 54000) "projectile.elc" "projectile-autoloads.el" "projectile-pkg.el" "../" "projectile-pkg.elc" "./" "projectile.el")
+
+ ("/home/v/code/dotfiles/.emacs.d/elpa/" (21993 62341 71353 738000) "rainbow-delimiters-20150320.17/" "magit-find-file-readme.txt" "company-tern-20150525.216/" "f-20150605.927/" "guide-key-20150107.2235/" "gnupg/" "popwin-20150315.600/" "git-gutter-20150903.22/" "cask-readme.txt" "flycheck-tip-20150726.156/" "pcache-20150125.1653/" "markdown-mode-20150901.1047/" "helm-projectile-20150831.1127/" "company-ghc-20150613.123/" "company-20150727.1415/" "yaml-mode-20150816.2235/" "dash-20150829.433/" "dash-functional-20150828.413/" "guide-key-tip-20140406.1820/" "pkg-info-20150517.443/" "magit-filenotify-20150831.1759/" "fringe-helper-20140620.1409/" "auto-complete-20150618.1949/" "helm-20150904.148/" "epl-20150517.433/" "popup-20150626.711/" "powerline-20150628.1957/" "haskell-mode-20150904.447/" "git-commit-20150903.1204/" "projectile-20150831.1127/" "multi-web-mode-20130824.54/" "zenburn-theme-20150831.716/" "flycheck-hdevtools-20150329.323/" "spinner-1.4/" "nrepl-0.2.0/" "json-reformat-20150901.542/" "creole-readme.txt" "erlang-20150622.644/" "helm-rails-readme.txt" "yasnippet-readme.txt" "ztree-readme.txt" "clojure-mode-20150804.1311/" "dash-at-point-20140626.35/" "solarized-theme-20150831.823/" "helm-flymake-readme.txt" "gist-20150505.1341/" "json-mode-20150413.1948/" "projectile-readme.txt" "flymake-css-readme.txt" "let-alist-1.0.4/" "alect-themes-readme.txt" "haskell-mode-readme.txt" "magit-push-remote-20140108.1300/" "magit-push-remote-20130906.135/" "whitespace-cleanup-mode-20150603.447/" "with-editor-20150903.1204/" "multiple-cursors-20150710.456/" "git-gutter-fringe-20150331.2139/" "helm-projectile-readme.txt" "paradox-20150812.732/" "tern-20150830.1256/" "flymake-elixir-readme.txt" "js2-refactor-20150806.159/" "popup-kill-ring-20131020.1154/" "magit-readme.txt" "yasnippet-20150811.1222/" "archives/" "s-20150825.50/" "flycheck-haskell-20150626.644/" "dash-20150826.1136/" "ack-and-a-half-20130815.1917/" "mocha-snippets-20150116.800/" "shm-20150526.124/" "magit-popup-20150903.1204/" "multi-web-mode-readme.txt" "flymake-jshint-readme.txt" "2048-game-readme.txt" "logito-20120225.2155/" "flycheck-color-mode-line-20131125.2138/" "grizzl-20150711.2230/" "dash-at-point-readme.txt" "sml-mode-6.7/" "magit-commit-training-wheels-20130730.1121/" "groovy-mode-201203310931/" "ghc-20150830.2213/" "sml-mode-6.7.signed" "magit-20150903.1204/" "json-snatcher-20150511.2047/" "js2-mode-readme.txt" "flycheck-20150831.1343/" "whitespace-cleanup-mode-readme.txt" "spinner-1.4.signed" "gh-20150126.1125/" "pos-tip-20150318.813/" "helm-gist-readme.txt" "js2-mode-20150825.1256/" "helm-core-20150904.148/" "async-20150818.1154/" "seq-20150709.1040/" "let-alist-1.0.4.signed" "../" "./")
 
  ("/home/v/code/dotfiles/.emacs.d/elpa/rainbow-delimiters-20150320.17/" (21984 9141 308928 567000) "rainbow-delimiters-pkg.elc" "rainbow-delimiters-autoloads.el" "rainbow-delimiters.el" "../" "rainbow-delimiters.elc" "rainbow-delimiters-pkg.el" "./")
 
  ("/home/v/.emacs.d/elpa/rainbow-delimiters-20150320.17/" (21984 9141 308928 567000) "rainbow-delimiters-pkg.elc" "rainbow-delimiters-autoloads.el" "rainbow-delimiters.el" "../" "rainbow-delimiters.elc" "rainbow-delimiters-pkg.el" "./")
-
- ("/home/v/code/c.js/" (21993 41775 607529 837000) "test/" ".jshintrc" ".tern-port" "index.js" "Gruntfile.js" "npm-debug.log" ".gitignore" ".git/" ".tern-project" "package.json" "../" "node_modules/" "lib/" "./")
-
- ("/etc/" (21992 1274 344709 163000) "inputrc" "newt/" "resolv.conf" "gnome-vfs-2.0/" "hostname" "protocols" "network/" "rpc" "pam.conf" "crypttab" "localtime" "vim/" "wildmidi/" "timidity/" "adjtime" "usb_modeswitch.conf" "hdparm.conf" "rc4.d/" "snmp/" "terminfo/" "opt/" "selinux/" "networks" "bash.bashrc" "bluetooth/" "thunderbird/" "sensors3.conf" "blkid.tab" "brltty/" "environment" "emacs/" "chromium-browser/" "acpi/" "dnsmasq.d/" "pcmcia/" "gai.conf" "kerneloops.conf" "anacrontab" "brlapi.key" "perl/" "deluser.conf" "rc1.d/" "usb_modeswitch.d/" "cron.daily/" "passwd.org" "ntp.conf" "gdb/" "shadow-" "fstab.d/" "grub.d/" "papersize" "blkid.conf" "update-motd.d/" "mongodb.conf" "kernel-img.conf" "rc5.d/" "UPower/" "groff/" "doc-base/" "locale.alias" "sysctl.conf" "ucf.conf" "request-key.conf" "initramfs-tools/" "rc3.d/" "cron.weekly/" "gconf/" "bindresvport.blacklist" "hp/" "update-notifier/" "aliases" "aliases.db" "magic.mime" "rsyslog.d/" "subgid" "rc0.d/" "nsswitch.conf" "sound/" "libpaper.d/" "hosts.allow" "popularity-contest.conf" "apport/" "pam.d/" "ssl/" "postfix/" "zsh_command_not_found" "gshadow" "apparmor/" "dkms/" "openal/" "iproute2/" "samba/" "shadow.org" "ts.conf" "gtk-2.0/" "modules" "vdpau_wrapper.cfg" "compizconfig/" "skel/" "dictionaries-common/" "cups/" "apache2/" "printcap" "security/" "ca-certificates.conf.dpkg-old" "calendar/" "mailcap.order" "gnome-app-install/" "shells" "legal" "python3.4/" "lsb-release" "ginn/" "magic" "sysctl.d/" "kbd/" "pm/" "subversion/" "hosts.deny" "brltty.conf" "checkbox.d/" "crontab" "mtab.fuselock" "rcS.d/" "ld.so.conf.d/" "resolvconf/" "cron.monthly/" "os-release" "udev/" "firefox/" "ImageMagick/" "chatscripts/" "signond.conf" "apg.conf" "mtools.conf" "python3/" "mail.rc" "gtk-3.0/" "sensors.d/" "request-key.d/" "sane.d/" "prime-discrete" "wpa_supplicant/" "dhcp/" "vtrgb" "ld.so.cache" "manpath.config" "sudoers.d/" "alternatives/" "aptdaemon/" "fstab" "dconf/" "console-setup/" "xul-ext/" "cracklib/" "group.org" "rsyslog.conf" "rc.local" "services" "drirc" "python2.7/" "lightdm/" "mime.types" "X11/" "dpkg/" "odbc.ini" "update-manager/" "pki/" "libnl-3/" "java-7-openjdk/" "xdg/" "insserv/" "NetworkManager/" "gshadow-" "apt/" "fonts/" "xml/" "ca-certificates.conf" ".java/" "cupshelpers/" "bash_completion.d/" "namebench/" "modprobe.d/" "shadow" "mysql/" "polkit-1/" "profile.d/" "python/" "cron.hourly/" "init.d/" "logrotate.d/" "obex-data-server/" "depmod.d/" "ppp/" "updatedb.conf" "icedtea-web/" "logrotate.conf" "geoclue/" "group-" "ConsoleKit/" "R/" "pkcs11/" "netscsid.conf" "insserv.conf" "ldap/" "speech-dispatcher/" "ghostscript/" "debian_version" "gnome/" "rc6.d/" "avahi/" "bash_completion" "bonobo-activation/" "libaudit.conf" "ltrace.conf" "hosts" "ld.so.conf" "lintianrc" "upstart-xsessions" "pnm2ppa.conf" "passwd-" "mtab" "fuse.conf" "default/" "rc2.d/" "issue" "profile" "ifplugd/" "udisks2/" "rmt" "ca-certificates/" ".pwd.lock" "insserv.conf.d/" "colord.conf" "ssh/" "sudoers" "texmf/" "subuid" "kernel/" "login.defs" "racket/" "passwd" "pulse/" "odbcinst.ini" "init/" "ODBCDataSources/" "gdm/" "nanorc" "ufw/" "sgml/" "signon-ui/" "apparmor.d/" "at.deny" "foomatic/" "GNUstep/" "mailcap" "wgetrc" "issue.net" "logcheck/" "modules-load.d/" "dbus-1/" "debconf.conf" "cron.d/" "libreoffice/" "apm/" "fish/" "host.conf" "at-spi2/" "systemd/" "adduser.conf" "mke2fs.conf" "timezone" "wodim.conf" "rabbitmq/" "group" "securetty" "../" "./")
 
  ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/recipes/leader/" (21973 42851 854966 545000) "LeaderOffer.java" "LeaderElectionAware.java" "../" "LeaderElectionSupport.java" "./")
 
@@ -150,10 +221,6 @@
  ("/home/v/code/tmp/zookeeper/src/recipes/election/src/" (21973 42851 850966 481000) "java/" "../" "./")
 
  ("/home/v/code/tmp/zookeeper/src/recipes/election/" (21973 42851 854966 545000) "test/" "src/" "build.xml" "../" "README.txt" "./")
-
- ("/home/v/code/seam/services/event-service/core/" (21993 24993 472807 89000) "mongow.js" "roster-manager.js" "amqp-wrapper.js" "request-wrapper.js" "../" "couchbase-wrapper.js" "./" "admin.js")
-
- ("/home/v/code/seam/services/event-service/" (21993 29696 349071 24000) "roster_memcache.js" "service/" "event-service" "build.gradle" "transport/" "services_event-service.iml" "backend/" "config.json" "core/" "run" ".gitignore" "install" "build.xml" "app_download.js" "package.json" "zk.js" "../" "common/" "node_modules/" "roster.js" "tests/" "config.js" "conf/" "./" "logger.js" "server.js")
 
  ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/zookeeper/recipes/" (21973 42851 858966 609000) "lock/" "../" "./")
 
@@ -175,21 +242,7 @@
 
  ("/home/v/code/tmp/" (21989 13844 140524 320000) "zookeeper/" "Eve/" "llvm/" "node-zookeeper-client/" "mozart2/" "node-zookeeper/" "curator/" "../" "./")
 
- ("/home/v/code/c.js/lib/recipies/" (21993 31010 724864 433000) "#lock.js#" "lock.js" "persistentEphemeralNode.js" "leaderElection.js" "../" "#2pc.js#" "./" "2pc.js")
-
  ("/home/v/code/seam/" (21993 18174 832090 361000) "settings.gradle" "Readme.md" "gradle.properties" "test/" "gradle/" ".idea/" "build.gradle" "logs/" ".gradle/" "bin/" "services/" ".gitignore" ".git/" ".editorconfig" "reports/" "build/" "gradlew" "dist/" "seam.iml" "seam/" "codequality/" "../" "Makefile" "lib/" "./" "ci-build.gradle" "scripts/")
-
- ("/home/v/" (21992 128 152317 570000) ".Rhistory" ".dbshell" ".Private/" ".ant/" ".adobe/" ".mission-control/" ".mongorc.js" ".juniper_networks/" "Templates/" ".fontconfig/" ".thunderbird/" ".pki/" "Snapshots/" "nc/" ".msjnc-profiles.cfg" ".xsession-errors" ".ivy2/" "Music/" "Videos/" ".ssh/" ".oh-my-fish/" ".gnome/" ".cache/" "examples.desktop" ".dropbox/" ".ecryptfs/" ".pulse/" ".gitconfig" ".msjnc.log" ".subversion/" "Public/" ".xsession-errors.old" ".gnupg/" ".synaptic/" ".yjp/" ".dropbox-dist/" ".gradle/" ".npmrc" ".rvm/" ".pulse-cookie" ".gtk-bookmarks" ".gconf/" "bin/" ".gksu.lock" ".local/" ".dbus/" ".ICEauthority" ".fonts/" ".java/" ".mkshrc" ".bash_history" "vpn.tgz" ".viminfo.tmp" ".npm/" ".bash_logout" ".FontForge/" ".macromedia/" ".gem/" "pass" ".compiz/" ".zinc/" "Desktop/" ".m2/" "fontconfig/" "Downloads/" "Pictures/" ".gnome2/" ".Xauthority" ".xsel.log" ".rstudio-desktop/" ".fonts.conf" "Documents/" ".node-gyp/" ".IntelliJIdea15/" ".gstreamer-0.10/" ".bash_profile" ".zlogin" "tmp/" ".profile" ".gvfs/" "Dropbox/" ".mozilla/" ".xscreensaver" "code/" ".bashrc" ".viminfo" ".emacs.d/" ".goutputstream-F9L82X" "apps/" ".sbt/" ".config/" ".nvidia-settings-rc" ".zshrc" ".scala_history" "../" "./")
-
- ("/home/v/code/c.js/test/recipies/" (21990 58611 709897 289000) "dist_lock_test.js" "persistentEphemeralNodeTest.js" "leaderElectionTest.js" "../" "2pc_test.js" "./")
-
- ("/tmp/" (21989 58517 437388 989000) "qtsingleapp-hipcha-2c5e-3e8-lockfile" "tmux-1000/" ".X0-lock" "npm-9686-6PhlLh4r/" ".ICE-unix/" "hsperfdata_v/" "mongodb-27017.sock" "hsperfdata_root/" "../" "fluxgui_v.pid" "fluxlog.txt" ".X11-unix/" "npm-8470-k52ABTjp/" "./" "emacs1000/")
-
- ("/home/v/.emacs.d/" (21989 57365 990943 11000) "projectile-bookmarks.eld" "backups/" "ido.last" "session.10bb2025eb6919a10143979925060109700000020790053" "elpa/" "%backup%~" "session.1077828dd8e72e4c2a144035815566745700000031950053" "session.10fcfdba8e6d751476144060925220142500000026970056" "init.el" "session.10fd3c6d502191ddfc144049077450512700000033710058" "session.104a1f6c0742e77f61143991408080765800000035740054" "session.1072d4da287c8e7045144064817221143100000029770054" "session.103b228da8ad56ce18144075477747354200000029040062" "session.10c06f154f3d021270144030194078623800000032470053" "session.1043e26ecbf271c0dd143988663973087300000021880057" "session.1010fbd334defc208f144079711155437000000032250060" "ac-comphist.dat" "url/" "lisp/" "session.1037d9260b8dea7b8d143982349087572800000021660057" "session.102919c611d9ee2eb4143987006935113400000021650056" "session.10522c54cc14b0d8ef144013242196865600000035840053" "session.10c5bfc83c5cf6e9fb144068794855614200000034340059" "tutorial/" "places" "../" "tramp" "session.10130590c65d2db133143979425132621200000018000056" "auto-save-list/" "./" "session.10b4a143cc922c1e2d14410835877291500000034020078")
-
- ("/home/v/.config/fish/" (21989 35408 771957 195000) "fish_history" "fishd.34e6d77d9707" "functions/" "config.fish" "../" "./")
-
- ("/home/v/.emacs.d/lisp/" (21988 4766 145365 879000) "betterdefaults.el" "setup-haskell.el" "setup-sml.el" "setup-javascript.el" "setup-basics.el" "setup-mac.el" "setup-ido.el" "../" "setup-erlang.el" "./" "setup-keybindings.el")
 
  ("/home/v/code/event-service/" (21989 33037 204290 620000) "roster_memcache.js" ".jshintrc" "service/" "event-service" "build.gradle" "transport/" "backend/" "config.json" "Gruntfile.js" "core/" "run" "0001-SEAM-5235-Add-resilience-to-mongo-failures.patch" ".gitignore" ".git/" "install" "build.xml" "app_download.js" "package.json" "zk.js" "../" "common/" "roster.js" "tests/" "jscs.json" "config.js" "conf/" "./" "logger.js" "server.js")
 
@@ -203,10 +256,6 @@
 
  ("/home/v/.emacs.d/elpa/js2-refactor-20150806.159/" (21984 9141 320929 220000) "js2-refactor.elc" "js2r-paredit.elc" "js2r-functions.el" "js2r-helpers.elc" "js2r-paredit.el" "js2r-iife.elc" "js2r-functions.elc" "js2r-iife.el" "js2r-formatting.elc" "js2r-vars.elc" "js2r-vars.el" "js2-refactor.el" "js2r-formatting.el" "js2-refactor-autoloads.el" "js2r-helpers.el" "js2r-conveniences.elc" "js2-refactor-pkg.el" "../" "js2r-wrapping.el" "js2r-conditionals.el" "js2r-conveniences.el" "js2r-wrapping.elc" "./" "js2r-conditionals.elc")
 
- ("/home/v/code/" (21987 65140 879078 352000) "dotfiles/" "databases/" "c.js/" "event-service/" "npm-global/" "oldlove/" "rivet/" "denim/" "courses/" "ev/" "authentication-service/" "bj.fish" "dist-components/" "seam/" "../" "tmp/" "cobalt/" "./" "misc/")
-
- ("/home/v/code/c.js/test/lib/" (21984 39546 766756 538000) "fsm_test.js" "../" "./")
-
  ("/home/v/.npm/bin/" (21987 59449 693352 14000) "grunt" "mocha" "_mocha" "tern" "../" "./")
 
  ("/home/v/.npm/" (21987 59449 637351 161000) "resolve/" "concat-map/" "underscore/" "minimist/" "uid-number/" "sntp/" "form-data/" "http-signature/" "combined-stream/" "adm-zip/" "abbrev/" "dateformat/" "strip-ansi/" "semver/" "should/" "registry.npmjs.org/" "node-uuid/" "exit/" "grunt-legacy-util/" "which/" "wrappy/" "grunt/" "isarray/" "package/" "graceful-fs/" "should-type/" "should-equal/" "ansi-regex/" "lru-cache/" "ansi-styles/" "plur/" "stringstream/" "jsonfile/" "async/" "eventemitter2/" "string_decoder/" "mocha/" "grunt-contrib-jshint/" "readable-stream/" "nopt/" "proto-list/" "request-progress/" "lodash/" "sinon/" "os-homedir/" "core-util-is/" "formatio/" "cryptiles/" "jshint-stylish/" "debug/" "brace-expansion/" "tough-cookie/" "argparse/" "inherits/" "should-format/" "os-tmpdir/" "ini/" "delayed-stream/" "has-ansi/" "aws-sign2/" "esprima/" "hoek/" "util/" "glob/" "sigmund/" "grunt-cli/" "ctype/" "domelementtype/" "progress/" "underscore.string/" "mime-types/" "console-browserify/" "bin/" "strip-json-comments/" "growl/" "coffee-script/" "temporary/" "grunt-mocha/" "getobject/" "path-is-absolute/" "samsam/" "asn1/" "tern/" "supports-color/" "minimatch/" "node-zookeeper-client/" "htmlparser2/" "jade/" "ms/" "oauth-sign/" "mkdirp/" "typescript/" "jshint/" "domhandler/" "hawk/" "chalk/" "date-now/" "mime/" "config-chain/" "fs-extra/" "lolex/" "grunt-lib-phantomjs/" "caseless/" "balanced-match/" "findup-sync/" "json-stringify-safe/" "entities/" "grunt-legacy-log/" "js-yaml/" "bl/" "boom/" "diff/" "rimraf/" "assert-plus/" "bluebird/" "cli/" "dom-serializer/" "colors/" "domutils/" "osenv/" "acorn/" "kew/" "forever-agent/" "tunnel-agent/" "string-length/" "commander/" "shelljs/" "lib/" "hooker/" "phantomjs/" "npmconf/" "text-table/" "escape-string-regexp/" "request/" "inflight/" "grunt-legacy-log-utils/" "grunt-simple-mocha/" "qs/" "once/" "iconv-lite/" "throttleit/" "log-symbols/" "../" "./")
@@ -216,8 +265,6 @@
  ("/etc/network/" (21965 60031 750590 716000) "if-pre-up.d/" "interfaces" "../" "interfaces.d/" "if-post-down.d/" "run/" "if-up.d/" "./" "if-down.d/")
 
  ("/home/v/.emacs.d/auto-save-list/" (21983 60310 698893 890000) ".saves-3189-gabbar~" ".saves-3407-gabbar~" ".saves-12262-gabbar~" ".saves-10495-gabbar~" "../" "./")
-
- ("/home/v/code/dotfiles/" (21965 64926 373114 419000) ".gitconfig" "osx.sh" "README.md" "LICENSE" ".gitignore" ".git/" "../" "./" ".emacs.d/")
 
  ("/home/v/code/event-service/core/" (21981 31510 725197 324000) "mongow.js" "roster-manager.js" "amqp-wrapper.js" "request-wrapper.js" "../" "couchbase-wrapper.js" "./" "admin.js")
 
@@ -232,10 +279,6 @@
  ("/home/v/code/c.js/node_modules/grunt-contrib-jshint/" (21974 64513 424901 218000) "CHANGELOG" "tasks/" "README.md" "package.json" "../" "node_modules/" "./")
 
  ("/home/v/code/c.js/node_modules/" (21981 39953 857905 732000) "underscore/" ".bin/" "should/" "grunt/" "mocha/" "grunt-contrib-jshint/" "sinon/" "jshint-stylish/" "grunt-mocha/" "node-zookeeper-client/" "jshint/" "bluebird/" "../" "./" "grunt-simple-mocha/")
-
- ("/home/v/.config/autostart/" (21978 10754 967650 266000) "fluxgui.desktop" "screensaver.desktop" "dropbox.desktop" "../" "./")
-
- ("/etc/xdg/autostart/" (21978 10707 271600 948000) "gnome-keyring-secrets.desktop" "orca-autostart.desktop" "nvidia-settings-autostart.desktop" "indicator-messages.desktop" "unity-settings-daemon.desktop" "indicator-sound.desktop" "pulseaudio-kde.desktop" "polkit-gnome-authentication-agent-1.desktop" "indicator-application.desktop" "indicator-datetime.desktop" "indicator-session.desktop" "gnome-settings-daemon.desktop" "nautilus-autostart.desktop" "onboard-autostart.desktop" "vino-server.desktop" "gsettings-data-convert.desktop" "unity-fallback-mount-helper.desktop" "indicator-power.desktop" "tracker-store.desktop" "gnome-screensaver.desktop" "pulseaudio.desktop" "gnome-keyring-ssh.desktop" "print-applet.desktop" "nm-applet.desktop" "gnome-sound-applet.desktop" "tracker-miner-fs.desktop" "jockey-gtk.desktop" "telepathy-indicator.desktop" "indicator-printers.desktop" "update-notifier.desktop" "gnome-user-share.desktop" "zeitgeist-datahub.desktop" "indicator-bluetooth.desktop" "../" "at-spi-dbus-bus.desktop" "ubuntuone-launch.desktop" "./" "gnome-keyring-pkcs11.desktop" "deja-dup-monitor.desktop" "screensaver.desktop" "tracker-extract.desktop" "gwibber.desktop" "gnome-keyring-gpg.desktop" "user-dirs-update-gtk.desktop")
 
  ("/etc/xdg/" (21965 61535 354635 321000) "ubuntuone/" "menus/" "user-dirs.defaults" "Trolltech.conf" "../" "user-dirs.conf" "sni-qt.conf" "./" "autostart/")
 
@@ -284,22 +327,6 @@
  ("/home/v/code/oldlove/" (21971 771 101768 974000) "Readme.md" "index.js" ".gitignore" ".git/" "package.json" "../" "./")
 
  ("/usr/" (21475 41275 0 0) "bin/" "lib/" "local/" "src/" "games/" "../" "share/" "include/" "sbin/" "./")
-
- ("/usr/lib/" (21970 60704 600810 678000) "jni/" "valgrind/" "libpocketsphinx.so.1" "libtotem-plparser.so.18" "libgtop-2.0.so.7" "language-selector/" "liborcus-parser-0.6.so.0" "libaspell.so.15.2.0" "libbrasero-burn3.so.1" "libgettextlib-0.18.3.so" "libgnome-menu-3.so.0.0.1" "libplf95demolibd.a" "xulrunner/" "nautilus/" "libsphinxad.so.0" "software-properties/" "libgucharmap_2_90.so.7" "libwpd-stream-0.9.so.9" "libzeitgeist-1.0.so.1" "libungif.la" "libcgraph.so.6" "libtimezonemap.so.1.0.0" "libgnome-desktop-3.so.10.0.0" "libpeas-gtk-1.0.so.0.1000.0" "libmetacity-private.so.0" "libxdot.so" "libgdata.so.13.5.3" "xulrunner-addons/" "libcsirocsa.so" "libaccount-plugin-1.0.so.0" "libgssdp-1.0.so.3" "libsignon-qt5.so.1.0" "libt1x.so.5.1.2" "libgdata.so.13" "liblirc_client.so.0.2.1" "libdns.so.100" "libgssdp-1.0.so.3.0.0" "libebook-contacts-1.2.so.0.0.0" "thunderbird/" "libcdio_paranoia.so.1.0.0" "libblas.a" "libm17n-gui.so.0.4.0" "libebackend-1.2.so.7.0.0" "libtotem-plparser.so.18.1.0" "libsignon-extension.so.1.0.0" "libguilereadline-v-18.so.18" "libm17n.so.0.4.0" "libiso9660.so.8" "libnetpbm.so.10.0" "midbrowser/" "glib-networking/" "libm17n-gui.so.0" "liblightdm-gobject-1.so.0" "chromium-browser/" "xscreensaver/" "iceweasel/" "ibus/" "gnupg/" "libunity-webapps.so.0" "libgme.so.0.5.3" "libbrasero-media3.so.1" "libaggplatformX11.a" "libhpip.so.0" "libmimic.so.0.0.1" "libI810XvMC.so.1" "libmpcdec.so.6.1.0" "libpostfix-global.so.1.0.1" "libgucharmap_2_90.so.7.0.0" "signon/" "libmutter.so.0.0.0" "empathy/" "sendmail" "perl/" "libcdt.so" "libgnome-bluetooth.so.11" "libcmis-c-0.4.so.4" "libzbar.so.0" "vino/" "libplplotf95cd.so" "libsgutils2.so.2.0.0" "libdns.so.100.2.2" "libebook-1.2.so.14.3.1" "libbrasero-burn3.so.1.2.6" "gnome-keyring/" "gvfs/" "libunity-webapps-repository.so.0" "girepository-1.0/" "libedata-book-1.2.so.20.0.0" "libpostfix-master.so.1" "libecal-1.2.so.16.0.0" "libsignon-plugins-common.so.1.0" "libplplotf95d.so.11.0.0" "gcc/" "libqsastime.so.0.0.1" "preloadable_libintl.so" "libungif.so" "libsphinxad.so.0.0.1" "libvte2_90.so.9" "libperl.so.5.18" "libburn.so.4.87.0" "remmina/" "libsidplay.so.1.0.3" "libnvidia-gtk2.so.355.06" "speech-dispatcher-modules/" "nautilus-sendto/" "libunity-core-6.0.so.9.0.0" "system-service/" "brasero3-1/" "libwpg-0.2.so.2" "libpspell.so.15.2.0" "libnm-gtk.so.0" "iceape/" "libresid-builder.so.0" "libtotem-plparser-mini.so.18.1.0" "libcsironn.so.0.0.1" "libgtop-2.0.so.7.2.0" "libdmapsharing-3.0.so.2" "liborcus-mso-0.6.so.0.0.0" "pcmciautils/" "accountsservice/" "libgvpr.so.2.0.0" "libpostfix-tls.so.1" "initramfs-tools/" "upower/" "man-db/" "lapack/" "libwpd-stream-0.9.so.9.0.9" "libpurple.so.0.10.9" "libgeocode-glib.so.0" "libgnome-menu-3.so.0" "gnome-terminal/" "libt1.so.5.1.2" "liborcus-parser-0.6.so.0.0.0" "go/" "libchromeXvMCPro.so.1" "libunity-webapps/" "libgupnp-1.0.so.4" "update-notifier/" "libpocketsphinx.so.1.1.0" "libpyglib-2.0-python2.7.so.0" "libpurple.so.0" "at-spi2-core/" "libexttextcat-2.0.so.0.0.0" "libxapian.so.22" "libt1x.so.5" "unity/" "libwpd-0.9.so.9.0.9" "libexttextcat-2.0.so.0" "libcsirocsa.so.0" "libwhoopsie.so.0.0" "apg/" "rpm/" "libgdata.so.19.1.1" "sane/" "libplplotf95cd.so.11.0.0" "libslv2.so.9.2.0" "nux/" "libchromeXvMC.so" "mozilla/" "policykit-1-gnome/" "librarian.so.0" "xvmcconfig-standard/" "rhythmbox/" "libplplotf95cd.so.11" "libcdio.so.13" "libsidplay.so.1" "pppd/" "libguile-2.0.so.22" "libnautilus-extension.so.1.4.0" "libaggplatformsdl.a" "openssh/" "libtwolame.so.0.0.0" "geoclue-2.0/" "liborcus-0.6.so.0.0.0" "libpostproc.so.52.0.100" "libplplotd.so" "ssl/" "postfix/" "libgjs.so.0.0.0" "emacsen-common/" "libuno_cppuhelpergcc3.so.3" "postfix_groups.pl" "libunity-core-6.0.so.9" "linux/" "libdaemon.so.0.5.0" "dkms/" "libisccfg.so.90.1.0" "libgme.so.0" "libaspell.so.15" "libsgutils2.so.2" "debug/" "rsyslog/" "libpulsecore-4.0.so" "samba/" "libhpmud.so.0" "libcsironn.so" "libpeas-gtk-1.0.so.0" "libpathplan.so.4" "libgnomekbd.so.8" "os-prober/" "gcr/" "libical.so.1.0.0" "libm17n-flt.so.0" "telepathy/" "libmythes-1.2.so.0.0.0" "liblirc_client.la" "libicalss.so.1.0.0" "liblinear.so.1.8" "libcompizconfig.so.0.0.0" "gnome-shell/" "libtar.so.0.0.0" "libwhoopsie.so.0" "libpostfix-global.so.1" "libgnomekbdui.so.8" "compizconfig/" "libcgraph.so.6.0.0" "libkate.so.1.3.0" "libgweather-3.so.6" "nodejs/" "cups/" "utempter/" "shotwell/" "apache2/" "libwpg-0.2.so.2.0.2" "libm17n-gui.a" "libguilereadline-v-18.so" "libexiv2.so.12" "libevview3.so.3.0.0" "mime/" "libplplotd.so.12.0.1" "libisccc.so.90" "libgnome-desktop-3.so.7.0.0" "libcmis-c-0.4.so.4.0.1" "libvte-2.90-9/" "python3.4/" "libcmis-0.4.so.4" "gnome-system-monitor/" "libnm-gtk.so.0.0.0" "libgnome-desktop-3.so.7" "libuno_salhelpergcc3.so.3" "libtimezonemap.so.1" "libpostfix-util.so.1.0.1" "libxklavier.so.16" "libm17n-flt.so" "pm-utils/" "ure/" "libutempter.so.0" "libgs.so.9.10" "libm17n-core.a" "libcmis-0.4.so.4.0.1" "libhyphen.so.0.2.1" "libI810XvMC.so.1.0.0" "libbrasero-utils3.so.1" "lp_solve/" "libgnome-desktop-3-10/" "libgdkglext-x11-1.0.so.0" "libxapian.so.22.6.3" "udisks/" "libtbbmalloc_proxy.so.2" "libpurple-client.so.0" "libdialog.a" "libpathplan.so" "libisc.so.95" "libgle.so.3.1.0" "libkpathsea.so.6" "libhpmud.so.0.0.6" "libcsironn.so.0" "libcdt.so.5" "eog/" "libunity-webapps.so.0.0.0" "libpostproc.so.52" "libpyglib-2.0-python2.7.so.0.0.0" "gnome-contacts/" "libhardsid-builder.so.0.0.1" "node_modules/" "libgvc.so.6" "libtotem-plparser-mini.so.18" "libicalvcal.so.1.0.0" "libbrasero-media3.so.1.2.6" "i386-linux-gnu/" "libuno_sal.so.3" "libpostfix-util.so.1" "jvm/" "gnome-bluetooth/" "libcdio_paranoia.so.1" "gold-ld/" "libjte.so.1.0.0" "libgvpr.so" "liblwres.so.90.0.7" "flashplugin-installer/" "libebackend-1.2.so.7" "liblangtag.so.1.2.0" "libwnck-1.so.22" "libcdr-0.0.so.0" "purple-2/" "libebook-1.2.so.14" "libecryptfs.so.1" "libnvidia-gtk3.so.355.06" "ubiquity/" "file-roller/" "libopenobex.so.1.5.0" "libm17n.a" "libchromeXvMC.so.1.0.0" "libedataserver-1.2.so.18" "upstart/" "libjte.so.1" "libgirepository-1.0.so.1.0.0" "libgjs.so.0" "firefox/" "libgdata.so.19" "libbfd-2.24-system.so" "libiso9660.so.8.0.0" "libblas.so" "libcdio.so.13.0.0" "tmpfiles.d/" "libm17n-flt.so.0.4.0" "libmimic.so.0" "libyelp.so.0" "pyshared/" "guile-2.0/" "libgnustep-base.so.1.24" "libvisio-0.0.so.0" "libcdio_cdda.so.1.0.0" "libofa.so.0" "memtest86+/" "seahorse/" "python3/" "libsphinxbase.so.1.1.1" "libofa.so.0.0.0" "libutempter.so.1.1.5" "libaggfontfreetype_pic.a" "unity-settings-daemon-1.0/" "gnome-settings-daemon/" "libcgraph.so" "evince/" "libpostfix-dns.so.1" "libtwolame.so.0" "pulse-4.0/" "libgksu2.so.0" "tc/" "libsignon-extension.so.1" "libdmapsharing-3.0.so.2.9.28" "libXNVCtrl.so.0.0.0" "obexd/" "libaggplatformX11_pic.a" "pt_chown" "libxdot.so.4.0.0" "libplplotcxxd.so.11.0.0" "libtbbmalloc.so.2" "libpostfix-dns.so.1.0.1" "libagg_pic.a" "thunderbird-addons/" "plplot5.10.0/" "xorg/" "libnetpbm.so.10" "libgnome-media-profiles-3.0.so.0" "libsidplay2.so.1" "dconf/" "libcompiz_core.so.0.9.11.3" "libisccc.so.90.0.6" "libpurple-client.so.0.10.9" "libpathplan.so.4.0.0" "m17n/" "aisleriot/" "libedataserver-1.2.so.18.0.0" "fortran/" "libplplotf95d.so" "libneon-gnutls.so.27" "libburn.so.4" "tcltk/" "cdbs/" "libwps-0.2.so.2" "gnome-settings-daemon-3.0/" "libecal-1.2.so.16" "libm17n-core.so" "grub/" "libwps-0.2.so.2.0.9" "libsphinxbase.so.1" "libvcdinfo.so.0.2.0" "libsignon-qt5.so.1.0.0" "libblas/" "libgirepository-1.0.so.1" "indicators3/" "ubuntu-release-upgrader/" "librhythmbox-core.so.8.0.0" "python2.7/" "lightdm/" "libexiv2.so.12.0.0" "X11/" "dpkg/" "compat-ld/" "libm17n-core.so.0.4.0" "libvlccore.so.7.0.0" "libbind9.so.90" "libevdocument3.so.4" "libcamel-1.2.so.49" "insserv/" "libuno_cppu.so.3" "libchromeXvMCPro.so.1.0.0" "libuno_purpenvhelpergcc3.so.3" "NetworkManager/" "apt/" "libjbig2dec.so.0.0.0" "dbus-1.0/" "libdecoration.so.0.0.0" "libcdaudio.so.1.0.0" "lua/" "librhythmbox-core.so.8" "libresid-builder.so.0.0.1" "libvte2_90.so.9.3600.3" "libgvc.so" "libgupnp-1.0.so.4.0.0" "libvcdinfo.so.0" "tracker/" "libm17n-gui.so" "locale/" "libvlccore.so.7" "libgksu2.so.0.0.2" "libm17n.so.0" "aspell/" "libxklavier.so.16.4.0" "libcdio_cdda.so.1" "libgnomekbd.so.8.0.0" "libkate.so.1" "libplplotd.so.12" "libgnome-desktop-3.so.10" "libaggfontfreetype.a" "liborcus-mso-0.6.so.0" "libmythes-1.2.so.0" "libaccount-plugin-1.0.so.0.0.0" "libedata-cal-1.2.so.23.0.0" "libguilereadline-v-18.so.18.0.0" "coreutils/" "libtotem.so.0.0.0" "librarian.so.0.0.0" "libmspub-0.0.so.0.0.6" "libpspell.so.15" "libisofs.so.6.70.0" "libgs.so.9" "vlc/" "libpeas-1.0/" "libunity-webapps-repository.so.0.0.0" "libopenobex.so.1" "font-manager/" "command-not-found" "geoclue/" "ocaml/" "liblangtag.so.1" "libebook-contacts-1.2.so.0" "libwnck-1.so.22.3.31" "libplplotf95d.so.11" "libcdr-0.0.so.0.0.15" "libedata-cal-1.2.so.23" "libm17n-flt.a" "R/" "libsignon-plugins-common.so.1" "libgnome-bluetooth.so.11.0.0" "libwpd-0.9.so.9" "libgle.so.3" "libqsastime.so" "libpeas-1.0.so.0" "libchromeXvMC.so.1" "mission-control-plugins.0/" "libmspub-0.0.so.0" "libmeanwhile.so.1.0.2" "cgi-bin/" "ispell/" "libcompiz_core.so.ABI-20140123" "linux-boot-probes/" "libnatpmp.so.1" "git-core/" "libevview3.so.3" "libsignon-extension.so.1.0" "ghostscript/" "libR.so" "libgnome-media-profiles-3.0.so.0.0.0" "avahi/" "libgnome-desktop-3-7/" "libpostfix-tls.so.1.0.1" "pkgconfig/" "libaccount-plugin-1.0/" "libjbig2dec.so.0" "libcsirocsa.so.0.0.1" "libgnomekbdui.so.8.0.0" "libagg.a" "libusbmuxd.so.2" "libslv2.so.9" "chromium/" "tar/" "libmission-control-plugins.so.0" "libdecoration.so.0" "libsignon-plugins-common.so.1.0.0" "libchromeXvMCPro.so" "sudo/" "liblirc_client.so.0" "libkpathsea.so.6.1.1" "libsrtp.so.0.0" "libcamel-1.2.so.49.0.0" "2013.com.canonical.certification:plainbox-resources/" "libecryptfs.so.1.0.0" "libmodplug.so.1.0.0" "libplplotcxxd.so" "libgnustep-base.so.1.24.0" "python2.6/" "totem/" "guile/" "evolution/" "gnome-user-share/" "compiz/" "libspandsp.so.2" "eject/" "graphviz/" "libIntelXvMC.so.1" "checkbox-gui/" "libisc.so.95.5.0" "libzbar.so.0.2.0" "libgvc.so.6.0.0" "libzeitgeist-1.0.so.1.1.4" "liblwres.so.90" "libaggplatformsdl_pic.a" "libtotem.so.0" "udisks2/" "libicalss.so.1" "libhyphen.so.0" "libmpcdec.so.6" "libsignon-qt5.so.1" "libcompizconfig.so.0" "rstudio/" "ldscripts/" "libgtkglext-x11-1.0.so.0.0.0" "libhpip.so.0.0.1" "colord/" "mutter/" "2013.com.canonical.certification:checkbox/" "libungif.a" "libtar.so.0" "libcdt.so.5.0.0" "libvlc.so.5.4.0" "syslinux/" "libopcodes-2.24-system.so" "libvlc.so.5" "libXNVCtrl.so.0" "libmission-control-plugins.so.0.5.1" "libplplotcxxd.so.11" "libm17n-core.so.0" "libmeanwhile.so.1" "libplplotwxwidgetsd.so" "policykit-1/" "libt1.so.5" "libevdocument3.so.4.0.0" "libsrtp.so.0" "libmutter.so.0" "racket/" "gjs/" "libvisio-0.0.so.0.0.31" "libical.so.1" "liblinear.so.1" "libpostfix-master.so.1.0.1" "xserver-xorg-video-intel/" "shim/" "libguile-2.0.so.22.7.0" "libminiupnpc.so.8" "gdm/" "liblapack.so.3" "libhardsid-builder.so.0" "libIntelXvMC.so.1.0.0" "rtkit/" "os-probes/" "libmodplug.so.1" "liblapack.so.3gf" "sasl2/" "libpeas-1.0.so.0.1000.0" "libisofs.so.6" "libbrasero-utils3.so.1.2.6" "ubuntu-sso-client/" "libgdkglext-x11-1.0.so.0.0.0" "libisccfg.so.90" "libperl.so.5.18.2" "libneon-gnutls.so.27.3.0" "nvidia/" "libxdot.so.4" "libqsastime.so.0" "x86_64-linux-gnu/" "libblas.so.3gf" "liblapack.so" "libyelp.so.0.0.0" "libgksu/" "libbind9.so.90.0.9" "perl5/" "libicalvcal.so.1" "GNUstep/" "libgeocode-glib.so.0.0.0" "klibc/" "liborcus-0.6.so.0" "libdaemon.so.0" "firefox-addons/" "libnautilus-extension.so.1" "libspandsp.so.2.0.0" "libgettextsrc-0.18.3.so" "libusbmuxd.so.1.0.8" "unity-settings-daemon/" "libgtkglext-x11-1.0.so.0" "libgweather-3.so.6.1.4" "libcompizconfig_gsettings_backend.so" "ecryptfs/" "libreoffice/" "syslinux-legacy/" "libblas.so.3" "libedata-book-1.2.so.20" "evolution-data-server/" "systemd/" "libplplotqtd.so" "libgvpr.so.2" "liblapack.a" "libm17n.so" "libsidplay2.so.1.0.1" "libijs-0.35.so" "gettext/" "libcdaudio.so.1" "gnome-session/" "pulseaudio/" "libmetacity-private.so.0.0.0" "libtbb.so.2" "liblightdm-gobject-1.so.0.0.0" "../" "./")
-
- ("/usr/lib/jvm/" (21969 44604 609368 787000) "java-6-openjdk-amd64/" ".j2sdk1.8-oracle.jinfo" "java-1.7.0-openjdk-amd64/" "default-java/" ".java-1.7.0-openjdk-amd64.jinfo" "../" "j2sdk1.8-oracle/" "./" "java-7-openjdk-amd64/")
-
- ("/usr/lib/jvm/j2sdk1.8-oracle/" (21965 63846 309950 199000) "src.zip" "jre/" "man/" "debian/" "README.html" "LICENSE" "COPYRIGHT" "bin/" "lib/" "db/" "THIRDPARTYLICENSEREADME-JAVAFX.txt" "release" "THIRDPARTYLICENSEREADME.txt" "../" "include/" "javafx-src.zip" "./")
-
- ("/etc/apache2/" (21970 61045 676752 586000) "sites-available/" "mods-enabled/" "conf-enabled/" "magic" "sites-enabled/" "conf-available/" "httpd.conf" "ports.conf" "../" "apache2.conf" "envvars" "./" "mods-available/")
-
- ("/home/v/apps/" (21969 63564 917335 928000) "idea/" "idea-IU-142.3926.4/" "go/" "../" "./")
-
- ("/home/v/apps/go/" (21969 63579 256886 85000) "bin/" "src/" "pkg/" "../" "./")
-
- ("/home/v/code/denim/lib/" (21969 52495 625602 877000) "libaudiSAC.a" "libvm.a" "libgnashmedia.a" "libh261_dec.a" "libhashkit.so" "libvm_plus.a" "libaudIPPTD.a" "libx264.a" "libippcv_l.a" "libippvm_l.a" "libgnashbase.a" "libippj_l.a" "libwebrtcaec.a" "libaudioproc.so" "libpjlib-util.a" "libwebrtcagc.a" "libippi_l.a" "libipps_l.a" "libvideoproc.so" "libumc_io.a" "libippdc_l.a" "libwebrtcbjnnlp.a" "libippch_l.a" "libijg.a" "libippac_l.a" "libwebrtcvad.a" "libwebrtcfastmath.a" "libh264_dec.a" "libopus.a" "libipc.so" "denim_version.sh" "libfreerdp-codec.a" "libaudioresampler.so" "java/" "libcolor_space_converter.a" "libgnashsound.a" "libwebrtcaudioproc.a" "libippvc_l.a" "libippcore_l.a" "libh261_enc.a" "libbfcp.a" "libippcc_l.a" "libgnashnet.a" "video_ptplugin.so" "libh263_dec.a" "libwebrtctestsupport.a" "librtc_base_approved.a" "libgoogle-gflags.a" "libaudIPP7221.a" "libpjtpgsm.a" "libliveMedia.a" "libmpeg4_spl.a" "libfreerdp-channels.a" "libaudSilk.a" "libfield_trial_default.a" "libBasicUsageEnvironment.a" "libipp_z.a" "libxrdp-compress.a" "libimageparser.a" "libpjtpresample.a" "libfontengine.a" "libumc.a" "libjingle_p2p.a" "libippm_l.a" "libpjsip-ua.a" "libvideocodec.so" "libaacenc.a" "librtc_p2p.a" "libmemcached.so" "libfreerdp-gdi.a" "libaudiLBC.a" "libjson_spirit.a" "libiniparser.a" "libme.a" "libippsc_l.a" "libortp.a" "libwebrtcsigproc.a" "libpt.a" "libmixer.a" "libvc1_enc.a" "libpjsip.a" "libh263_enc.a" "libtipuser.a" "libwebrtcbjnresampler.a" "libwebrtcaecm.a" "libirc.a" "libaudioplotter.so" "libbwmgr.a" "libvideo_renders.a" "libtipcommon.a" "libaudIPP729A.a" "librtp.a" "libpjmedia.a" "libpjtpg7221.a" "sse4_2/" "libwebrtcresampler.a" "libcommon.a" "libaudIPPVAD.a" "libpjmedia-codec.a" "libsrtp.a" "libwebrtcns.a" "python/" "libaudIPPCommon.a" "libdenimproto.a" "libpjtpmilenage.a" "libvc1_dec.a" "liblayoutengine.so" "libwebrtcbjndspcontrol.a" "libgnashamf.a" "libjingle_media.a" "libippdi_l.a" "libfreerdp-utils.a" "libippr_l.a" "libfreerdp-cache.a" "libaudio_renders.a" "libgnashagg.a" "avx/" "libh264_spl.a" "libscene_analyzer.a" "libpjmedia-audiodev.a" "libpjtpportaudio.a" "libpjtpilbc.a" "Makefile" "libwebrtcsystemwrap.a" "libloomproto.a" "libjingle_peerconnection.a" "libfreerdp-core.a" "librtc_base.a" "libpjtpspeex.a" "libspl_common.a" "libaacdec.a" "libvc1_common.a" "libpjsip-simple.a" "libgroupsock.a" "libconnector.a" "libh323.a" "libumc_pipeline.a" "libtippacket.a" "libaudiomixer.so" "libpjsua-lib.a" "libpassfds.a" "libh264_enc.a" "libaudIPP722.a" "libwebrtcaudutil.a" "node/" "libplatform.so" "libpj.a" "libaudIPP711.a" "libmedia_buffers.a" "libmpeg4_mux.a" "libpjnath.a" "libUsageEnvironment.a" "libbjnscr.a" "loom_version.sh" "libmsgbus.so" "libgnashcore.a" "../" "./")
-
- ("/home/" (21965 57465 385843 652000) ".ecryptfs/" "v/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
