@@ -2,7 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/v/notes/" . "es_platform4/")
+ ("/home/v/code/databases/leveldb/" . "doc/")
+ ("/home/v/code/databases/" . "leveldb/")
+ ("/home/v/notes/" . "lsmtree/")
  ("/home/v/code/dist-components/" . "db/")
  ("/home/v/code/seam/services/event-service/node_modules/" . "node-zookeeper-client/")
  ("/home/v/code/dotfiles/.emacs.d/elpa/" . "projectile-20150831.1127/")
@@ -52,16 +54,20 @@
  ("/home/v/code/seam/services/event-service/" . "core/")
  ("/home/v/code/seam/services/" . "event-service/")
  ("/home/v/code/seam/" . "services/")
- ("/home/v/code/" . "AofMP/")
- ("/home/v/" . "notes/")
+ ("/home/v/code/" . "dotfiles/")
+ ("/home/v/" . "code/")
  ("/home/" . "v/")
  ("/" . "home/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/v/notes/es_platform4/"
+ "/home/v/code/dotfiles/.emacs.d/"
+ "/home/v/notes/jakarta/"
+ "/home/v/code/databases/leveldb/doc/"
+ "/home/v/code/databases/leveldb/db/"
  "/home/v/notes/lsmtree/"
+ "/home/v/notes/es_platform4/"
  "/home/v/notes/"
  "/home/v/code/AofMP/"
  "/home/v/tmp/"
@@ -80,7 +86,6 @@
  "/home/v/code/dotfiles/.emacs.d/lisp/"
  "/home/v/code/dotfiles/.emacs.d/elpa/projectile-20150831.1127/"
  "/home/v/.emacs.d/lisp/"
- "/home/v/code/dotfiles/.emacs.d/"
  "/home/v/code/c.js/test/lib/"
  "/home/v/code/dotfiles/"
  "/home/v/.emacs.d/elpa/rainbow-delimiters-20150320.17/"
@@ -107,38 +112,47 @@
  "/home/v/.ssh/"
  "/home/v/code/c.js/test/"
  "/home/v/code/c.js/recepies/"
- "/sudo:root@localhost:/etc/init/"
- "/home/v/code/rivet/build/"
- "/home/v/code/rivet/bjn/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "ES Protocol.md"
+ "init.el"
+ "things_to_think_about.md"
+ "impl.html"
+ "log_format.txt"
+ "table_format.txt"
+ "index.html"
+ "table_cache.h"
+ "memtable.h"
  "LSM-tree.md"
- "notes.md"
- "event-service.mm"
- "lsmtree.md"
- "01~README.txt"
- "wfh.js"
- "fsm.js"
- "2pc.js"
- "aggregation_service.md"
+ "lsmtree-my-notes.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/v/code/dotfiles/.emacs.d/" (22044 31783 415985 168000) "projectile-bookmarks.eld" "backups/" "session.1014a05d5c8a7a86d3144229147727693500000038090055" "ido.last" "session.108f3b446fbf7cec2d144431851118949200000035160065" "session.10bb2025eb6919a10143979925060109700000020790053" "elpa/" "%backup%~" "session.103dd50926ab9faf4f144212668297648400000033230056" "session.1077828dd8e72e4c2a144035815566745700000031950053" "session.10fcfdba8e6d751476144060925220142500000026970056" "init.el" "session.10fd3c6d502191ddfc144049077450512700000033710058" "session.104a1f6c0742e77f61143991408080765800000035740054" "session.1072d4da287c8e7045144064817221143100000029770054" "session.1036acef18b9e0f984144350752883133500000034060056" "session.107d229d4ecf1220a5144350832339972000000034540056" "session.103e7544c1529806fb144446518630261900000032740062" "session.103b228da8ad56ce18144075477747354200000029040062" "session.10c06f154f3d021270144030194078623800000032470053" "session.1043e26ecbf271c0dd143988663973087300000021880057" "session.1010fbd334defc208f144079711155437000000032250060" "ac-comphist.dat" "url/" "session.10461f640195494f38144284951795215600000032630056" "lisp/" "session.1071336087a66d6ff7144402039244898400000033460056" "session.10e30964736b86f8b144163566486908300000033690058" ".mc-lists.el" "session.1037d9260b8dea7b8d143982349087572800000021660057" "recentf" "session.102919c611d9ee2eb4143987006935113400000021650056" "var/" "session.10522c54cc14b0d8ef144013242196865600000035840053" "session.10c5bfc83c5cf6e9fb144068794855614200000034340059" "tutorial/" "places" "session.1071ffab159822a36144317489755461600000033630056" "session.10c5595b8ddbf77580144463784536811800000033570056" "tramp" "session.10c96800abdae8d292144213027712892400000033370060" "session.10130590c65d2db133143979425132621200000018000056" "session.1011e94d6ba5b5465f144466302724999900000032380056" "session.10613ca5f5cac61a32144363099046955000000029850063" "auto-save-list/" "session.1035f87cbca32fca5514434181725460900000033440056" "session.10c96cc66ac9e5064144198926721350300000038950056" "session.10b4a143cc922c1e2d14410835877291500000034020078" "../" "./")
+
+ ("/home/v/" (22045 12701 265003 506000) ".Rhistory" ".dbshell" ".Private/" ".ant/" ".Skype/" ".adobe/" ".mission-control/" ".mongorc.js" ".juniper_networks/" "Templates/" ".fontconfig/" ".thunderbird/" ".pki/" "Snapshots/" "nc/" ".msjnc-profiles.cfg" ".xsession-errors" ".ivy2/" "Music/" "Videos/" ".ssh/" ".oh-my-fish/" ".gnome/" ".cache/" "examples.desktop" "mindmaps/" ".dropbox/" ".ecryptfs/" ".pulse/" ".gitconfig" ".erlang.cookie" ".msjnc.log" ".subversion/" "Public/" ".xsession-errors.old" ".gnupg/" ".synaptic/" ".yjp/" ".dropbox-dist/" ".gradle/" ".npmrc" ".rvm/" ".pulse-cookie" ".gtk-bookmarks" ".gconf/" "bin/" ".gksu.lock" ".local/" "notes/" ".dbus/" ".ICEauthority" "duplicity-full.20150911T183206Z.vol1.difftar.gz" ".fonts/" ".java/" ".mkshrc" ".bash_history" "vpn.tgz" ".viminfo.tmp" ".npm/" ".bash_logout" ".hplip/" ".pip/" ".FontForge/" ".macromedia/" ".gem/" "pass" ".compiz/" "sci1760_fa12_01.mp4" ".zinc/" "Desktop/" ".sane/" "sp.jpeg" ".m2/" "fontconfig/" "Downloads/" "Pictures/" ".gnome2/" ".Xauthority" ".xsel.log" ".rstudio-desktop/" ".fonts.conf" "Documents/" ".node-gyp/" ".IntelliJIdea15/" ".gstreamer-0.10/" ".bash_profile" ".zlogin" "tmp/" ".profile" ".gvfs/" "Dropbox/" ".mozilla/" ".xscreensaver" "code/" ".bashrc" "duplicity-full-signatures.20150911T183206Z.sigtar.gz" ".viminfo" "duplicity-full.20150911T183206Z.manifest" ".freemind/" ".emacs.d/" ".goutputstream-F9L82X" "apps/" ".sbt/" ".config/" ".nvidia-settings-rc" ".zshrc" ".scala_history" "../" "./")
+
+ ("/home/v/notes/" (22044 48388 807492 768000) "jakarta/" "es_platform4/" "#lsmtree.md#" "lsmtree/" "../" "./")
+
+ ("/home/v/notes/jakarta/" (22044 49229 799905 474000) "things_to_think_about.md" "../" "./")
+
+ ("/home/v/notes/lsmtree/" (22044 25503 769555 520000) "LSM-tree.md" ".git/" "lsmtree-my-notes.md" "../" "./")
+
+ ("/home/v/code/databases/leveldb/doc/" (22030 60775 802314 830000) "index.html" "bench/" "impl.html" "log_format.txt" "benchmark.html" "table_format.txt" "../" "doc.css" "./")
+
+ ("/home/v/code/databases/leveldb/db/" (22030 60775 802314 830000) "skiplist_test.cc" "dumpfile.cc" "log_reader.cc" "version_edit.h" "db_impl.cc" "log_reader.h" "memtable.h" "version_set_test.cc" "dbformat_test.cc" "c.cc" "leveldb_main.cc" "table_cache.cc" "corruption_test.cc" "filename_test.cc" "version_set.h" "fault_injection_test.cc" "write_batch_test.cc" "write_batch.cc" "skiplist.h" "db_bench.cc" "snapshot.h" "log_test.cc" "version_edit_test.cc" "dbformat.h" "filename.cc" "dbformat.cc" "db_test.cc" "version_set.cc" "version_edit.cc" "db_iter.cc" "c_test.c" "memtable.cc" "log_writer.cc" "autocompact_test.cc" "table_cache.h" "db_iter.h" "write_batch_internal.h" "builder.h" "repair.cc" "log_format.h" "builder.cc" "filename.h" "db_impl.h" "log_writer.h" "../" "./")
+
+ ("/home/v/code/databases/leveldb/" (22030 60775 806314 833000) "db/" "NEWS" "issues/" "port/" "CONTRIBUTING.md" "util/" "table/" "README.md" "include/" "LICENSE" ".gitignore" ".git/" "build_detect_platform" "AUTHORS" "../" "Makefile" "TODO" "doc/" "./" "helpers/")
+
+ ("/home/v/code/databases/" (22044 23596 436176 445000) "cassandra/" "postgres/" "Btree-source-code/" "db-6.1.26/" "rocksdb/" "mysql-server/" "leveldb/" "../" "./")
+
+ ("/home/v/code/" (22036 41571 603683 441000) "dotfiles/" "databases/" "c.js/" "event-service/" "npm-global/" "oldlove/" "rivet/" "denim/" "courses/" "node-zookeeper-client/" "authentication-service/" "bj.fish" "dist-components/" "AofMP/" "seam/" "../" "tmp/" "cobalt/" "./" "misc/")
+
  ("/home/v/notes/es_platform4/" (22030 47901 439462 344000) ".git/" "event-service.mm" "notes.md" "ES Protocol.md" "../" "./" "aggregation_service.md")
 
- ("/home/v/" (22034 5244 125687 996000) ".Rhistory" ".dbshell" ".Private/" ".ant/" ".Skype/" ".adobe/" ".mission-control/" ".mongorc.js" ".juniper_networks/" "Templates/" ".fontconfig/" ".thunderbird/" ".pki/" "Snapshots/" "nc/" ".msjnc-profiles.cfg" ".xsession-errors" ".ivy2/" "Music/" "Videos/" ".ssh/" ".oh-my-fish/" ".gnome/" ".cache/" "examples.desktop" "mindmaps/" ".dropbox/" ".ecryptfs/" ".pulse/" ".gitconfig" ".erlang.cookie" ".msjnc.log" ".subversion/" "Public/" ".xsession-errors.old" ".gnupg/" ".synaptic/" ".yjp/" ".dropbox-dist/" ".gradle/" ".npmrc" ".rvm/" ".pulse-cookie" ".gtk-bookmarks" ".gconf/" "bin/" ".gksu.lock" ".local/" "notes/" ".dbus/" ".ICEauthority" "duplicity-full.20150911T183206Z.vol1.difftar.gz" ".fonts/" ".java/" ".mkshrc" ".bash_history" "vpn.tgz" ".viminfo.tmp" ".npm/" ".bash_logout" ".hplip/" ".pip/" ".FontForge/" ".macromedia/" ".gem/" "pass" ".compiz/" "sci1760_fa12_01.mp4" ".zinc/" "Desktop/" ".sane/" "sp.jpeg" ".m2/" "fontconfig/" "Downloads/" "Pictures/" ".gnome2/" ".Xauthority" ".xsel.log" ".rstudio-desktop/" ".fonts.conf" "Documents/" ".node-gyp/" ".IntelliJIdea15/" ".gstreamer-0.10/" ".bash_profile" ".zlogin" "tmp/" ".profile" ".gvfs/" "Dropbox/" ".mozilla/" ".xscreensaver" "code/" ".bashrc" "duplicity-full-signatures.20150911T183206Z.sigtar.gz" ".viminfo" "duplicity-full.20150911T183206Z.manifest" ".freemind/" ".emacs.d/" ".goutputstream-F9L82X" "apps/" ".sbt/" ".config/" ".nvidia-settings-rc" ".zshrc" ".scala_history" "../" "./")
-
- ("/home/v/notes/lsmtree/" (22030 62829 341553 130000) "LSM-tree.md" "#LSM-tree.md#" ".git/" "lsmtree-my-notes.md" "../" "./")
-
- ("/home/v/notes/" (22028 3947 846776 89000) "es_platform4/" "#lsmtree.md#" "lsmtree/" "../" "./")
-
  ("/etc/" (22022 48478 549457 985000) "inputrc" "newt/" "resolv.conf" "gnome-vfs-2.0/" "hostname" "protocols" "network/" "rpc" "pam.conf" "crypttab" "localtime" "vim/" "wildmidi/" "timidity/" "adjtime" "usb_modeswitch.conf" "hdparm.conf" "rc4.d/" "snmp/" "terminfo/" "opt/" "selinux/" "networks" "bash.bashrc" "bluetooth/" "thunderbird/" "sensors3.conf" "snmp-mibs-downloader/" "blkid.tab" "brltty/" "environment" "emacs/" "chromium-browser/" "acpi/" "dnsmasq.d/" "pcmcia/" "gai.conf" "kerneloops.conf" "anacrontab" "brlapi.key" "perl/" "deluser.conf" "rc1.d/" "usb_modeswitch.d/" "zsh/" "cron.daily/" "passwd.org" "ntp.conf" "gdb/" "shadow-" "fstab.d/" "grub.d/" "papersize" "blkid.conf" "update-motd.d/" "mongodb.conf" "kernel-img.conf" "rc5.d/" "UPower/" "groff/" "doc-base/" "locale.alias" "sysctl.conf" "ucf.conf" "request-key.conf" "initramfs-tools/" "rc3.d/" "cron.weekly/" "gconf/" "bindresvport.blacklist" "hp/" "update-notifier/" "aliases" "aliases.db" "magic.mime" "rsyslog.d/" "subgid" "rc0.d/" "nsswitch.conf" "sound/" "libpaper.d/" "hosts.allow" "popularity-contest.conf" "apport/" "pam.d/" "ssl/" "postfix/" "zsh_command_not_found" "gshadow" "apparmor/" "dkms/" "openal/" "iproute2/" "samba/" "shadow.org" "ts.conf" "gtk-2.0/" "modules" "vdpau_wrapper.cfg" "compizconfig/" "skel/" "dictionaries-common/" "cups/" "apache2/" "printcap" "security/" "ca-certificates.conf.dpkg-old" "calendar/" "mailcap.order" "gnome-app-install/" "shells" "legal" "python3.4/" "lsb-release" "ginn/" "magic" "sysctl.d/" "kbd/" "pm/" "subversion/" "hosts.deny" "brltty.conf" "checkbox.d/" "crontab" "mtab.fuselock" "rcS.d/" "ld.so.conf.d/" "resolvconf/" "cron.monthly/" "os-release" "udev/" "firefox/" "ImageMagick/" "chatscripts/" "signond.conf" "apg.conf" "mtools.conf" "python3/" "mail.rc" "gtk-3.0/" "sensors.d/" "request-key.d/" "sane.d/" "prime-discrete" "wpa_supplicant/" "dhcp/" "vtrgb" "ld.so.cache" "manpath.config" "sudoers.d/" "alternatives/" "aptdaemon/" "fstab" "dconf/" "console-setup/" "xul-ext/" "cracklib/" "group.org" "rsyslog.conf" "rc.local" "services" "drirc" "python2.7/" "lightdm/" "mime.types" "X11/" "dpkg/" "odbc.ini" "update-manager/" "pki/" "libnl-3/" "java-7-openjdk/" "xdg/" "insserv/" "NetworkManager/" "gshadow-" "apt/" "fonts/" "xml/" "ca-certificates.conf" ".java/" "cupshelpers/" "bash_completion.d/" "namebench/" "modprobe.d/" "shadow" "mysql/" "polkit-1/" "profile.d/" "python/" "cron.hourly/" "init.d/" "logrotate.d/" "obex-data-server/" "depmod.d/" "ppp/" "updatedb.conf" "icedtea-web/" "logrotate.conf" "geoclue/" "group-" "ConsoleKit/" "R/" "pkcs11/" "netscsid.conf" "insserv.conf" "ldap/" "speech-dispatcher/" "ghostscript/" "debian_version" "gnome/" "rc6.d/" "gimp/" "avahi/" "bash_completion" "bonobo-activation/" "libaudit.conf" "ltrace.conf" "hosts" "ld.so.conf" "lintianrc" "upstart-xsessions" "pnm2ppa.conf" "passwd-" "mtab" "fuse.conf" "default/" "rc2.d/" "issue" "profile" "ifplugd/" "udisks2/" "rmt" "ca-certificates/" ".pwd.lock" "insserv.conf.d/" "colord.conf" "ssh/" "sudoers" "texmf/" "subuid" "kernel/" "login.defs" "racket/" "passwd" "pulse/" "odbcinst.ini" "init/" "ODBCDataSources/" "gdm/" "nanorc" "ufw/" "sgml/" "signon-ui/" "apparmor.d/" "at.deny" "foomatic/" "GNUstep/" "mailcap" "wgetrc" "issue.net" "logcheck/" "modules-load.d/" "dbus-1/" "debconf.conf" "cron.d/" "libreoffice/" "apm/" "fish/" "host.conf" "at-spi2/" "systemd/" "adduser.conf" "mke2fs.conf" "timezone" "wodim.conf" "rabbitmq/" "group" "securetty" "../" "./")
-
- ("/home/v/code/dotfiles/.emacs.d/" (22021 42810 186229 841000) "projectile-bookmarks.eld" "backups/" "session.1014a05d5c8a7a86d3144229147727693500000038090055" "ido.last" "session.10bb2025eb6919a10143979925060109700000020790053" "elpa/" "%backup%~" "session.103dd50926ab9faf4f144212668297648400000033230056" "session.1077828dd8e72e4c2a144035815566745700000031950053" "session.10fcfdba8e6d751476144060925220142500000026970056" "init.el" "session.10fd3c6d502191ddfc144049077450512700000033710058" "session.104a1f6c0742e77f61143991408080765800000035740054" "session.1072d4da287c8e7045144064817221143100000029770054" "session.103b228da8ad56ce18144075477747354200000029040062" "session.10c06f154f3d021270144030194078623800000032470053" "session.1043e26ecbf271c0dd143988663973087300000021880057" "session.1010fbd334defc208f144079711155437000000032250060" "ac-comphist.dat" "url/" "session.10461f640195494f38144284951795215600000032630056" "lisp/" "session.10e30964736b86f8b144163566486908300000033690058" ".mc-lists.el" "session.1037d9260b8dea7b8d143982349087572800000021660057" "recentf" "session.102919c611d9ee2eb4143987006935113400000021650056" "session.10522c54cc14b0d8ef144013242196865600000035840053" "session.10c5bfc83c5cf6e9fb144068794855614200000034340059" "tutorial/" "places" "session.1071ffab159822a36144317489755461600000033630056" "tramp" "session.10c96800abdae8d292144213027712892400000033370060" "session.10130590c65d2db133143979425132621200000018000056" "auto-save-list/" "session.10c96cc66ac9e5064144198926721350300000038950056" "session.10b4a143cc922c1e2d14410835877291500000034020078" "../" "./")
 
  ("/home/v/code/seam/services/event-service/core/" (22021 3504 461789 422000) "mongow.js" "roster-manager.js" "amqp-wrapper.js" "request-wrapper.js" "../" "couchbase-wrapper.js" "./" "admin.js")
 
@@ -151,8 +165,6 @@
  ("/home/v/tmp/" (22018 48769 432062 564000) ".juniper_networks/" "wfh.js" "../" "./")
 
  ("/home/v/code/AofMP/" (22020 228 87433 202000) "04~Chapter_07.zip" "09~Chapter_13.zip" "10~Chapter_14.zip" "08~Chapter_12.zip" "01~README.txt" "csci1760_fa12_01.mp4.1" "03~Chapter_04.zip" "05~Chapter_08.zip" "../" "07~Chapter_10.zip" "02~Chapter_02.zip" "06~Chapter_09.zip" "./")
-
- ("/home/v/code/" (22019 63211 764468 307000) "dotfiles/" "databases/" "c.js/" "event-service/" "npm-global/" "oldlove/" "rivet/" "denim/" "courses/" "ev/" "node-zookeeper-client/" "authentication-service/" "bj.fish" "dist-components/" "AofMP/" "seam/" "../" "tmp/" "cobalt/" "./" "misc/")
 
  ("/home/v/code/dist-components/random/" (22009 54387 424612 796000) "flavius.erl" "turing.erl" "karatsuba.beam" "turing.beam" "ring.erl" "../" "karatsuba.erl" "./")
 
@@ -317,16 +329,6 @@
  ("/usr/local/" (21971 8385 300414 649000) "libexec/" "zookeeper-3.4.5/" "etc/" "man/" "var/" "bin/" "lib/" "src/" "games/" "../" "share/" "include/" "sbin/" "./")
 
  ("/home/v/code/denim/" (21971 3196 964202 907000) "content/" "settings.gradle" "gradle.properties" "java/" "version/" "media/" "tools/" "build.gradle" "logs/" ".gitmodules" ".gradle/" "denim/" "bin/" "npm-debug.log" "proto/" "doxygen/" ".gitignore" "mk/" ".git/" "etc/" "dist/" "loom/" "../" "Makefile" "config/" "lib/" "connector/" "app/" "./" "ci-build.gradle" "unittest/")
-
- ("/home/v/code/denim/lib/python/" (21969 52427 473600 856000) "zkpython/" "pylibmc/" "demuxsip/" "dj/" "mc/" "passfds/" "loomproto/" "loom_version.pyc" "sipmgrlib/" "lb/" "recordmgr/" "msgbus/" "platformlib/" "denim_version.py" "moviemgr/" "streammgr/" "mhmgr/" "pyamqp/" "mclib/" "denim_dsh/" "../" "loom_version.py" "mcunit/" "connector/" "denimproto/" "./")
-
- ("/home/v/code/rivet/" (21971 6509 346940 998000) "excludes.txt" "setup.sh" "sublime-project" ".gitignore" ".git/" "babeljs.cfg" "build/" "../" "bjn/" "README.txt" "babel.cfg" "./" "thirdparty/")
-
- ("/etc/mysql/" (21971 2991 543699 474000) "my.cnf" "conf.d/" "debian.cnf" "debian-start" "../" "./")
-
- ("/home/v/code/oldlove/" (21971 771 101768 974000) "Readme.md" "index.js" ".gitignore" ".git/" "package.json" "../" "./")
-
- ("/usr/" (21475 41275 0 0) "bin/" "lib/" "local/" "src/" "games/" "../" "share/" "include/" "sbin/" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
