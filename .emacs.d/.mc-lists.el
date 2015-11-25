@@ -4,8 +4,12 @@
 (setq mc/cmds-to-run-for-all
       '(
         ido-switch-buffer
+        isearch-repeat-forward
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        isearch-forward-regexp
+        isearch-printing-char
+        isearch-yank-word-or-char
         ))
