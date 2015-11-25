@@ -2,29 +2,46 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/v/code/databases/leveldb/" . "doc/")
- ("/home/v/code/databases/" . "leveldb/")
- ("/home/v/notes/" . "lsmtree/")
- ("/home/v/code/dist-components/" . "db/")
- ("/home/v/code/seam/services/event-service/node_modules/" . "node-zookeeper-client/")
- ("/home/v/code/dotfiles/.emacs.d/elpa/" . "projectile-20150831.1127/")
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/recipes/" . "leader/")
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/" . "recipes/")
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/" . "zookeeper/")
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/" . "apache/")
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/" . "org/")
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/" . "java/")
- ("/home/v/code/tmp/zookeeper/src/recipes/election/" . "src/")
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/zookeeper/recipes/" . "lock/")
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/zookeeper/" . "recipes/")
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/" . "zookeeper/")
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/" . "apache/")
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/" . "org/")
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/" . "java/")
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/" . "src/")
- ("/home/v/code/tmp/zookeeper/src/recipes/" . "election/")
- ("/home/v/code/tmp/zookeeper/src/" . "recipes/")
- ("/home/v/code/tmp/zookeeper/" . "src/")
+ ("/sudo:root@localhost:/home/denimuser/code/" . "denim/")
+ ("/sudo:root@localhost:/home/denimuser/" . "code/")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/jsnm/node_modules/" . "mkdirp/")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/node-zookeeper-client/" . "lib/")
+ ("/home/denimuser/code/c.js/node_modules/node-zookeeper-client/" . "lib/")
+ ("/home/denimuser/code/c.js/node_modules/" . "node-zookeeper-client/")
+ ("/home/denimuser/code/c.js/test/" . "lib/")
+ ("/home/denimuser/code/seam/services/event-service/undefined/" . "logs/")
+ ("/home/denimuser/code/loom/jsnm/" . "src/")
+ ("/home/denimuser/code/loom/" . "jsnm/")
+ ("/home/denimuser/code/seam/services/sfdc-service/node_modules/jsnm/" . "src/")
+ ("/home/denimuser/code/seam/services/sfdc-service/node_modules/" . "jsnm/")
+ ("/home/denimuser/code/seam/services/sfdc-service/" . "node_modules/")
+ ("/home/denimuser/code/denim/etc/" . "nm/")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/jsnm/" . "node_modules/")
+ ("/home/denimuser/notes/" . "eventservice/")
+ ("/etc/apache2/sites-enabled/" . "dev_sites/")
+ ("/etc/apache2/" . "sites-enabled/")
+ ("/home/denimuser/code/seam/lib/" . "service-commons/")
+ ("/home/denimuser/code/seam/services/SecurePerimeter/" . "build/")
+ ("/home/denimuser/code/misc/" . "zeal/")
+ ("/home/denimuser/code/dotfiles/.emacs.d/elpa/" . "projectile-20150807.620/")
+ ("/home/denimuser/code/dotfiles/.emacs.d/" . "lisp/")
+ ("/home/denimuser/code/denim/loom/jsnm/" . "common/")
+ ("/home/denimuser/code/denim/loom/" . "platformlib/")
+ ("/home/denimuser/code/denim/" . "etc/")
+ ("/home/denimuser/code/seam/services/event-service/backend/" . "events/")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/grunt-contrib-jshint/tasks/" . "lib/")
+ ("/home/denimuser/.emacs.d/" . "lisp/")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/grunt-contrib-jshint/" . "tasks/")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/" . "jsnm/")
+ ("/home/denimuser/code/dotfiles/" . ".emacs.d/")
+ ("/home/denimuser/code/seam/services/event-service/" . "core/")
+ ("/home/denimuser/code/seam/services/" . "event-service/")
+ ("/home/denimuser/code/seam/" . "bin/")
+ ("/home/denimuser/code/authentication-service/" . "bin/")
+ ("/home/denimuser/code/c.js/lib/" . "recipies/")
+ ("/home/denimuser/code/c.js/" . "lib/")
+ ("/home/denimuser/code/" . "dotfiles/")
+ ("/home/denimuser/" . "code/")
  ("/home/v/code/misc/tern/" . "emacs/")
  ("/home/v/code/misc/" . "tern/")
  ("/home/v/.npm/" . "bin/")
@@ -39,296 +56,296 @@
  ("/home/v/code/c.js/node_modules/node-zookeeper-client/" . "lib/")
  ("/home/v/code/c.js/node_modules/" . "grunt-contrib-jshint/")
  ("/home/v/code/c.js/lib/" . "recipies/")
- ("/home/v/code/c.js/test/" . "lib/")
+ ("/home/v/code/c.js/test/" . "recipies/")
  ("/home/v/code/c.js/" . "lib/")
  ("/sudo:root@localhost:/" . "etc/")
  ("/usr/local/zookeeper-3.4.5/" . "conf/")
  ("/usr/local/" . "zookeeper-3.4.5/")
  ("/usr/" . "local/")
  ("/home/v/code/rivet/" . "build/")
- ("/home/v/.config/" . "autostart/")
- ("/sudo:root@localhost:/etc/" . "init/")
+ ("/home/v/.config/" . "fish/")
+ ("/sudo:root@localhost:/etc/" . "apt/")
  ("/sudo:root@localhost:/etc/apt/" . "sources.list.d/")
- ("/etc/" . "network/")
+ ("/etc/" . "apt/")
  ("/home/v/code/event-service/" . "core/")
  ("/home/v/code/seam/services/event-service/" . "core/")
  ("/home/v/code/seam/services/" . "event-service/")
  ("/home/v/code/seam/" . "services/")
- ("/home/v/code/" . "dotfiles/")
+ ("/home/v/code/" . "c.js/")
  ("/home/v/" . "code/")
- ("/home/" . "v/")
- ("/" . "home/")
+ ("/home/" . "denimuser/")
+ ("/" . "etc/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/v/code/dotfiles/.emacs.d/"
- "/home/v/notes/jakarta/"
- "/home/v/code/databases/leveldb/doc/"
- "/home/v/code/databases/leveldb/db/"
- "/home/v/notes/lsmtree/"
- "/home/v/notes/es_platform4/"
- "/home/v/notes/"
- "/home/v/code/AofMP/"
- "/home/v/tmp/"
- "/home/v/code/c.js/lib/"
- "/home/v/code/c.js/lib/recipies/"
- "/home/v/code/c.js/"
- "/home/v/code/dist-components/db/"
- "/home/v/code/dist-components/random/"
- "/home/v/code/dist-components/ds/"
- "/home/v/code/dist-components/"
- "/home/v/code/seam/services/event-service/"
- "/home/v/code/node-zookeeper-client/"
- "/home/v/code/seam/services/event-service/core/"
- "/home/v/code/seam/services/event-service/node_modules/node-zookeeper-client/"
- "/home/v/.config/autostart/"
- "/home/v/code/dotfiles/.emacs.d/lisp/"
- "/home/v/code/dotfiles/.emacs.d/elpa/projectile-20150831.1127/"
- "/home/v/.emacs.d/lisp/"
- "/home/v/code/c.js/test/lib/"
- "/home/v/code/dotfiles/"
- "/home/v/.emacs.d/elpa/rainbow-delimiters-20150320.17/"
+ "/home/denimuser/code/dotfiles/.emacs.d/lisp/"
+ "/home/denimuser/code/dotfiles/.emacs.d/"
+ "/home/denimuser/code/c.js/lib/recipies/"
+ "/home/denimuser/code/c.js/"
+ "/home/denimuser/code/denim/"
+ "/home/denimuser/code/seam/services/event-service/api/"
+ "/home/denimuser/code/seam/services/event-service/lib/"
+ "/home/denimuser/code/seam/services/event-service/"
+ "/home/denimuser/code/seam/services/event-service/core/"
+ "/home/denimuser/code/denim/etc/nm/"
+ "/home/denimuser/code/seam/bin/"
+ "/home/denimuser/code/seam/services/event-service/node_modules/jsnm/node_modules/mkdirp/"
+ "/home/denimuser/code/seam/services/event-service/node_modules/jsnm/"
+ "/home/denimuser/code/seam/services/event-service/bin/"
+ "/home/denimuser/code/seam/services/event-service/transport/"
+ "/home/denimuser/code/seam/services/sfdc-service/"
+ "/home/denimuser/code/denim/denim/"
  "/etc/"
- "/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/recipes/leader/"
- "/home/v/code/tmp/zookeeper/src/recipes/election/"
- "/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/zookeeper/recipes/lock/"
- "/home/v/code/c.js/test/recipies/"
- "/home/v/code/event-service/"
- "/home/v/code/misc/tern/emacs/"
- "/home/v/code/"
- "/home/v/"
- "/home/v/.config/fish/"
- "/home/v/code/event-service/core/"
- "/etc/network/"
- "/home/v/.emacs.d/"
- "/home/v/code/c.js/node_modules/grunt-contrib-jshint/tasks/lib/"
- "/home/v/code/c.js/node_modules/grunt-contrib-jshint/tasks/"
- "/home/v/code/c.js/node_modules/node-zookeeper-client/"
- "/sudo:root@localhost:/etc/"
- "/etc/apache2/"
- "/etc/xdg/autostart/"
- "/home/v/code/c.js/node_modules/node-zookeeper-client/lib/"
- "/home/v/.ssh/"
- "/home/v/code/c.js/test/"
- "/home/v/code/c.js/recepies/"
+ "/home/denimuser/code/seam/services/event-service/node_modules/node-zookeeper-client/lib/"
+ "/home/denimuser/code/seam/services/event-service/node_modules/node-zookeeper-client/"
+ "/home/denimuser/code/c.js/node_modules/node-zookeeper-client/lib/"
+ "/home/denimuser/code/c.js/node_modules/node-zookeeper-client/"
+ "/home/denimuser/code/"
+ "/home/denimuser/code/c.js/test/lib/"
+ "/home/denimuser/code/c.js/lib/"
+ "/home/denimuser/code/denim/etc/"
+ "/home/denimuser/code/seam/services/event-service/undefined/logs/"
+ "/home/denimuser/code/seam/services/event-service/tests/lib/"
+ "/home/denimuser/code/seam/services/event-service/backend/"
+ "/home/denimuser/code/tmp/"
+ "/home/denimuser/code/seam/services/event-service/service/"
+ "/home/denimuser/code/loom/jsnm/src/"
+ "/home/denimuser/code/loom/jsnm/"
+ "/home/denimuser/code/seam/services/event-service/tests/"
+ "/home/denimuser/code/denim/bin/"
+ "/home/denimuser/code/seam/services/sfdc-service/node_modules/jsnm/src/"
+ "/home/denimuser/code/seam/"
+ "/home/denimuser/code/seam/services/event-service/node_modules/jsnm/src/"
+ "/home/denimuser/code/authentication-service/bin/"
+ "/home/denimuser/code/seam/services/sfdc-service/conf/"
+ "/home/denimuser/code/seam/services/event-service/conf/"
+ "/home/denimuser/code/seam/services/event-service/node_modules/underscore/"
+ "/home/denimuser/code/denim/loom/platformlib/"
+ "/etc/apt/"
+ "/home/denimuser/"
+ "/home/denimuser/notes/eventservice/"
+ "/home/denimuser/code/seam/services/event-service/docs/"
+ "/home/denimuser/notes/"
+ "/etc/apache2/sites-enabled/dev_sites/"
+ "/etc/apache2/sites-available/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "setup-javascript.el"
  "init.el"
- "things_to_think_about.md"
- "impl.html"
- "log_format.txt"
- "table_format.txt"
- "index.html"
- "table_cache.h"
- "memtable.h"
- "LSM-tree.md"
- "lsmtree-my-notes.md"
+ "persistentEphemeralNode.js"
+ "index.js"
+ ".gitignore"
+ "notification.js"
+ "restClient.js"
+ "package.json"
+ "cache.js"
+ "ALL.cfg"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/v/code/dotfiles/.emacs.d/" (22044 31783 415985 168000) "projectile-bookmarks.eld" "backups/" "session.1014a05d5c8a7a86d3144229147727693500000038090055" "ido.last" "session.108f3b446fbf7cec2d144431851118949200000035160065" "session.10bb2025eb6919a10143979925060109700000020790053" "elpa/" "%backup%~" "session.103dd50926ab9faf4f144212668297648400000033230056" "session.1077828dd8e72e4c2a144035815566745700000031950053" "session.10fcfdba8e6d751476144060925220142500000026970056" "init.el" "session.10fd3c6d502191ddfc144049077450512700000033710058" "session.104a1f6c0742e77f61143991408080765800000035740054" "session.1072d4da287c8e7045144064817221143100000029770054" "session.1036acef18b9e0f984144350752883133500000034060056" "session.107d229d4ecf1220a5144350832339972000000034540056" "session.103e7544c1529806fb144446518630261900000032740062" "session.103b228da8ad56ce18144075477747354200000029040062" "session.10c06f154f3d021270144030194078623800000032470053" "session.1043e26ecbf271c0dd143988663973087300000021880057" "session.1010fbd334defc208f144079711155437000000032250060" "ac-comphist.dat" "url/" "session.10461f640195494f38144284951795215600000032630056" "lisp/" "session.1071336087a66d6ff7144402039244898400000033460056" "session.10e30964736b86f8b144163566486908300000033690058" ".mc-lists.el" "session.1037d9260b8dea7b8d143982349087572800000021660057" "recentf" "session.102919c611d9ee2eb4143987006935113400000021650056" "var/" "session.10522c54cc14b0d8ef144013242196865600000035840053" "session.10c5bfc83c5cf6e9fb144068794855614200000034340059" "tutorial/" "places" "session.1071ffab159822a36144317489755461600000033630056" "session.10c5595b8ddbf77580144463784536811800000033570056" "tramp" "session.10c96800abdae8d292144213027712892400000033370060" "session.10130590c65d2db133143979425132621200000018000056" "session.1011e94d6ba5b5465f144466302724999900000032380056" "session.10613ca5f5cac61a32144363099046955000000029850063" "auto-save-list/" "session.1035f87cbca32fca5514434181725460900000033440056" "session.10c96cc66ac9e5064144198926721350300000038950056" "session.10b4a143cc922c1e2d14410835877291500000034020078" "../" "./")
+ ("/home/denimuser/code/dotfiles/.emacs.d/lisp/" (22045 62245 26320 95000) "setup-javascript.el" "setup-erlang.el" "setup-keybindings.el" "setup-sml.el" "setup-haskell.el" "setup-basics.el" "setup-mac.el" "betterdefaults.el" "./" "../" "setup-ido.el")
 
- ("/home/v/" (22045 12701 265003 506000) ".Rhistory" ".dbshell" ".Private/" ".ant/" ".Skype/" ".adobe/" ".mission-control/" ".mongorc.js" ".juniper_networks/" "Templates/" ".fontconfig/" ".thunderbird/" ".pki/" "Snapshots/" "nc/" ".msjnc-profiles.cfg" ".xsession-errors" ".ivy2/" "Music/" "Videos/" ".ssh/" ".oh-my-fish/" ".gnome/" ".cache/" "examples.desktop" "mindmaps/" ".dropbox/" ".ecryptfs/" ".pulse/" ".gitconfig" ".erlang.cookie" ".msjnc.log" ".subversion/" "Public/" ".xsession-errors.old" ".gnupg/" ".synaptic/" ".yjp/" ".dropbox-dist/" ".gradle/" ".npmrc" ".rvm/" ".pulse-cookie" ".gtk-bookmarks" ".gconf/" "bin/" ".gksu.lock" ".local/" "notes/" ".dbus/" ".ICEauthority" "duplicity-full.20150911T183206Z.vol1.difftar.gz" ".fonts/" ".java/" ".mkshrc" ".bash_history" "vpn.tgz" ".viminfo.tmp" ".npm/" ".bash_logout" ".hplip/" ".pip/" ".FontForge/" ".macromedia/" ".gem/" "pass" ".compiz/" "sci1760_fa12_01.mp4" ".zinc/" "Desktop/" ".sane/" "sp.jpeg" ".m2/" "fontconfig/" "Downloads/" "Pictures/" ".gnome2/" ".Xauthority" ".xsel.log" ".rstudio-desktop/" ".fonts.conf" "Documents/" ".node-gyp/" ".IntelliJIdea15/" ".gstreamer-0.10/" ".bash_profile" ".zlogin" "tmp/" ".profile" ".gvfs/" "Dropbox/" ".mozilla/" ".xscreensaver" "code/" ".bashrc" "duplicity-full-signatures.20150911T183206Z.sigtar.gz" ".viminfo" "duplicity-full.20150911T183206Z.manifest" ".freemind/" ".emacs.d/" ".goutputstream-F9L82X" "apps/" ".sbt/" ".config/" ".nvidia-settings-rc" ".zshrc" ".scala_history" "../" "./")
+ ("/home/denimuser/code/seam/services/event-service/backend/" (22101 29377 181277 165000) "base-notification-handler.js" "event-handler.js" "sip-proxy.js" "./" "events/" "../")
 
- ("/home/v/notes/" (22044 48388 807492 768000) "jakarta/" "es_platform4/" "#lsmtree.md#" "lsmtree/" "../" "./")
+ ("/home/denimuser/code/c.js/test/lib/" (22101 34195 565303 671000) "promiseHelperTest.js" "fsm_test.js" "zklib_test.js" "./" "../")
 
- ("/home/v/notes/jakarta/" (22044 49229 799905 474000) "things_to_think_about.md" "../" "./")
+ ("/home/denimuser/code/seam/services/event-service/bin/" (22101 29377 181277 165000) "event-service" "./" "../")
 
- ("/home/v/notes/lsmtree/" (22044 25503 769555 520000) "LSM-tree.md" ".git/" "lsmtree-my-notes.md" "../" "./")
+ ("/home/denimuser/code/seam/services/event-service/core/" (22101 29377 189277 165000) "roster-manager.js" "cache.js" "admin.js" "couchbase-wrapper.js" "mongow.js" "ratelimit.js" "./" "amqp-wrapper.js" "request-wrapper.js" "../")
 
- ("/home/v/code/databases/leveldb/doc/" (22030 60775 802314 830000) "index.html" "bench/" "impl.html" "log_format.txt" "benchmark.html" "table_format.txt" "../" "doc.css" "./")
+ ("/home/denimuser/code/seam/services/event-service/lib/" (22101 29377 181277 165000) "meetings.js" "discovery.js" "./" "zkPath.js" "../" "zklib.js" "restClient.js")
 
- ("/home/v/code/databases/leveldb/db/" (22030 60775 802314 830000) "skiplist_test.cc" "dumpfile.cc" "log_reader.cc" "version_edit.h" "db_impl.cc" "log_reader.h" "memtable.h" "version_set_test.cc" "dbformat_test.cc" "c.cc" "leveldb_main.cc" "table_cache.cc" "corruption_test.cc" "filename_test.cc" "version_set.h" "fault_injection_test.cc" "write_batch_test.cc" "write_batch.cc" "skiplist.h" "db_bench.cc" "snapshot.h" "log_test.cc" "version_edit_test.cc" "dbformat.h" "filename.cc" "dbformat.cc" "db_test.cc" "version_set.cc" "version_edit.cc" "db_iter.cc" "c_test.c" "memtable.cc" "log_writer.cc" "autocompact_test.cc" "table_cache.h" "db_iter.h" "write_batch_internal.h" "builder.h" "repair.cc" "log_format.h" "builder.cc" "filename.h" "db_impl.h" "log_writer.h" "../" "./")
+ ("/home/denimuser/code/dotfiles/.emacs.d/" (22101 34357 589304 562000) "session.107b0b88d0cbc13a74142069493590931000000031750050" "tramp" "session.10fd525be64ea00dc143065708151562300000028470045" "session.10d29fc5d97b264091143995904154041500000025580051" "init.el" "session.10ad371423f23f99f0141802047745171100000233180045" "session.10c51ed2b9830f3a28143981003357867000000034130063" "session.1091ef4dee5ec301c141958487762629400000018880042" "session.10bf10c460d59478be142890754482785800000027730050" "session.10125d177384354fd8143581663575234200000264320047" "session.10788afbfefa90d54a14295872787241300000033100046" "session.104593c27a5efdb688142976630332548300000031980046" "session.10130bb25e634e90e414326188978945600000026700048" "session.10515085a59474053141716384564577400000020830044" "session.10e8b4264cb8372a94143738749493098000000031540048" "session.10ab0e90d9a95673fa143022483236938900000026920045" "session.105bdf03279c3e801141559362867480700000020960046" "session.1081f1830ef99ee6a6143350246463360300000039050052" "projectile-bookmarks.eld" "session.1025fd5ea4a04d5331142633799654122400000031560047" "session.10b27e041c98bcbbb2141569578241732900000025740047" "session.104aa6ef765d2eb2de143884524258833000000034930049" "ac-comphist.dat" "session.1073781adeb73026db141888770617244300000036220045" "recentf" "session.10813a0e5439c7a6bd143264198570504200000033950047" "session.10a958ed015ef19546144289569390301400000026260074" "session.103c4aeca5237e6abb144782764357070400000042160054" "session.1069e1092e8049a90d141812584918332500000198580045" "session.106de88afe173c9e64142233213315731300000152950046" "backups/" "auto-save-list/" "session.10a494fae6a8b0b913143436309062782100000027580061" "session.108f3baf2544a1e646143140047575926300000035960046" "elpa/" "session.10bb0ece01a5fa9f7142685411957546500000033670049" "session.10ff5741658cfafdf1142900010834454300000026070046" ".mc-lists.el" "%backup%~" "session.104b648bb0a357fac9142615101917027500000032590060" "session.103e61ed387794ffb3144621674015062500000026480051" "session.10ddfa8d4e64f1d7a0141880777260987600000037770041" "async-bytecomp.log" "session.105c3fe98fbb81d24d143987788674830800000033250048" "session.1081f1830ef99ee6a6143349145486361000000039050051" "session.10e24e449128c51e92142193918315083500000025870045" "session.10d5988b11711cc36d142657101120545200000035140047" "session.10f9f9b375d62df4d8144584326337592800000031450053" "places" "session.10afc24918c217cbdf143289786691358500000028630050" "session.106216c6cb7a24a6f014373744875196900000027520085" "session.108d85fdc332ac9478142623535163848700000030170048" "session.1067c280a6df7abaa143806793411186700000025930062" "session.10abc5ef12da15b005144301340774888900000027740054" "projectile.cache" "session.102874959fe5cef62214195844921386500000033530055" "session.104f9467c282260588142953575397197500000026980047" "session.108de6b6aef0c53c24142052468915979700000041910045" "url/" "session.10b87e32ac788d522c143339323188303500000026460051" "ido.last" "session.10d0b237f8e81de592143032235970905100000026410047" "session.1015b4a40c8d0f9e99142770058865952600000300210047" "session.10c2a42537958e71e1142166099988914000000121220044" "session.105a16031d2bc69241142684497850551800000026090055" "session.10ca90faff603a6937141778841573411100000023890041" "session.1051f7ea6040b260da141751723168977900000021280043" "session.10982754d2c333c9a0143987815767361000000025160047" "lisp/" "var/" "session.10c1bc65ae18cf89d5143219551315341400000030450048" "session.10b7c1ed47347a71bc142717540897765000000034090052" "tutorial/" "session.1013171c10c6d768a1142114796268316800000024980048" "session.10cbc1095fca2fcd3214313186477142100000198430049" "session.104bb29323f53c512e143634850486246200000246990058" "../" "./")
 
- ("/home/v/code/databases/leveldb/" (22030 60775 806314 833000) "db/" "NEWS" "issues/" "port/" "CONTRIBUTING.md" "util/" "table/" "README.md" "include/" "LICENSE" ".gitignore" ".git/" "build_detect_platform" "AUTHORS" "../" "Makefile" "TODO" "doc/" "./" "helpers/")
+ ("/home/denimuser/code/dotfiles/" (22045 62245 50320 95000) ".emacs.d/" "README.md" ".gitignore" ".gitconfig" "osx.sh" "LICENSE" ".git/" "./" "../")
 
- ("/home/v/code/databases/" (22044 23596 436176 445000) "cassandra/" "postgres/" "Btree-source-code/" "db-6.1.26/" "rocksdb/" "mysql-server/" "leveldb/" "../" "./")
+ ("/home/denimuser/code/c.js/lib/recipies/" (22101 34207 953303 739000) "2pc.js" "leaderElection.js" "persistentEphemeralNode.js" "./" "lock.js" "../")
 
- ("/home/v/code/" (22036 41571 603683 441000) "dotfiles/" "databases/" "c.js/" "event-service/" "npm-global/" "oldlove/" "rivet/" "denim/" "courses/" "node-zookeeper-client/" "authentication-service/" "bj.fish" "dist-components/" "AofMP/" "seam/" "../" "tmp/" "cobalt/" "./" "misc/")
+ ("/home/denimuser/code/c.js/lib/" (22101 34205 441303 725000) "recipies/" "promiseHelper.js" "./" "zkPath.js" "fsm.js" "zkLib.js" "../")
 
- ("/home/v/notes/es_platform4/" (22030 47901 439462 344000) ".git/" "event-service.mm" "notes.md" "ES Protocol.md" "../" "./" "aggregation_service.md")
+ ("/home/denimuser/code/c.js/" (22101 34195 549303 671000) "index.js" "Gruntfile.js" ".gitignore" ".tern-project" "test/" "npm-debug.log" ".git/" "node_modules/" ".jshintrc" "./" "lib/" "scratch_zk.js" "package.json" "../")
 
- ("/etc/" (22022 48478 549457 985000) "inputrc" "newt/" "resolv.conf" "gnome-vfs-2.0/" "hostname" "protocols" "network/" "rpc" "pam.conf" "crypttab" "localtime" "vim/" "wildmidi/" "timidity/" "adjtime" "usb_modeswitch.conf" "hdparm.conf" "rc4.d/" "snmp/" "terminfo/" "opt/" "selinux/" "networks" "bash.bashrc" "bluetooth/" "thunderbird/" "sensors3.conf" "snmp-mibs-downloader/" "blkid.tab" "brltty/" "environment" "emacs/" "chromium-browser/" "acpi/" "dnsmasq.d/" "pcmcia/" "gai.conf" "kerneloops.conf" "anacrontab" "brlapi.key" "perl/" "deluser.conf" "rc1.d/" "usb_modeswitch.d/" "zsh/" "cron.daily/" "passwd.org" "ntp.conf" "gdb/" "shadow-" "fstab.d/" "grub.d/" "papersize" "blkid.conf" "update-motd.d/" "mongodb.conf" "kernel-img.conf" "rc5.d/" "UPower/" "groff/" "doc-base/" "locale.alias" "sysctl.conf" "ucf.conf" "request-key.conf" "initramfs-tools/" "rc3.d/" "cron.weekly/" "gconf/" "bindresvport.blacklist" "hp/" "update-notifier/" "aliases" "aliases.db" "magic.mime" "rsyslog.d/" "subgid" "rc0.d/" "nsswitch.conf" "sound/" "libpaper.d/" "hosts.allow" "popularity-contest.conf" "apport/" "pam.d/" "ssl/" "postfix/" "zsh_command_not_found" "gshadow" "apparmor/" "dkms/" "openal/" "iproute2/" "samba/" "shadow.org" "ts.conf" "gtk-2.0/" "modules" "vdpau_wrapper.cfg" "compizconfig/" "skel/" "dictionaries-common/" "cups/" "apache2/" "printcap" "security/" "ca-certificates.conf.dpkg-old" "calendar/" "mailcap.order" "gnome-app-install/" "shells" "legal" "python3.4/" "lsb-release" "ginn/" "magic" "sysctl.d/" "kbd/" "pm/" "subversion/" "hosts.deny" "brltty.conf" "checkbox.d/" "crontab" "mtab.fuselock" "rcS.d/" "ld.so.conf.d/" "resolvconf/" "cron.monthly/" "os-release" "udev/" "firefox/" "ImageMagick/" "chatscripts/" "signond.conf" "apg.conf" "mtools.conf" "python3/" "mail.rc" "gtk-3.0/" "sensors.d/" "request-key.d/" "sane.d/" "prime-discrete" "wpa_supplicant/" "dhcp/" "vtrgb" "ld.so.cache" "manpath.config" "sudoers.d/" "alternatives/" "aptdaemon/" "fstab" "dconf/" "console-setup/" "xul-ext/" "cracklib/" "group.org" "rsyslog.conf" "rc.local" "services" "drirc" "python2.7/" "lightdm/" "mime.types" "X11/" "dpkg/" "odbc.ini" "update-manager/" "pki/" "libnl-3/" "java-7-openjdk/" "xdg/" "insserv/" "NetworkManager/" "gshadow-" "apt/" "fonts/" "xml/" "ca-certificates.conf" ".java/" "cupshelpers/" "bash_completion.d/" "namebench/" "modprobe.d/" "shadow" "mysql/" "polkit-1/" "profile.d/" "python/" "cron.hourly/" "init.d/" "logrotate.d/" "obex-data-server/" "depmod.d/" "ppp/" "updatedb.conf" "icedtea-web/" "logrotate.conf" "geoclue/" "group-" "ConsoleKit/" "R/" "pkcs11/" "netscsid.conf" "insserv.conf" "ldap/" "speech-dispatcher/" "ghostscript/" "debian_version" "gnome/" "rc6.d/" "gimp/" "avahi/" "bash_completion" "bonobo-activation/" "libaudit.conf" "ltrace.conf" "hosts" "ld.so.conf" "lintianrc" "upstart-xsessions" "pnm2ppa.conf" "passwd-" "mtab" "fuse.conf" "default/" "rc2.d/" "issue" "profile" "ifplugd/" "udisks2/" "rmt" "ca-certificates/" ".pwd.lock" "insserv.conf.d/" "colord.conf" "ssh/" "sudoers" "texmf/" "subuid" "kernel/" "login.defs" "racket/" "passwd" "pulse/" "odbcinst.ini" "init/" "ODBCDataSources/" "gdm/" "nanorc" "ufw/" "sgml/" "signon-ui/" "apparmor.d/" "at.deny" "foomatic/" "GNUstep/" "mailcap" "wgetrc" "issue.net" "logcheck/" "modules-load.d/" "dbus-1/" "debconf.conf" "cron.d/" "libreoffice/" "apm/" "fish/" "host.conf" "at-spi2/" "systemd/" "adduser.conf" "mke2fs.conf" "timezone" "wodim.conf" "rabbitmq/" "group" "securetty" "../" "./")
+ ("/sudo:root@localhost:/home/denimuser/code/denim/" (ftp . 402345.13666666666) "../" "cores/" "build.gradle" "loom/" "etc/" "denim/" "tools/" "ci-build.gradle" "settings.gradle" "lib/" "dist/" "./" "config/" "unittest/" "media/" "doxygen/" "app/" ".git/" "proto/" "gradle.properties" ".gitmodules" "connector/" "mk/" "java/" ".gitignore" "run/" "content/" "version/" "bin/" ".gradle/" "logs/" "Makefile")
 
- ("/home/v/code/seam/services/event-service/core/" (22021 3504 461789 422000) "mongow.js" "roster-manager.js" "amqp-wrapper.js" "request-wrapper.js" "../" "couchbase-wrapper.js" "./" "admin.js")
+ ("/sudo:root@localhost:/home/denimuser/code/" (ftp . 402345.1361111111) "jnm/" "courses/" "../" "loom/" "denim/" "bj.fish" "rmq_conn_exht.py" "c.js/" "migrator-plugin2/" "npm-global/" "haskell/" "partition-location-service/" ".metadata/" "./" "nmclient/" "carmel/" "seam-automation/" "bj.sh" "dev-common/" "mongo-docker/" "migrator-plugin/" "authentication-service/" "misc/" "RemoteSystemsTempFiles/" "foo.js" "auth.log" "db/" "migrator/" "cookie/" "hippy/" "bench/" "foo/" "The art of Multiprocessor programming/" "auth.sh" "target/" "event-service/" "es/" "loggly/" "apps/" "dotfiles/" "service-commons/" "nft/" "cassandra-dal/" "indigo/" "carder/" "json/" "services/" "partition-service/" "randomexperiments/" "foo.hs" "bj-ALL.cfg" "bj_checkstyle.xml" "cobalt/" "tmp/" "seam/" "rivet/")
 
- ("/home/v/code/seam/services/event-service/" (22021 3504 465789 133000) "roster_memcache.js" "service/" "event-service" "build.gradle" "transport/" "services_event-service.iml" "backend/" "config.json" "core/" "run" ".gitignore" "install" "build.xml" "app_download.js" "package.json" "zk.js" "../" "common/" "node_modules/" "roster.js" "tests/" "config.js" "conf/" "./" "logger.js" "server.js")
+ ("/sudo:root@localhost:/home/denimuser/" (ftp . 402345.13333333336) "./" "../" ".xscreensaver" "share/" ".ido.last~" ".compiz/" ".pam_environment" ".ghc/" "Snapshots/" ".lesshst" "#run2-qa.txt#" "mongoslave2.conf" ".goutputstream-DWC8QX" ".pulse/" ".speech-dispatcher/" ".swt/" ".fonts/" ".ccm/" ".npm/" ".sane/" ".xsession-errors.old" ".gem/" "glassfish-4.1/" "Django-1.4.1/" ".macromedia/" "workspace/" ".goutputstream-OQANSX" ".gnome2_private/" ".goutputstream-JN0BRX" ".ssh/" "SecurePerimeter.mm" ".goutputstream-8UKBYX" "event-connections/" ".jenkins/" ".juniper_networks/" ".pki/" ".apport-ignore.xml" ".adobe/" ".cache/" "bj_checks.xml" ".profile" ".bashrc" "notes/" ".gtk-bookmarks" ".goutputstream-QIJPOX" ".zshrc.pre-oh-my-zsh" ".zsh_history" ".goutputstream-UE08QX" ".hplip/" "visualvm/" ".goutputstream-3U5LMX" "iface" ".goutputstream-6F4A2X" ".goutputstream-7WANRX" "mongomaster.conf" ".scala_history" ".zsh-update" "Pictures/" ".rnd" "haskell/" ".gstreamer-0.10/" ".goutputstream-CMNVZX" "authservice.diff" "netbeans-8.0.1/" ".mission-control/" ".m2/" ".freemind/" ".xchat2/" ".npmrc" "sqoop_hive_cassandra.txt" ".java/" ".IntelliJIdea14/" ".pip/" "log.py" ".ido.last" ".xsel.log" ".zlogin" ".dbshell" ".zshrc" "sp.jpeg" ".nbi/" ".erlang.cookie" ".goutputstream-ZQ4WPX" ".subversion/" ".xsession-errors" "laptop-passphrase" "apache-tomcat-8.0.9/" "Qt/" ".goutputstream-YZKCZX" ".goutputstream-V1GJ2X" "google_checks.xml" ".shutter/" ".gconf/" ".zcompdump" "build/" ".ivy2/" ".groovy/" ".vagrant.d/" ".fontconfig/" "denim_make_times" ".vnc/" ".eclipse/" "#.bashrc#" "VirtualBox VMs/" "mongoslave1.conf" "Videos/" ".goutputstream-M4SSXX" ".kjell/" ".irb-history" "Dropbox/" ".vim/" ".launchpadlib/" ".atlassian/" ".goutputstream-KKO02X" "mounts/" "#wfh.js#" ".cabal/" "junk.tgz" ".rvm/" ".icons/" ".zcompdump-sreekanth-5.0.6" ".dmrc" ".thumbnails/" ".cassandra/" ".gimp-2.8/" "examples.desktop" ".IntelliJIdea15/" ".shotwell/" ".android/" ".goutputstream-EI8GOX" "#5kfailures.log#" ".dbeaver/" "Whiplash (2014)/" ".goutputstream-C53EQX" ".bash_logout" "target/" "foo.org" "logilab-dists-key.asc" ".dropbox/" "foo.json" ".devcenter/" ".gitconfig" ".gvfs" ".goutputstream-EPT0NX" ".VirtualBox/" ".FontForge/" "zkload/" ".irssi/" ".Xauthority" ".visualvm/" "hadoop/" "eclipse/" "vm/" "Music/" ".themes/" ".msjnc-profiles.cfg" ".gitignore" ".netbeans-derby/" "From Old Laptop/" ".yjp/" ".oh-my-zsh/" "vagrant/" ".src/" "nc.tar.gz" ".fonts.conf" ".IntelliJIdea13/" ".oh-my-fish/" ".gnupg/" "annex/" "apps/" "dotfiles/" "Templates/" ".node-gyp/" ".dropbox-dist/" ".goutputstream-FW0XOX" ".local/" ".goutputstream-Q5EQVX" ".links2/" ".gnome/" ".config/" ".msjnc.log" ".bash_profile" ".goutputstream-7U7SQX" ".idea-build/" "foo.cpp" ".gksu.lock" "junkerator/" "bin/" ".viminfo" ".gradle/" ".compiz-1/" "Documents/" ".goutputstream-OFHUSX" ".pulse-cookie" "Desktop/" ".gnome2/" "pcmanus_ccm.html" ".mysql_history" ".emacs.d/" ".mongorc.js" ".zcompdump-sreekanth-4.3.17" "Downloads/" "code/" ".mozilla/" ".dbus/" "dse/" "pcmanus_ccm_files/" ".oracle_jre_usage/" ".zinc/" ".sbt/" ".goutputstream-2FG3MX" ".kde/" ".zshrc~" ".parallel/" "#run1-stage.txt#" ".goutputstream-U1OHOX" "Public/" ".cups/" ".goutputstream-GESK3X" "tmp/" ".thunderbird/" ".bash_history" ".netbeans/" "mindmaps/" ".goutputstream-VM9RQX" ".goutputstream-JYLCRX" ".ICEauthority" "algs4.tgz" ".goutputstream-8BYBRX" "wfh.js")
 
- ("/home/v/code/dist-components/db/" (22016 8777 669293 874000) "#two_phase_commit.erl#" "../" "two_phase_commit.erl" "./")
+ ("/home/denimuser/code/denim/.gradle/" (22063 4969 603376 246000) "2.0/" "./" "../")
 
- ("/home/v/code/c.js/lib/recipies/" (22021 6372 202391 791000) "lock.js" "persistentEphemeralNode.js" "leaderElection.js" "../" "#2pc.js#" "./" "2pc.js")
+ ("/home/denimuser/code/seam/services/event-service/" (22101 29377 189277 165000) "conf/" "service/" "logs/" "bin/" "core/" "Gruntfile.js" ".gitignore" "jscs.json" "logger.js" ".tern-project" "install" "test/" "tests/" "docs/" "npm-debug.log" "transport/" "node_modules/" "app_download.js" ".jshintrc" "backend/" "config.json" "zk.js" "services_event-service.iml" "./" "lib/" "supervise/" "roster_memcache.js" "api/" "common/" "#build.xml#" "server.js" "build.gradle" "package.json" "../" "config.js" "build.xml" "roster.js")
 
- ("/home/v/tmp/" (22018 48769 432062 564000) ".juniper_networks/" "wfh.js" "../" "./")
+ ("/home/denimuser/code/seam/services/event-service/api/" (22101 29428 261277 446000) "notification.js" "notification.js.orig" "./" "../")
 
- ("/home/v/code/AofMP/" (22020 228 87433 202000) "04~Chapter_07.zip" "09~Chapter_13.zip" "10~Chapter_14.zip" "08~Chapter_12.zip" "01~README.txt" "csci1760_fa12_01.mp4.1" "03~Chapter_04.zip" "05~Chapter_08.zip" "../" "07~Chapter_10.zip" "02~Chapter_02.zip" "06~Chapter_09.zip" "./")
+ ("/home/denimuser/code/seam/" (22101 23341 257243 961000) "seam/" "Readme.md" "services/" "Makefile" "logs/" ".gradle/" "bin/" "scripts/" "reports/" ".gitignore" "test/" "npm-debug.log" "gradle.properties" "gradlew" ".idea/" ".git/" "build/" "gradle/" "classes/" "./" "dist/" "lib/" "settings.gradle" ".editorconfig" "codequality/" "ci-build.gradle" "build.gradle" "seam.iml" "../")
 
- ("/home/v/code/dist-components/random/" (22009 54387 424612 796000) "flavius.erl" "turing.erl" "karatsuba.beam" "turing.beam" "ring.erl" "../" "karatsuba.erl" "./")
+ ("/home/denimuser/code/seam/services/event-service/transport/" (22101 19612 489223 449000) "websocket-handler.js" "transport-manager.js" "httpcallback.js" "./" "../")
 
- ("/home/v/code/dist-components/readings on distributed computing/" (21965 65132 645994 536000) "amazon-dynamo-sosp2007.pdf" "consistencybaseball.pdf" "Distributed.Algorithms.pdf" "ConsistenHashingandRandomTreesDistributedCachingprotocolsforrelievingHotSpotsontheworldwideweb.pdf" "practical-byzantine-fault-tolerance-and-proactive-recovery.pdf" "book.mixu.net-Distributed_systems.pdf" "Paxos made code.pdf" "Quorum based commit protocol.pdf" "PaxosCommit_Techfest.ppt" "Berkeley-Latency-Mar2012-jeff dean.pdf" "CRDT.pdf" "pbft- Miguel Castro.pdf" "Paxos Made moderately Complex.pdf" "raft.pdf" "dean-keynote-ladis2009.pdf" "Notes on Distributed Algorithms.ppt" "Recognizing Safety and Liveness.pdf" "fallacies.pdf" "32-paxos1.pptx" "../" "Time-clocks and Ordering of events- Lamport.pdf" "reaching Consensus in presense of faults.pdf" "Distributed Systems Consensus.ppt" "Apps/" "./" "cap-dynamo.pdf" "Timestamps in Message passing systems -Implementing Vector clocksFidge.pdf")
+ ("/home/denimuser/code/denim/etc/nm/" (22101 19852 841224 771000) "REC.cfg" "A2MAPP.cfg" "ALL.cfg" "APPMC.cfg" "CSK.cfg" "DEFAULT.cfg" "CME.cfg" "MED.cfg" "CHF.cfg" "COBALT.cfg" "CH3.cfg" "AAC.cfg" "CWR.cfg" "./" "CON.cfg" "AUTH.cfg" "CAR.cfg" "A2MALL.cfg" "../" "APP.cfg")
 
- ("/home/v/code/dist-components/consistent-hashing/" (21965 65132 465994 530000) "../" "./" "consistent.erl")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/jsnm/node_modules/mkdirp/" (22071 9512 565483 29000) "readme.markdown" "index.js" "bin/" "examples/" "test/" ".travis.yml" "LICENSE" "node_modules/" "./" "package.json" "../")
 
- ("/etc/xdg/autostart/" (22005 8123 631613 912000) "gnome-keyring-secrets.desktop" "orca-autostart.desktop" "nvidia-settings-autostart.desktop" "indicator-messages.desktop" "unity-settings-daemon.desktop" "indicator-sound.desktop" "pulseaudio-kde.desktop" "polkit-gnome-authentication-agent-1.desktop" "indicator-application.desktop" "indicator-datetime.desktop" "indicator-session.desktop" "gnome-settings-daemon.desktop" "nautilus-autostart.desktop" "onboard-autostart.desktop" "vino-server.desktop" "gsettings-data-convert.desktop" "unity-fallback-mount-helper.desktop" "indicator-power.desktop" "tracker-store.desktop" "gnome-screensaver.desktop" "pulseaudio.desktop" "gnome-keyring-ssh.desktop" "print-applet.desktop" "nm-applet.desktop" "gnome-sound-applet.desktop" "tracker-miner-fs.desktop" "hplip-systray.desktop" "jockey-gtk.desktop" "telepathy-indicator.desktop" "indicator-printers.desktop" "update-notifier.desktop" "gnome-user-share.desktop" "zeitgeist-datahub.desktop" "indicator-bluetooth.desktop" "../" "at-spi-dbus-bus.desktop" "ubuntuone-launch.desktop" "./" "gnome-keyring-pkcs11.desktop" "deja-dup-monitor.desktop" "screensaver.desktop" "tracker-extract.desktop" "gwibber.desktop" "gnome-keyring-gpg.desktop" "user-dirs-update-gtk.desktop")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/jsnm/node_modules/" (22071 9512 825483 25000) "async/" ".bin/" "./" "protobufjs/" "winston/" "../" "mkdirp/" "underscore/")
 
- ("/home/v/.emacs.d/" (22005 43392 788415 61000) "projectile-bookmarks.eld" "backups/" "ido.last" "session.10bb2025eb6919a10143979925060109700000020790053" "elpa/" "%backup%~" "session.103dd50926ab9faf4f144212668297648400000033230056" "session.1077828dd8e72e4c2a144035815566745700000031950053" "session.10fcfdba8e6d751476144060925220142500000026970056" "init.el" "session.10fd3c6d502191ddfc144049077450512700000033710058" "session.104a1f6c0742e77f61143991408080765800000035740054" "session.1072d4da287c8e7045144064817221143100000029770054" "session.103b228da8ad56ce18144075477747354200000029040062" "session.10c06f154f3d021270144030194078623800000032470053" "session.1043e26ecbf271c0dd143988663973087300000021880057" "session.1010fbd334defc208f144079711155437000000032250060" "ac-comphist.dat" "url/" "lisp/" "session.10e30964736b86f8b144163566486908300000033690058" ".mc-lists.el" "session.1037d9260b8dea7b8d143982349087572800000021660057" "recentf" "session.102919c611d9ee2eb4143987006935113400000021650056" "session.10522c54cc14b0d8ef144013242196865600000035840053" "session.10c5bfc83c5cf6e9fb144068794855614200000034340059" "tutorial/" "places" "tramp" "session.10130590c65d2db133143979425132621200000018000056" "auto-save-list/" "session.10c96cc66ac9e5064144198926721350300000038950056" "session.10b4a143cc922c1e2d14410835877291500000034020078" "../" "./")
+ ("/home/denimuser/code/seam/services/SecurePerimeter/" (22100 24524 576889 953000) "conf/" "services_SecurePerimeter.iml" "Readme.md" ".gitignore" "build/" "src/" "classes/" "./" "build.gradle" "../")
 
- ("/home/v/.config/fish/" (22005 34481 781158 443000) "fish_history" "fishd.34e6d77d9707" "functions/" "config.fish" "../" "./")
+ ("/home/denimuser/code/seam/lib/service-commons/" (22100 24496 876889 800000) "marketo-1.0.0-SNAPSHOT.jar" "service-commons-1.0.0-SNAPSHOT.jar" ".gitignore" "service-utils-1.0.0-SNAPSHOT.jar" "marketo-3.0-SNAPSHOT.jar" "denim-utils-platform3.2-SNAPSHOT.jar" "build/" "service-utils-platform3.2-SNAPSHOT.jar" "service-commons-platform3.2-SNAPSHOT.jar" "src/" "denim-utils-3.0-SNAPSHOT.jar" "./" "marketo-platform3.2-SNAPSHOT.jar" "service-utils-3.0-SNAPSHOT.jar" "service-commons-3.0-SNAPSHOT.jar" "denim-utils-1.0.0-SNAPSHOT.jar" "build.gradle" "../")
 
- ("/home/v/code/dist-components/kvs/" (21965 65132 465994 530000) "src/" "../" "./")
+ ("/home/denimuser/code/seam/services/event-service/backend/events/" (22100 21686 500874 340000) "PushNotificationEvent.js" "./" "Sender.js" "../" "EndpointsStateChange.js")
 
- ("/home/v/code/dist-components/kvs/src/" (21965 65132 465994 530000) "cached.erl" "../" "./")
+ ("/home/denimuser/code/seam/services/event-service/docs/" (22100 21686 504874 340000) "event-service-api.md" "./" "../")
 
- ("/home/v/code/dist-components/ds/" (21965 65132 465994 530000) "sorts.erl" "bloom.erl" "../" "qf.erl" "./")
+ ("/home/denimuser/code/seam/services/event-service/conf/" (22100 21686 388874 340000) ".gitignore" "./" "../")
 
- ("/tmp/" (22002 56504 664729 555000) "qtsingleapp-hipcha-2c5e-3e8-lockfile" ".X0-lock" ".ICE-unix/" "sni-qt_python2.7_3141-uiFApv/" "hsperfdata_v/" "mongodb-27017.sock" "hsperfdata_root/" "ZealLocalServer" "../" "yjp201411140810.jar" "fluxgui_v.pid" "fluxlog.txt" ".X11-unix/" "./" "emacs1000/")
+ ("/home/denimuser/code/seam/services/event-service/tests/" (22100 21686 504874 340000) "./" "lib/" "test-clients.js" "../")
 
- ("/home/v/code/c.js/test/recipies/" (21999 46298 419218 594000) "dist_lock_test.js" "persistentEphemeralNodeTest.js" "leaderElectionTest.js" "../" "2pc_test.js" "./")
+ ("/home/denimuser/code/seam/services/event-service/service/" (22100 21686 504874 340000) "push-notification.js" "./" "../")
 
- ("/home/v/code/dotfiles/" (21996 31061 937943 997000) ".gitconfig" "osx.sh" "README.md" "LICENSE" ".gitignore" ".git/" "../" "./" ".emacs.d/")
+ ("/home/denimuser/code/seam/services/event-service/tests/lib/" (22100 21686 504874 340000) "discoveryTest.js" "./" "../")
 
- ("/home/v/code/c.js/test/lib/" (21999 38177 376123 41000) "fsm_test.js" "promiseHelperTest.js" "../" "./")
+ ("/home/denimuser/" (22100 1389 116762 683000) "wfh.js" ".goutputstream-8BYBRX" "algs4.tgz" ".ICEauthority" ".goutputstream-JYLCRX" ".goutputstream-VM9RQX" "mindmaps/" ".netbeans/" ".bash_history" ".thunderbird/" "tmp/" ".goutputstream-GESK3X" ".cups/" "Public/" ".goutputstream-U1OHOX" "#run1-stage.txt#" ".parallel/" ".zshrc~" ".kde/" ".goutputstream-2FG3MX" ".sbt/" ".zinc/" ".oracle_jre_usage/" "pcmanus_ccm_files/" "dse/" ".dbus/" ".mozilla/" "code/" "Downloads/" ".zcompdump-sreekanth-4.3.17" ".mongorc.js" ".emacs.d/" ".mysql_history" "pcmanus_ccm.html" ".gnome2/" "Desktop/" ".pulse-cookie" ".goutputstream-OFHUSX" "Documents/" ".compiz-1/" ".gradle/" ".viminfo" "bin/" "junkerator/" ".gksu.lock" "foo.cpp" ".idea-build/" ".goutputstream-7U7SQX" ".bash_profile" ".msjnc.log" ".config/" ".gnome/" ".links2/" ".goutputstream-Q5EQVX" ".local/" ".goutputstream-FW0XOX" ".dropbox-dist/" ".node-gyp/" "Templates/" "dotfiles/" "apps/" "annex/" ".gnupg/" ".oh-my-fish/" ".IntelliJIdea13/" ".fonts.conf" "nc.tar.gz" ".src/" "vagrant/" ".oh-my-zsh/" ".yjp/" "From Old Laptop/" ".netbeans-derby/" ".gitignore" ".msjnc-profiles.cfg" ".themes/" "Music/" "vm/" "eclipse/" "hadoop/" ".visualvm/" ".Xauthority" ".irssi/" "zkload/" ".FontForge/" ".VirtualBox/" ".goutputstream-EPT0NX" ".gvfs/" ".gitconfig" ".devcenter/" "foo.json" ".dropbox/" "logilab-dists-key.asc" "foo.org" "target/" ".bash_logout" ".goutputstream-C53EQX" "Whiplash (2014)/" ".dbeaver/" "#5kfailures.log#" ".goutputstream-EI8GOX" ".android/" ".shotwell/" ".IntelliJIdea15/" "examples.desktop" ".gimp-2.8/" ".cassandra/" ".thumbnails/" ".dmrc" ".zcompdump-sreekanth-5.0.6" ".icons/" ".rvm/" "junk.tgz" ".cabal/" "#wfh.js#" "mounts/" ".goutputstream-KKO02X" ".atlassian/" ".launchpadlib/" ".vim/" "Dropbox/" ".irb-history" ".kjell/" ".goutputstream-M4SSXX" "Videos/" "mongoslave1.conf" "VirtualBox VMs/" "#.bashrc#" ".eclipse/" ".vnc/" "denim_make_times" ".fontconfig/" ".vagrant.d/" ".groovy/" ".ivy2/" "build/" ".zcompdump" ".gconf/" ".shutter/" "google_checks.xml" ".goutputstream-V1GJ2X" ".goutputstream-YZKCZX" "Qt/" "apache-tomcat-8.0.9/" "laptop-passphrase" ".xsession-errors" ".subversion/" ".goutputstream-ZQ4WPX" ".erlang.cookie" ".nbi/" "sp.jpeg" ".zshrc" ".dbshell" ".zlogin" ".xsel.log" ".ido.last" "log.py" ".pip/" ".IntelliJIdea14/" ".java/" "sqoop_hive_cassandra.txt" ".npmrc" ".xchat2/" ".freemind/" ".m2/" ".mission-control/" "netbeans-8.0.1/" "authservice.diff" ".goutputstream-CMNVZX" ".gstreamer-0.10/" "haskell/" ".rnd" "Pictures/" ".zsh-update" ".scala_history" "mongomaster.conf" ".goutputstream-7WANRX" ".goutputstream-6F4A2X" "iface" ".goutputstream-3U5LMX" "visualvm/" ".hplip/" ".goutputstream-UE08QX" ".zsh_history" ".zshrc.pre-oh-my-zsh" ".goutputstream-QIJPOX" ".gtk-bookmarks" "notes/" ".bashrc" ".profile" "bj_checks.xml" ".cache/" ".adobe/" ".apport-ignore.xml" ".pki/" ".juniper_networks/" ".jenkins/" "event-connections/" ".goutputstream-8UKBYX" "SecurePerimeter.mm" ".ssh/" ".goutputstream-JN0BRX" ".gnome2_private/" ".goutputstream-OQANSX" "workspace/" ".macromedia/" "Django-1.4.1/" "glassfish-4.1/" ".gem/" ".xsession-errors.old" ".sane/" ".npm/" ".ccm/" ".fonts/" ".swt/" ".speech-dispatcher/" ".pulse/" ".goutputstream-DWC8QX" "mongoslave2.conf" "#run2-qa.txt#" ".lesshst" "Snapshots/" ".ghc/" ".pam_environment" ".compiz/" ".ido.last~" "share/" ".xscreensaver" "../" "./")
 
- ("/home/v/.emacs.d/lisp/" (21996 29888 910821 960000) "betterdefaults.el" "setup-haskell.el" "setup-sml.el" "setup-javascript.el" "setup-basics.el" "setup-mac.el" "setup-ido.el" "../" "setup-erlang.el" "./" "setup-keybindings.el")
+ ("/home/denimuser/code/denim/loom/platformlib/" (22100 10138 20810 811000) "statpusher.cpp" "pysync.cpp" "dnmlib.h" "threadname.h" "threadspecific.h" "locale.cpp" "exception.cpp" "resource.cpp" "statlogger.h" "statdriver.h" "statcol.h" "trace.h" "Makefile" "signal.cpp" "stringmgr.h" "statdriver.cpp" "locale.h" "logfilename.cpp" "logcontext.cpp" "timer.h" "threadname.cpp" "statpusher.h" "stacktrace.cpp" "stringmgr.cpp" "exception.h" "nmlib.cpp" "statlogger.cpp" "log_regen/" "signal.h" "numa.cpp" "utf8helpers.h" "utf8helpers.cpp" "hash.h" "jsonblob.h" "statcol.cpp" "resource.h" "./" "logcontext.h" "obj/" "ports.h" "guid.h" "ems/" "statval.h" "zookeeper.h" "stacktrace.h" "../" "numa.h" "zookeeper.cpp" "logfilename.h")
 
- ("/home/v/.config/autostart/" (21996 30389 677924 444000) "fluxgui.desktop" "emacs.desktop" "screensaver.desktop" "dropbox.desktop" "../" "./")
+ ("/home/denimuser/code/authentication-service/bin/" (22100 4751 380781 179000) "authentication-service" "./" "../")
 
- ("/home/v/code/dist-components/" (22002 56609 304960 668000) "random/" "gossip/" "Readme.md" "writings/" "db/" "kvs/" ".gitignore" ".git/" "ds/" "../" "readings on distributed computing/" "consistent-hashing/" "./" "vector-clock/")
+ ("/home/denimuser/code/denim/bin/" (22100 11524 756818 440000) "denimstartup" "lb" "calculatePSNR" "moviemgr" "nmctl" "FECUnitTest" "streamctl" "connectsip" "h323load" "streammgr" "webrtcmgr" "listenrdp" "mixerstartup" "sipmgr" "indigotestapi" "mc" "nshealth" "listenproxy" "dump-gnash" "conference" "Makefile" "encodeAudio" "mixer" "pjturn-srv" "rtp_test_app" "skinny_unpack_audiodump" "decode" "pcapdertx" "mysqlstartup" "stream_handler" "rosterctl" "encode" ".gdbinit" "nm" "connecth323" "ctlsupport.pyc" "skinny_audioproc_test" "cpuid" "sse4_2/" "connectmovie" "sslkeygen" "mhctl" "nmlog" "webrtcproxy" "sipmgrctl" "denim_dsh" "callgenh323" "connectflash" "recordctl" "testimageparser" "pcaptostats" "demuxsip" "cpuarch" "synclogs" "statmgr" "pcaptodelaycsv" "upgrade_denim" "zkctl" "record" "nmtest" "umc_video_enc_con" "connectwebrtc" "reflector" "./" "mcctl" "NodeMgrUnitTest" "amqpctl" "dj" "skinny_audio_unit_test" "mcunit" "nmtestmgr" "encodedecode" "deturn" "srtptool" "mhmgrctl" "mh" "listenh323" "listensni" "ctlsupport.py" "decodeAudio" "emstrace" "denim" "avx/" "reflectorctl" "nmmon" "recordmgr" "mhmgr" "pcaptoyuv" "cpuspeed" "runwebapp" "dumb-gnash" "umc_h264_dec_con" "statctl" "DenimUnitTest" "../" "bwmreplaypcap" "pesq_eval" "encodeDecodeAudio" "connectrdp" "pcaptotimingcsv" "conferencectl" "dtmf.py" "pcapto264")
 
- ("/home/v/code/c.js/" (22002 13168 865237 987000) "test/" ".jshintrc" ".tern-port" "index.js" "Gruntfile.js" "npm-debug.log" ".gitignore" ".git/" ".tern-project" "package.json" "../" "node_modules/" "lib/" "./")
+ ("/home/denimuser/code/seam/bin/" (22100 13728 516830 563000) "config-service.cp.sh" "seam" "SecurePerimeter.cp.sh" "delegation-service.cp.sh" "messageretry-service.cp.sh" "sso-service.cp.sh" "scheduling-service" "delegation-service" "analytics-service" "notificationctl" "audiobridge.cp.sh" "inval-service" "audit-service.cp.sh" "cms-service" "billing-callout.cp.sh" "audiobridge" "messageretry-service" "chat-service.cp.sh" "contact-service" "verification-service.cp.sh" "spctl" "picture-service" "notification.cp.sh" "billing.cp.sh" "user-service" "provisioning-service" "partnerevent.cp.sh" "reaper" "contact-service.cp.sh" "sso-service" "cms-service.cp.sh" "geoinfo-service" "provisioning-service.cp.sh" "partnerevent" "analytics-service.cp.sh" "config-service" "geoinfo-service.cp.sh" "meetme-service" "oauth2-service" "user-service.cp.sh" "oauth2-service.cp.sh" "scheduling-service.cp.sh" "./" "hangouts" "frauddetection-service.cp.sh" "reaper.cp.sh" "billing-callout" "meetme-service.cp.sh" "picture-service.cp.sh" "audit-service" "billingctl" "chat-service" "verification-service" "sfdc-service" "../" "hangouts.cp.sh" "frauddetection-service" "inval-service.cp.sh")
 
- ("/home/v/code/c.js/lib/" (21999 38060 644201 172000) "promiseHelper.js" "zkLib.js" "recipies/" "zkPath.js" "fsm.js" "../" "./")
+ ("/home/denimuser/code/denim/denim/" (22100 8624 812802 487000) "denimstartup/" "indigotestapi/" "Makefile" "sslkeygen" "denim_dsh/" "cpuarch" "synclogs" "upgrade_denim" "gdbscript/" "./" "emstrace/" "denim" "../")
 
- ("/home/v/code/node-zookeeper-client/" (21997 40262 831003 248000) "examples/" "test/" "CHANGELOG.md" "index.js" "README.md" ".travis.yml" "LICENSE" ".gitignore" ".git/" "package.json" "../" "lib/" "./")
+ ("//" (22033 65414 703260 842000) "tmp/" "proc/" "bin/" "initrd.img" "libnss3.so" "home/" "run/" "sbin/" "vmlinuz" "vmlinuz.old" "srv/" ".docker/" "mnt/" "dev/" "cdrom/" "media/" "initrd.img.old" "boot/" "opt/" "./" "nonexistent/" "lib/" "selinux/" "root/" "lib64/" "etc/" "datastax-agent.init" "var/" "usr/" "../" "sys/" "lost+found/")
 
- ("/home/v/code/seam/services/event-service/node_modules/node-zookeeper-client/" (21972 2468 363419 218000) "examples/" ".npmignore" "test/" "index.js" "README.md" ".travis.yml" "LICENSE" "package.json" "../" "lib/" "./")
+ ("/home/denimuser/code/denim/etc/" (22100 8581 496802 249000) "h323_exceptions.txt" "sip_exceptions.txt" "nm/" ".gitignore" "presence.cfg" "bjn-v1.crt" "listensni.conf" "skinnystatsmapping.json" "newrelic-denim.ini" "ssl/" "resources/" "developer.cfg" "dnm_DB.sql" "webrtc_exceptions.txt" "./" "apache2/" "ivr.cfg" "../" "developer.cfg.template" "media_capacity.cfg")
 
- ("/home/v/code/seam/services/event-service/node_modules/" (21972 2469 303425 428000) "underscore/" ".bin/" "amqp/" "portfinder/" "async/" "readable-stream/" "winston-filerotatedate/" "express/" "daemon/" "nconf/" "pm2/" "sockjs/" "heapdump/" "node-zookeeper-client/" "uuid/" "restler/" "mkdirp/" "mongodb/" "combined-stream2/" "needle/" "sockjs-client/" "newrelic/" "../" "memcached/" "couchbase/" "request/" "q/" "./" "qs/" "optimist/" "winston/")
+ ("/home/denimuser/code/denim/" (22100 8581 496802 249000) "Makefile" "logs/" ".gradle/" "bin/" "version/" "content/" "run/" ".gitignore" "java/" "mk/" "connector/" ".gitmodules" "gradle.properties" "proto/" ".git/" "app/" "doxygen/" "media/" "unittest/" "config/" "./" "dist/" "lib/" "settings.gradle" "ci-build.gradle" "tools/" "denim/" "etc/" "loom/" "build.gradle" "cores/" "../")
 
- ("/home/v/code/dotfiles/.emacs.d/lisp/" (21996 29888 910821 960000) "betterdefaults.el" "setup-haskell.el" "setup-sml.el" "setup-javascript.el" "setup-basics.el" "setup-mac.el" "setup-ido.el" "../" "setup-erlang.el" "./" "setup-keybindings.el")
+ ("/etc/" (22099 2477 580408 153000) "adjtime" "emacs-snapshot/" "rc0.d/" "ca-certificates/" "lighttpd/" "ntp.conf" "rpc" "depmod.d/" "freemind/" "rmt" "apt/" "cron.monthly/" "python/" "ufw/" "lsb-base-logging.sh" "postfix/" "fstab.d/" "firefox/" "protocols" "lsb-base/" "gshadow-" "aliases.db" "mailcap" "security/" "samba/" "fop.conf.d/" "pam.d/" "kernel/" "default/" "init/" "pkcs11/" "networks" "hosts.deny" "terminfo/" "sysstat/" "ginn/" "network/" "mime.types" "services" "xml/" "acpi/" "rc3.d/" "fstab" "buildstamp" "gimp/" "insserv/" "usb_modeswitch.conf" "shadow-" "anacrontab" "cupshelpers/" "hostname" "haproxy/" "lynx-cur/" "hdparm.conf" "nanorc" "ssh/" "speech-dispatcher/" "bonobo-activation/" "timidity/" "modules" "resolvconf/" "apparmor.d/" "legal" "pam.conf~" "crontab" "libnl-3/" "dhcp/" "ld.so.cache" "hosts" "daemon.conf" "ikiwiki/" "sound/" "NetworkManager/" "ConsoleKit/" "iproute2/" "sysctl.conf" "pam.conf" "insserv.conf.d/" "apparmor/" "irssi.conf" "locale.alias" "ldap/" "chatscripts/" "wodim.conf" "colord.conf" "checkbox.d/" "mailcap.order" "mongo-slave.conf" "bluetooth/" "sgml/" "blkid.tab" "passwd-" "cron.hourly/" "rc2.d/" "apg.conf" "issue" "iftab" ".pwd.lock" "dbus-1/" "aliases" "logrotate.d/" "bash_completion.d/" "libreoffice/" "gtk-2.0/" "ca-certificates.conf" "group" "debian_version" "passwd" "rsyslog.d/" "cron.weekly/" "dpkg/" "maven/" "mysql/" "debconf.conf" "java/" "issue.net" "magic" "at.deny" "rc.local" "hp/" "matplotlibrc" "update-motd.d/" "ld.so.conf.d/" "bash.bashrc" "apport/" "polkit-1/" "obex-data-server/" "netscsid.conf" "shells~" "gai.conf" "mtab" "pm/" "mke2fs.conf" "rc4.d/" "dhcp3/" "os-release" "vga/" "at-spi2/" "UPower/" "fish/" "javascript-common/" "brltty/" "wildmidi/" "nsswitch.conf" "fonts/" "adduser.conf" "rsyslog.conf" "wpa_supplicant/" "group-" "vlc/" "gnome/" "alternatives/" "groff/" "sensors.d/" "ca-certificates.conf.dpkg-old" "sensors3.conf" "timezone" "java-7-openjdk/" "init.d/" "sudoers" "ssl/" "motd" "xdg/" "inputrc" "shadow" "update-manager/" "manpath.config" "docker/" "resolv.conf" "hosts.allow" "subversion/" "lsb-release" "ppp/" "gshadow" "qt3/" "ld.so.conf" "sane.d/" "gtk-3.0/" "X11/" "rc5.d/" "velocity/" "dictionaries-common/" "asciidoc/" "environment" "lxc/" "cron.d/" "opt/" "dconf/" ".java/" "systemd/" "pcmcia/" "rc6.d/" "request-key.conf" "insserv.conf" "update-notifier/" "shells" "doc-base/" "updatedb.conf" "rc1.d/" "gnome-settings-daemon/" "magic.mime" "ghostscript/" "fuse.conf" "apm/" "bash_completion" "grub.d/" "zsh/" "dkms/" "gconf/" "java-6-openjdk/" "ts.conf" "mtools.conf" "pulse/" "cups/" "sysctl.d/" "zsh_command_not_found" "vbox/" "newt/" "ImageMagick/" "vim/" "ucf.conf" "texmf/" "calendar/" "usb_modeswitch.d/" "apache2/" "logrotate.conf" "vtrgb" "perl/" "thunderbird/" "icedtea-web/" "rabbitmq/" "mongodb.conf" "modprobe.d/" "emacs/" "profile.d/" "profile" "rcS.d/" "eclipse.ini" "snmp/" "gitlab/" "brltty.conf" "deluser.conf" "groovy/" "cron.daily/" "compizconfig/" "bindresvport.blacklist" "python2.7/" "avserver.conf" "gdm/" "ltrace.conf" "gnome-app-install/" "foomatic/" "logcheck/" "wgetrc" "pnm2ppa.conf" "openal/" "udev/" "libpaper.d/" "sudoers.d/" "gdb/" "login.defs" "blkid.conf" "kernel-img.conf" "mtab.fuselock" "kbd/" "localtime" "avahi/" "gnome-vfs-2.0/" "initramfs-tools/" "mailname" "printcap" "kde3/" "host.conf" "ifplugd/" "opscenter/" "skel/" "lightdm/" "brlapi.key" "freetds/" "securetty" "memcached.conf" "console-setup/" "kerneloops.conf" "xul-ext/" "../" "./")
 
- ("/home/v/code/dotfiles/.emacs.d/elpa/projectile-20150831.1127/" (21993 42256 384468 54000) "projectile.elc" "projectile-autoloads.el" "projectile-pkg.el" "../" "projectile-pkg.elc" "./" "projectile.el")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/jsnm/src/" (22098 46033 6889 942000) "nmclient.js" "jsmsgbus/" "protoBuffer.js" "./" "nmtimer.js" "../")
 
- ("/home/v/code/dotfiles/.emacs.d/elpa/" (21993 62341 71353 738000) "rainbow-delimiters-20150320.17/" "magit-find-file-readme.txt" "company-tern-20150525.216/" "f-20150605.927/" "guide-key-20150107.2235/" "gnupg/" "popwin-20150315.600/" "git-gutter-20150903.22/" "cask-readme.txt" "flycheck-tip-20150726.156/" "pcache-20150125.1653/" "markdown-mode-20150901.1047/" "helm-projectile-20150831.1127/" "company-ghc-20150613.123/" "company-20150727.1415/" "yaml-mode-20150816.2235/" "dash-20150829.433/" "dash-functional-20150828.413/" "guide-key-tip-20140406.1820/" "pkg-info-20150517.443/" "magit-filenotify-20150831.1759/" "fringe-helper-20140620.1409/" "auto-complete-20150618.1949/" "helm-20150904.148/" "epl-20150517.433/" "popup-20150626.711/" "powerline-20150628.1957/" "haskell-mode-20150904.447/" "git-commit-20150903.1204/" "projectile-20150831.1127/" "multi-web-mode-20130824.54/" "zenburn-theme-20150831.716/" "flycheck-hdevtools-20150329.323/" "spinner-1.4/" "nrepl-0.2.0/" "json-reformat-20150901.542/" "creole-readme.txt" "erlang-20150622.644/" "helm-rails-readme.txt" "yasnippet-readme.txt" "ztree-readme.txt" "clojure-mode-20150804.1311/" "dash-at-point-20140626.35/" "solarized-theme-20150831.823/" "helm-flymake-readme.txt" "gist-20150505.1341/" "json-mode-20150413.1948/" "projectile-readme.txt" "flymake-css-readme.txt" "let-alist-1.0.4/" "alect-themes-readme.txt" "haskell-mode-readme.txt" "magit-push-remote-20140108.1300/" "magit-push-remote-20130906.135/" "whitespace-cleanup-mode-20150603.447/" "with-editor-20150903.1204/" "multiple-cursors-20150710.456/" "git-gutter-fringe-20150331.2139/" "helm-projectile-readme.txt" "paradox-20150812.732/" "tern-20150830.1256/" "flymake-elixir-readme.txt" "js2-refactor-20150806.159/" "popup-kill-ring-20131020.1154/" "magit-readme.txt" "yasnippet-20150811.1222/" "archives/" "s-20150825.50/" "flycheck-haskell-20150626.644/" "dash-20150826.1136/" "ack-and-a-half-20130815.1917/" "mocha-snippets-20150116.800/" "shm-20150526.124/" "magit-popup-20150903.1204/" "multi-web-mode-readme.txt" "flymake-jshint-readme.txt" "2048-game-readme.txt" "logito-20120225.2155/" "flycheck-color-mode-line-20131125.2138/" "grizzl-20150711.2230/" "dash-at-point-readme.txt" "sml-mode-6.7/" "magit-commit-training-wheels-20130730.1121/" "groovy-mode-201203310931/" "ghc-20150830.2213/" "sml-mode-6.7.signed" "magit-20150903.1204/" "json-snatcher-20150511.2047/" "js2-mode-readme.txt" "flycheck-20150831.1343/" "whitespace-cleanup-mode-readme.txt" "spinner-1.4.signed" "gh-20150126.1125/" "pos-tip-20150318.813/" "helm-gist-readme.txt" "js2-mode-20150825.1256/" "helm-core-20150904.148/" "async-20150818.1154/" "seq-20150709.1040/" "let-alist-1.0.4.signed" "../" "./")
+ ("/home/denimuser/code/loom/jsnm/" (22094 60113 775141 58000) "index.js" "README.md" ".gitignore" "logger.js" "tests/" ".npmignore" "env" "src/" "config.json" "./" "ci-build.gradle" "common/" "build.gradle" "package.json" "../" "config.js")
 
- ("/home/v/code/dotfiles/.emacs.d/elpa/rainbow-delimiters-20150320.17/" (21984 9141 308928 567000) "rainbow-delimiters-pkg.elc" "rainbow-delimiters-autoloads.el" "rainbow-delimiters.el" "../" "rainbow-delimiters.elc" "rainbow-delimiters-pkg.el" "./")
+ ("/home/denimuser/code/tmp/" (22094 44237 367413 136000) "seam/" "jenkins/" "docker-cassandra/" "hibernate-orm/" "guice/" "#zk.js#" "brave/" "cassandra/" "loadmq/" "scala_school2/" "checkstyle-plugin/" "pillar/" "npmstuff/" "SimianArmy/" "zookeeper-benchmark/" "migrator2.tgz" "oldlove/" "javers/" "zipkin/" "CassandraPerformanceTests/" "target/" "zookeeper/" "baz.js" "java-driver/" "checkstyle/" "foo.js" "kjell/" "amqp.node/" "gradle/" "zktop/" "zk.js" "./" "sreeix-checkstyle-plugin/" "bar.js" "playground/" "brave-resteasy-example/" "cobertura-plugin/" "jackson-databind/" "curator/" "ccm/" "rabbitmq-server/" "cassandraexp/" "spray/" "../" "migrator2/" "dropwizard/" "seam2/")
 
- ("/home/v/.emacs.d/elpa/rainbow-delimiters-20150320.17/" (21984 9141 308928 567000) "rainbow-delimiters-pkg.elc" "rainbow-delimiters-autoloads.el" "rainbow-delimiters.el" "../" "rainbow-delimiters.elc" "rainbow-delimiters-pkg.el" "./")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/" (22099 8565 496441 643000) "mongodb/" "amqp/" "should/" "qs/" "grunt-contrib-jshint/" "couchbase/" "jsnm/" "uuid/" "combined-stream2/" "heapdump/" "node-cache/" "q/" "pm2/" "grunt/" "async/" "nconf/" "memcached/" ".bin/" "sockjs-client/" "portfinder/" "needle/" "winston-filerotatedate/" "optimist/" "./" "restler/" "request/" "readable-stream/" "winston/" "node-zookeeper-client/" "grunt-jscs/" "express/" "sockjs/" "bluebird/" "daemon/" "../" "mkdirp/" "underscore/" "jshint-stylish/" "newrelic/" "mocha/")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/recipes/leader/" (21973 42851 854966 545000) "LeaderOffer.java" "LeaderElectionAware.java" "../" "LeaderElectionSupport.java" "./")
+ ("/home/denimuser/code/seam/services/" (22099 8050 416438 810000) "scheduling-service/" "delegation-service/" "analytics-service/" "SecurePerimeter/" "inval-service/" "cms-service/" "audiobridge/" "messageretry-service/" "contact-service/" "notification/" "picture-service/" "user-service/" ".gitignore" "provisioning-service/" "reaper/" "event-service/" "sso-service/" "geoinfo-service/" "partnerevent/" "config-service/" "meetme-service/" "npm-debug.log" "oauth2-service/" "billing/" "./" "mcmock-service/" "hangouts/" "billing-callout/" "audit-service/" "CCAPIMockService/" "chat-service/" "verification-service/" "sfdc-service/" "../" "frauddetection-service/")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/recipes/" (21973 42851 850966 481000) "leader/" "../" "./")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/node-zookeeper-client/lib/" (22071 9510 21483 68000) "Id.js" "Event.js" "Transaction.js" "ConnectionStringParser.js" "Path.js" "CreateMode.js" "WatcherManager.js" "Permission.js" "./" "State.js" "jute/" "PacketQueue.js" "Exception.js" "../" "ConnectionManager.js" "ACL.js")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/zookeeper/" (21973 42851 850966 481000) "recipes/" "../" "./")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/node-zookeeper-client/" (22071 9510 161483 66000) "index.js" "CHANGELOG.md" "README.md" "examples/" "test/" ".travis.yml" "LICENSE" ".npmignore" "./" "lib/" "package.json" "../")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/apache/" (21973 42851 850966 481000) "zookeeper/" "../" "./")
+ ("/home/denimuser/code/" (22093 27267 384827 60000) "rivet/" "seam/" "tmp/" "cobalt/" "bj_checkstyle.xml" "bj-ALL.cfg" "foo.hs" "randomexperiments/" "partition-service/" "services/" "json/" "carder/" "indigo/" "cassandra-dal/" "nft/" "service-commons/" "dotfiles/" "apps/" "loggly/" "es/" "event-service/" "target/" "auth.sh" "The art of Multiprocessor programming/" "foo/" "bench/" "hippy/" "cookie/" "migrator/" "db/" "auth.log" "foo.js" "RemoteSystemsTempFiles/" "misc/" "authentication-service/" "migrator-plugin/" "mongo-docker/" "dev-common/" "bj.sh" "seam-automation/" "carmel/" "nmclient/" "./" ".metadata/" "partition-location-service/" "haskell/" "npm-global/" "migrator-plugin2/" "c.js/" "rmq_conn_exht.py" "bj.fish" "denim/" "loom/" "../" "courses/" "jnm/")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/org/" (21973 42851 850966 481000) "../" "apache/" "./")
+ ("/home/denimuser/code/c.js/node_modules/node-zookeeper-client/lib/" (21982 47863 523678 163000) "Id.js" "Event.js" "Transaction.js" "ConnectionStringParser.js" "Path.js" "CreateMode.js" "WatcherManager.js" "Permission.js" "./" "State.js" "jute/" "PacketQueue.js" "Exception.js" "../" "ConnectionManager.js" "ACL.js")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/java/" (21973 42851 850966 481000) "../" "./" "org/")
+ ("/home/denimuser/code/c.js/node_modules/node-zookeeper-client/" (21982 47864 735678 144000) "index.js" "README.md" "examples/" "test/" ".travis.yml" "LICENSE" ".npmignore" "node_modules/" "./" "lib/" "package.json" "../")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/election/src/" (21973 42851 850966 481000) "java/" "../" "./")
+ ("/home/denimuser/code/c.js/node_modules/" (21982 47863 347678 166000) "should/" "grunt-contrib-jshint/" "jshint/" "grunt/" "grunt-simple-mocha/" "grunt-mocha/" ".bin/" "./" "node-zookeeper-client/" "sinon/" "bluebird/" "../" "underscore/" "jshint-stylish/" "mocha/")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/election/" (21973 42851 854966 545000) "test/" "src/" "build.xml" "../" "README.txt" "./")
+ ("/home/denimuser/code/mongo-docker/" (21943 4637 404628 469000) "mongo-slave/" "target/" "./" "mongo-master/" "../")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/zookeeper/recipes/" (21973 42851 858966 609000) "lock/" "../" "./")
+ ("/home/denimuser/code/c.js/test/" (21988 5593 272537 45000) "recipies/" "./" "mocha.opts" "lib/" "../")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/zookeeper/" (21973 42851 858966 609000) "recipes/" "../" "./")
+ ("/home/denimuser/code/seam/.git/" (22092 8316 617000 166000) "hooks/" "description" "ORIG_HEAD" "branches/" "logs/" "FETCH_HEAD" "info/" "COMMIT_EDITMSG" "refs/" "lost-found/" "config" "gitk.cache" "./" "packed-refs" "objects/" "index" "subtree-cache/" "HEAD" "../")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/" (21973 42851 858966 609000) "zookeeper/" "../" "./")
+ ("/home/denimuser/code/seam/services/event-service/undefined/logs/" (22092 6615 984968 239000) "event.service.undefined.3576.2015-11-17.log" "./" "event.service.undefined.1991.2015-11-17.log" "../")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/" (21973 42851 858966 609000) "../" "apache/" "./")
+ ("/home/denimuser/code/seam/services/event-service/undefined/" (22092 6287 884962 79000) "logs/" "./" "../")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/" (21973 42851 858966 609000) "../" "./" "org/")
+ ("/home/denimuser/code/authentication-service/logs/" (22090 56960 3452 684000) "access-2015_11_07.request.log" "couchbase.log" "authentication.service.log" "discovery.log.4" "access-2015_11_04.request.log" "zookeeper.log" "healthcheck.log" "authentication.service.log.2015-10-29-04" "access-2015_11_10.request.log" "gc.out" "discovery.log" "discovery.log.1" "discovery.log.9" "access-2015_11_17.request.log" "cassandra.log" "access-2015_11_08.request.log" "authentication.service.log.2015-11-10-03" "discovery.log.3" "access-2015_11_11.request.log" "authentication.service.stdouterr.log" "access-2015_11_09.request.log" "jnm.log" "authentication.service.jetty.log" "discovery.log.2" "cassandra.log.2" "cassandra.log.1" "access-2015_10_30.request.log" "access-2015_11_06.request.log" "access-2015_11_05.request.log" "access-2015_11_16.request.log" "authentication.service.log.2015-11-04-22" "discovery.log.8" "discovery.log.7" "discovery.log.5" "access-2015_10_29.request.log" "service-client.log" "discovery.log.10" "discovery.log.6" "../" "./")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/" (21973 42851 858966 609000) "java/" "c/" "../" "./")
+ ("/home/denimuser/code/seam/services/sfdc-service/" (22090 59500 827500 384000) "conf/" "admin.js" "Makefile" "globals.js" "logger.js" "seam.js" "amqp.js" "sfdc.js" "node_modules/" "zk.js" "./" "services_sfdc-service.iml" "config.defaults.json" "sfdc-service" "server.js" "build.gradle" "package.json" "../" "config.js" "build.xml")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/" (21973 42851 858966 609000) "test/" "src/" "build.xml" "../" "README.txt" "./")
+ ("/home/denimuser/code/seam/services/sfdc-service/node_modules/jsnm/src/" (22090 59524 567500 830000) "nmclient.js" "jsmsgbus/" "protoBuffer.js" "./" "nmtimer.js" "../")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/" (21973 42851 862966 673000) "election/" "lock/" "build.xml" "build-recipes.xml" "queue/" "../" "README.txt" "./")
+ ("/home/denimuser/code/seam/services/sfdc-service/conf/" (22085 37753 588769 835000) "./" "sfdc-service.conf" "../")
 
- ("/home/v/code/tmp/zookeeper/src/" (21973 42851 866966 737000) "java/" "lastRevision.sh" "contrib/" "recipes/" "c/" "lastRevision.bat" "docs/" "packages/" "NOTICE.txt" "../" "LICENSE.txt" "./" "zookeeper.jute")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/grunt-contrib-jshint/tasks/" (22071 9509 413483 77000) "jshint.js" "./" "lib/" "../")
 
- ("/home/v/code/tmp/" (21989 13844 140524 320000) "zookeeper/" "Eve/" "llvm/" "node-zookeeper-client/" "mozart2/" "node-zookeeper/" "curator/" "../" "./")
+ ("/home/denimuser/code/denim/loom/jsnm/" (22071 7555 661512 898000) "index.js" "README.md" "protojs/" ".gitignore" "logger.js" "tests/" ".npmignore" "env" "node_modules/" "src/" "config.json" "./" "ci-build.gradle" "common/" "build.gradle" "package.json" "../" "config.js")
 
- ("/home/v/code/seam/" (21993 18174 832090 361000) "settings.gradle" "Readme.md" "gradle.properties" "test/" "gradle/" ".idea/" "build.gradle" "logs/" ".gradle/" "bin/" "services/" ".gitignore" ".git/" ".editorconfig" "reports/" "build/" "gradlew" "dist/" "seam.iml" "seam/" "codequality/" "../" "Makefile" "lib/" "./" "ci-build.gradle" "scripts/")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/underscore/" (22071 9509 925483 69000) "index.html" "CNAME" "index.js" "README.md" "CONTRIBUTING.md" ".travis.yml" "LICENSE" ".npmignore" "./" "underscore-min.js" "favicon.ico" "underscore.js" "package.json" "../")
 
- ("/home/v/code/event-service/" (21989 33037 204290 620000) "roster_memcache.js" ".jshintrc" "service/" "event-service" "build.gradle" "transport/" "backend/" "config.json" "Gruntfile.js" "core/" "run" "0001-SEAM-5235-Add-resilience-to-mongo-failures.patch" ".gitignore" ".git/" "install" "build.xml" "app_download.js" "package.json" "zk.js" "../" "common/" "roster.js" "tests/" "jscs.json" "config.js" "conf/" "./" "logger.js" "server.js")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/jsnm/" (22071 9512 5483 37000) "index.js" "README.md" "protojs/" "logger.js" "tests/" ".npmignore" "env" "node_modules/" "src/" "config.json" "./" "ci-build.gradle" "common/" "build.gradle" "package.json" "../" "config.js")
 
- ("/home/v/code/misc/tern/emacs/" (21987 65151 835667 339000) "tern-auto-complete.el" "tern.el" "../" "./")
+ ("/home/denimuser/code/loom/jsnm/src/" (22066 63539 72926 597000) "nmclient.js" "jsmsgbus/" "protoBuffer.js" "./" "nmtimer.js" "../")
 
- ("/home/v/code/misc/tern/" (21988 2824 997866 418000) "test/" ".jshintrc" "index.html" "CONTRIBUTING.md" "bin/" "defs/" "README.md" ".travis.yml" "LICENSE" ".no-sublime-package" "emacs/" ".gitignore" "plugin/" ".git/" ".tern-project" "AUTHORS" "package.json" "../" "node_modules/" "lib/" "doc/" "./")
+ ("/home/denimuser/code/loom/" (22066 63539 80926 597000) "compat/" "nmctl/" "jmsgbus/" "Makefile" "bin/" "jsnm/" "version/" "nm/" ".gitignore" "jsonparser/" "mk/" "nmlog/" "pyamqp/" "proto/" ".git/" "statmgr/" "msgbus/" "zkctl/" "unittest/" "pyplatformlib/" "zkpython/" "./" "amqpctl/" "lib/" "passfds/" "listensni/" "nmmon/" "pymsgbus/" "memcache/" "iniparser/" "ipc/" "statctl/" "../" "jnm/" "pypassfds/" "platformlib/")
 
- ("/home/v/code/misc/" (21987 65146 23358 668000) "tern/" "../" "./")
+ ("/home/denimuser/code/seam/seam/" (21991 58889 523082 346000) "seam" "seamctl" "./" "service.launcher.template" "../")
 
- ("/home/v/.emacs.d/elpa/" (21987 65043 680731 792000) "rainbow-delimiters-20150320.17/" "magit-find-file-readme.txt" "projectile-20150807.620/" "f-20150605.927/" "guide-key-20150107.2235/" "gnupg/" "popwin-20150315.600/" "cask-readme.txt" "flycheck-tip-20150726.156/" "pcache-20150125.1653/" "haskell-mode-20150830.725/" "magit-popup-20150824.1010/" "helm-projectile-20150826.321/" "flycheck-haskell-20150602.28/" "company-ghc-20150613.123/" "company-20150727.1415/" "flycheck-20150821.47/" "yaml-mode-20150816.2235/" "dash-20150829.433/" "git-rebase-mode-20140928.1547/" "magit-20150830.1615/" "magit-log-edit-20131220.757/" "guide-key-tip-20140406.1820/" "pkg-info-20150517.443/" "fringe-helper-20140620.1409/" "auto-complete-20150618.1949/" "epl-20150517.433/" "popup-20150626.711/" "multi-web-mode-20130824.54/" "flycheck-hdevtools-20150329.323/" "spinner-1.4/" "nrepl-0.2.0/" "ghc-20150830.1845/" "markdown-mode-20150828.651/" "helm-20150830.2018/" "creole-readme.txt" "erlang-20150622.644/" "helm-rails-readme.txt" "yasnippet-readme.txt" "ztree-readme.txt" "clojure-mode-20150804.1311/" "dash-at-point-20140626.35/" "helm-flymake-readme.txt" "gist-20150505.1341/" "json-mode-20150413.1948/" "projectile-readme.txt" "flymake-css-readme.txt" "let-alist-1.0.4/" "alect-themes-readme.txt" "haskell-mode-readme.txt" "magit-push-remote-20140108.1300/" "solarized-theme-20150725.730/" "magit-log-edit-20140522.1137/" "magit-push-remote-20130906.135/" "whitespace-cleanup-mode-20150603.447/" "multiple-cursors-20150710.456/" "git-gutter-fringe-20150331.2139/" "helm-projectile-readme.txt" "zenburn-theme-20150809.43/" "paradox-20150812.732/" "flymake-elixir-readme.txt" "js2-refactor-20150806.159/" "popup-kill-ring-20131020.1154/" "magit-readme.txt" "git-gutter-20150708.1021/" "yasnippet-20150811.1222/" "archives/" "s-20150825.50/" "dash-20150826.1136/" "ack-and-a-half-20130815.1917/" "mocha-snippets-20150116.800/" "with-editor-20150829.516/" "shm-20150526.124/" "git-commit-mode-20141014.1634/" "multi-web-mode-readme.txt" "flymake-jshint-readme.txt" "2048-game-readme.txt" "logito-20120225.2155/" "flycheck-color-mode-line-20131125.2138/" "grizzl-20150711.2230/" "dash-at-point-readme.txt" "sml-mode-6.7/" "magit-commit-training-wheels-20130730.1121/" "groovy-mode-201203310931/" "sml-mode-6.7.signed" "json-snatcher-20150511.2047/" "js2-mode-readme.txt" "whitespace-cleanup-mode-readme.txt" "spinner-1.4.signed" "gh-20150126.1125/" "magit-filenotify-20150125.1456/" "pos-tip-20150318.813/" "helm-gist-readme.txt" "helm-core-20150828.2325/" "js2-mode-20150825.1256/" "json-reformat-20150406.1705/" "async-20150818.1154/" "git-commit-20150824.1010/" "seq-20150709.1040/" "let-alist-1.0.4.signed" "../" "./")
+ ("/home/denimuser/code/seam/services/sfdc-service/node_modules/jsnm/" (22062 5871 561462 828000) "index.js" "README.md" "protojs/" "logger.js" "tests/" ".npmignore" "env" "node_modules/" "src/" "config.json" "./" "ci-build.gradle" "common/" "build.gradle" "package.json" "../" "config.js")
 
- ("/home/v/.emacs.d/elpa/js2-refactor-20150806.159/" (21984 9141 320929 220000) "js2-refactor.elc" "js2r-paredit.elc" "js2r-functions.el" "js2r-helpers.elc" "js2r-paredit.el" "js2r-iife.elc" "js2r-functions.elc" "js2r-iife.el" "js2r-formatting.elc" "js2r-vars.elc" "js2r-vars.el" "js2-refactor.el" "js2r-formatting.el" "js2-refactor-autoloads.el" "js2r-helpers.el" "js2r-conveniences.elc" "js2-refactor-pkg.el" "../" "js2r-wrapping.el" "js2r-conditionals.el" "js2r-conveniences.el" "js2r-wrapping.elc" "./" "js2r-conditionals.elc")
+ ("/home/denimuser/code/seam/services/sfdc-service/node_modules/" (22062 5882 921462 461000) "amqp/" "jsnm/" "async/" "nconf/" "restify/" ".bin/" "./" "winston/" "node-zookeeper-client/" "../" "forever/" "mkdirp/" "underscore/" "newrelic/")
 
- ("/home/v/.npm/bin/" (21987 59449 693352 14000) "grunt" "mocha" "_mocha" "tern" "../" "./")
+ ("/home/denimuser/code/seam/build/" (22026 25208 738832 162000) "classes/" "./" "../")
 
- ("/home/v/.npm/" (21987 59449 637351 161000) "resolve/" "concat-map/" "underscore/" "minimist/" "uid-number/" "sntp/" "form-data/" "http-signature/" "combined-stream/" "adm-zip/" "abbrev/" "dateformat/" "strip-ansi/" "semver/" "should/" "registry.npmjs.org/" "node-uuid/" "exit/" "grunt-legacy-util/" "which/" "wrappy/" "grunt/" "isarray/" "package/" "graceful-fs/" "should-type/" "should-equal/" "ansi-regex/" "lru-cache/" "ansi-styles/" "plur/" "stringstream/" "jsonfile/" "async/" "eventemitter2/" "string_decoder/" "mocha/" "grunt-contrib-jshint/" "readable-stream/" "nopt/" "proto-list/" "request-progress/" "lodash/" "sinon/" "os-homedir/" "core-util-is/" "formatio/" "cryptiles/" "jshint-stylish/" "debug/" "brace-expansion/" "tough-cookie/" "argparse/" "inherits/" "should-format/" "os-tmpdir/" "ini/" "delayed-stream/" "has-ansi/" "aws-sign2/" "esprima/" "hoek/" "util/" "glob/" "sigmund/" "grunt-cli/" "ctype/" "domelementtype/" "progress/" "underscore.string/" "mime-types/" "console-browserify/" "bin/" "strip-json-comments/" "growl/" "coffee-script/" "temporary/" "grunt-mocha/" "getobject/" "path-is-absolute/" "samsam/" "asn1/" "tern/" "supports-color/" "minimatch/" "node-zookeeper-client/" "htmlparser2/" "jade/" "ms/" "oauth-sign/" "mkdirp/" "typescript/" "jshint/" "domhandler/" "hawk/" "chalk/" "date-now/" "mime/" "config-chain/" "fs-extra/" "lolex/" "grunt-lib-phantomjs/" "caseless/" "balanced-match/" "findup-sync/" "json-stringify-safe/" "entities/" "grunt-legacy-log/" "js-yaml/" "bl/" "boom/" "diff/" "rimraf/" "assert-plus/" "bluebird/" "cli/" "dom-serializer/" "colors/" "domutils/" "osenv/" "acorn/" "kew/" "forever-agent/" "tunnel-agent/" "string-length/" "commander/" "shelljs/" "lib/" "hooker/" "phantomjs/" "npmconf/" "text-table/" "escape-string-regexp/" "request/" "inflight/" "grunt-legacy-log-utils/" "grunt-simple-mocha/" "qs/" "once/" "iconv-lite/" "throttleit/" "log-symbols/" "../" "./")
+ ("/home/denimuser/code/authentication-service/" (22063 6058 67341 108000) "conf/" "tmp/" "version.txt" "Readme.md" "logs/" ".gradle/" "bin/" "authentication-service.sh.template" ".gitignore" "deploy/" "gradle.properties" "gradlew" ".idea/" ".git/" "db/" "build/" "src/" "gradle/" "./" "dist/" "lib/" "settings.gradle" "codequality/" "refreshtoken-data-migrator" "build.gradle" "../" "authentication-service.iml")
 
- ("/home/v/.config/" (21981 37197 467566 161000) "tracker/" "signond/" "gnome-control-center/" "RStudio/" "Atlassian/" "user-dirs.locale" "Blue Jeans/" "sublime-text-3/" "enchant/" "unity/" "libreoffice/" "eog/" "Trolltech.conf" "ibus/" "Empathy/" "google-chrome/" "gtk-3.0/" "autostart/" "gnome-session/" "upstart/" "pulse/" "epiphany/" "dconf/" "software-center/" "goa-1.0/" "libaccounts-glib/" "font-manager/" "fontgroups.xml" "ubuntu-ui-toolkit/" "update-notifier/" "fontconfig/" "totem/" "Zeal/" "fish/" "compiz-1/" "ubuntu-tweak/" "nautilus/" "chromium/" "evolution/" "gedit/" "gtk-2.0/" "yelp/" "vlc/" "htop/" "menus/" "user-dirs.dirs" "monitors.xml" "user-share/" "KDE/" "gnome-disk-utility/" "../" "./")
+ ("/home/denimuser/code/denim/loom/jsnm/common/" (22063 2000 619472 94000) "asyncTask.js" "constants.js" "zk.js" "./" "utils.js" "counter.js" "../")
 
- ("/etc/network/" (21965 60031 750590 716000) "if-pre-up.d/" "interfaces" "../" "interfaces.d/" "if-post-down.d/" "run/" "if-up.d/" "./" "if-down.d/")
+ ("/home/denimuser/code/seam/services/event-service/supervise/" (22061 63255 645725 996000) "ok" "status" "./" "lock" "../" "control")
 
- ("/home/v/.emacs.d/auto-save-list/" (21983 60310 698893 890000) ".saves-3189-gabbar~" ".saves-3407-gabbar~" ".saves-12262-gabbar~" ".saves-10495-gabbar~" "../" "./")
+ ("/home/denimuser/code/services/" (21786 27654 937886 514000) "authentication-service/" "./" "../")
 
- ("/home/v/code/event-service/core/" (21981 31510 725197 324000) "mongow.js" "roster-manager.js" "amqp-wrapper.js" "request-wrapper.js" "../" "couchbase-wrapper.js" "./" "admin.js")
+ ("/home/denimuser/.emacs.d/lisp/" (22045 62245 26320 95000) "setup-javascript.el" "setup-erlang.el" "setup-keybindings.el" "setup-sml.el" "setup-haskell.el" "setup-basics.el" "setup-mac.el" "betterdefaults.el" "./" "../" "setup-ido.el")
 
- ("/home/v/code/c.js/test/" (21983 15589 469297 512000) "mocha.opts" "recipies/" "../" "lib/" "./")
+ ("/home/denimuser/notes/eventservice/" (22035 28912 703396 915000) "aggregation_service.md" "event-service.mm" ".git/" "notes.md" "ES Protocol.md" "./" "../")
 
- ("/home/v/code/authentication-service/" (21973 21888 606115 660000) "settings.gradle" "Readme.md" "gradle.properties" "db/" "gradle/" "build.gradle" "authentication-service.iml" "logs/" ".gradle/" "bin/" "authentication-service.sh.template" "src/" ".gitignore" ".git/" "refreshtoken-data-migrator" "build/" "gradlew" "dist/" "codequality/" "../" "lib/" "conf/" "./" "deploy/")
+ ("/etc/apt/" (22002 29998 484352 751000) "preferences.d/" "trusted.gpg" "trustdb.gpg" "trusted.gpg~" "sources.list" "sources.list~" "./" "apt.conf.d/" "sources.list.save" "trusted.gpg.d/" "sources.list.d/" "../")
 
- ("/home/v/code/c.js/node_modules/grunt-contrib-jshint/tasks/lib/" (21807 30407 0 0) "jshint.js" "../" "./")
+ ("/home/denimuser/notes/" (22016 55104 381922 467000) "managing-repos.md" "eventservice/" "./" "EventServiceAPI.md" "../")
 
- ("/home/v/code/c.js/node_modules/grunt-contrib-jshint/tasks/" (21974 64513 212900 116000) "jshint.js" "../" "lib/" "./")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/grunt-contrib-jshint/tasks/lib/" (21992 44635 0 0) "jshint.js" "./" "../")
 
- ("/home/v/code/c.js/node_modules/grunt-contrib-jshint/" (21974 64513 424901 218000) "CHANGELOG" "tasks/" "README.md" "package.json" "../" "node_modules/" "./")
+ ("/home/denimuser/code/seam/services/event-service/common/" (22001 9109 762182 549000) "helper.js" "./" "../")
 
- ("/home/v/code/c.js/node_modules/" (21981 39953 857905 732000) "underscore/" ".bin/" "should/" "grunt/" "mocha/" "grunt-contrib-jshint/" "sinon/" "jshint-stylish/" "grunt-mocha/" "node-zookeeper-client/" "jshint/" "bluebird/" "../" "./" "grunt-simple-mocha/")
+ ("/etc/apache2/sites-enabled/dev_sites/" (21971 5913 5775 787000) "1_faukami.vc" "3_fauxscaler_api.vc" "./" "0_fauxscaler.vc" "4_rivet.vc" "2_fauxscaler_clp.vc" "../")
 
- ("/etc/xdg/" (21965 61535 354635 321000) "ubuntuone/" "menus/" "user-dirs.defaults" "Trolltech.conf" "../" "user-dirs.conf" "sni-qt.conf" "./" "autostart/")
+ ("/etc/apache2/sites-enabled/" (21567 37434 764709 503000) "./" "../" "dev_sites/")
 
- ("/home/v/code/seam/services/" (21970 64664 150587 965000) "CCAPIMockService/" "sfdc-service/" "mcmock-service/" "reaper/" "notification/" "inval-service/" "event-service/" "billing/" "audiobridge/" "scheduling-service/" "user-service/" "picture-service/" "cms-service/" "provisioning-service/" "config-service/" "partnerevent/" "geoinfo-service/" "verification-service/" ".gitignore" "meetme-service/" "SecurePerimeter/" "contact-service/" "analytics-service/" "sso-service/" "frauddetection-service/" "../" "chat-service/" "billing-callout/" "./")
+ ("/etc/apache2/sites-available/" (21944 37070 776616 778000) "default" "./" "default-ssl" "../")
 
- ("/home/v/code/seam/services/event-service/transport/" (21970 64663 854585 945000) "transport-manager.js" "httpcallback.js" "../" "websocket-handler.js" "./")
+ ("/home/denimuser/code/misc/zeal/" (22002 39159 896056 993000) "COPYING" "Makefile" "README.md" ".gitignore" ".qmake.conf" ".git/" "src/" "./" ".shippable.yml" "zeal.pro" "../")
 
- ("/home/v/code/seam/services/event-service/backend/" (21970 64663 854585 945000) "events/" "event-handler.js" "sip-proxy.js" "../" "base-notification-handler.js" "./")
+ ("/home/denimuser/code/misc/" (22002 26856 284454 191000) "zeal/" "tern/" "projectile/" "./" "../")
 
- ("/home/v/code/tmp/zookeeper/src/recipes/lock/src/java/org/apache/zookeeper/recipes/lock/" (21973 42851 858966 609000) "ProtocolSupport.java" "ZooKeeperOperation.java" "WriteLock.java" "LockListener.java" "../" "./" "ZNodeName.java")
+ ("/home/denimuser/code/seam/lib/" (21997 32412 884933 935000) "zuora/" "scheduling-service/" "service-commons/" "level3/" "intercall/" ".gitignore" "thirdparty/" "./" "../")
 
- ("/home/v/code/tmp/zookeeper/" (21976 19954 176652 477000) "bin/" "docs/" ".revision/" "src/" ".gitignore" ".git/" "build/" "build.xml" "NOTICE.txt" "ivysettings.xml" "CHANGES.txt" ".gitattributes" "../" "ivy.xml" "conf/" "README.txt" "LICENSE.txt" "./" "README_packaging.txt")
+ ("/home/denimuser/code/seam/services/SecurePerimeter/build/" (21993 24474 411070 812000) "tmp/" "dependency-cache/" "./" "../")
 
- ("/home/v/code/c.js/node_modules/node-zookeeper-client/lib/jute/" (21974 63380 345779 532000) "index.js" "specification.json" "../" "./")
+ ("/home/denimuser/code/misc/projectile/" (21998 26971 100241 665000) "helm-projectile.el" "Makefile" "CHANGELOG.md" "README.md" "screenshots/" "CONTRIBUTING.md" ".gitignore" "travis/" "persp-projectile.el" "test/" ".travis.yml" ".git/" "./" "script/" "projectile.el" "../" "Cask")
 
- ("/home/v/code/c.js/node_modules/node-zookeeper-client/lib/" (21974 63380 337779 517000) "Exception.js" "Id.js" "WatcherManager.js" "State.js" "ConnectionStringParser.js" "ACL.js" "CreateMode.js" "jute/" "Path.js" "Event.js" "Transaction.js" "../" "Permission.js" "ConnectionManager.js" "PacketQueue.js" "./")
+ ("/home/denimuser/code/migrator/" (21969 55167 239412 543000) "Readme.md" ".gradle/" ".gitignore" "target/" "gradlew" ".idea/" ".git/" "build/" "src/" "gradle/" "./" "settings.gradle" "migrator.iml" "build.gradle" "../" "gradlew.bat")
 
- ("/home/v/code/c.js/node_modules/node-zookeeper-client/" (21974 63381 113780 756000) "examples/" ".npmignore" "test/" "index.js" "README.md" ".travis.yml" "LICENSE" "package.json" "../" "node_modules/" "lib/" "./")
+ ("/home/denimuser/code/dotfiles/.emacs.d/elpa/projectile-20150807.620/" (21997 12444 405163 967000) "projectile.elc" "./" "projectile-pkg.elc" "../")
 
- ("/home/v/.ssh/" (21965 64842 22957 918000) "id_rsa.pub" "id_rsa" "keys.tar.gz" "known_hosts" "../" "./")
+ ("/home/denimuser/code/dotfiles/.emacs.d/elpa/" (21997 12444 433163 967000) "guide-key-tip-20140406.1820/" "guide-key-20150107.2235/" "f-20150605.927/" "flycheck-hdevtools-20150329.323/" "magit-find-file-readme.txt" "company-20150727.1415/" "helm-rails-readme.txt" "flycheck-tip-20150726.156/" "markdown-mode-20150901.1047/" "flycheck-haskell-20150626.644/" "git-gutter-20150708.1021/" "flycheck-20150817.1249/" "gist-20150505.1341/" "pkg-info-20150517.443/" "mocha-snippets-20150116.800/" "dash-20150804.1354/" "haskell-mode-20150818.113/" "zenburn-theme-20150809.43/" "magit-commit-training-wheels-20130730.1121/" "helm-core-20150816.108/" "js2-mode-20150813.1733/" "ztree-readme.txt" "epl-20150517.433/" "magit-push-remote-20140108.1300/" "git-commit-20150903.1204/" "gh-20150126.1125/" "haskell-mode-20150904.447/" "groovy-mode-201203310931/" "sml-mode-6.7/" "js2-mode-20150825.1256/" "ghc-20150830.2213/" "git-gutter-fringe-20150331.2139/" "let-alist-1.0.4/" "s-20150825.50/" "helm-20150904.148/" "zenburn-theme-20150831.716/" "yasnippet-readme.txt" "ghc-20150817.1939/" "git-gutter-20150903.22/" "dash-functional-20150828.413/" "dash-at-point-readme.txt" "flycheck-color-mode-line-20131125.2138/" "solarized-theme-20150725.730/" "helm-projectile-20150831.1127/" "markdown-mode-20150813.503/" "whitespace-cleanup-mode-20150603.447/" "magit-push-remote-20130906.135/" "seq-20150709.1040/" "json-reformat-20150406.1705/" "with-editor-20150903.1204/" "logito-20120225.2155/" "yasnippet-20150811.1222/" "yaml-mode-20150816.2235/" "popwin-20150315.600/" "magit-filenotify-20150125.1456/" "archives/" "magit-popup-20150903.1204/" "multi-web-mode-readme.txt" "dash-20150829.433/" "powerline-20150628.1957/" "dash-at-point-20140626.35/" "projectile-20150807.620/" "js2-mode-readme.txt" "with-editor-20150816.1106/" "nrepl-0.2.0/" "popup-20150626.711/" "helm-20150815.2342/" "tern-20150830.1256/" "helm-projectile-20150731.926/" "spinner-1.4.signed" "helm-flymake-readme.txt" "cask-readme.txt" "company-ghc-20150613.123/" "pcache-20150125.1653/" "multiple-cursors-20150710.456/" "2048-game-readme.txt" "paradox-20150812.732/" "spinner-1.4/" "async-20150818.1154/" "grizzl-20150711.2230/" "magit-readme.txt" "json-snatcher-20150511.2047/" "shm-20150526.124/" "pos-tip-20150318.813/" "projectile-readme.txt" "projectile-20150831.1127/" "whitespace-cleanup-mode-readme.txt" "flycheck-haskell-20150602.28/" "magit-popup-20150816.1106/" "json-reformat-20150901.542/" "magit-filenotify-20150831.1759/" "helm-projectile-readme.txt" "fringe-helper-20140620.1409/" "magit-20150817.2214/" "erlang-20150622.644/" "magit-20150903.1204/" "git-commit-20150817.2213/" "sml-mode-6.7.signed" "clojure-mode-20150804.1311/" "creole-readme.txt" "haskell-mode-readme.txt" "js2-refactor-20150806.159/" "company-tern-20150525.216/" "flymake-elixir-readme.txt" "multi-web-mode-20130824.54/" "helm-gist-readme.txt" "rainbow-delimiters-20150320.17/" "gnupg/" "flycheck-20150831.1343/" "alect-themes-readme.txt" "json-mode-20150413.1948/" "flymake-jshint-readme.txt" "solarized-theme-20150831.823/" "let-alist-1.0.4.signed" "helm-core-20150904.148/" "ack-and-a-half-20130815.1917/" "flymake-css-readme.txt" "auto-complete-20150618.1949/" "../" "./")
 
- ("/home/v/code/c.js/recepies/" (21973 41774 893006 681000) "lock.js" "../" "./")
+ ("/home/denimuser/code/denim/loom/" (21830 1890 987788 750000) "compat/" "nmctl/" "jmsgbus/" "Makefile" "bin/" "jsnm/" "version/" "nm/" ".gitignore" "jsonparser/" "mk/" "nmlog/" "pyamqp/" "proto/" ".git" "statmgr/" "msgbus/" "zkctl/" "unittest/" "pyplatformlib/" "zkpython/" "./" "amqpctl/" "lib/" "passfds/" "listensni/" "nmmon/" "pymsgbus/" "memcache/" "iniparser/" "ipc/" "statctl/" "../" "jnm/" "pypassfds/" "platformlib/")
 
- ("/etc/gdm/" (21971 17260 602026 258000) "greeter.gsettings" "PreSession/" "custom.conf" "PostSession/" "PostLogin/" "Init/" "Xsession" "../" "./")
+ ("/etc/mysql/" (21944 37044 448616 781000) "debian.cnf" "my.cnf" "./" "debian-start" "conf.d/" "../" "my.cnf~")
 
- ("/etc/apt/" (21971 8243 808088 91000) "trusted.gpg" "sources.list" "apt.conf.d/" "preferences.d/" "trusted.gpg~" "sources.list.save" "../" "sources.list.d/" "sources.list.distUpgrade" "./" "trusted.gpg.d/")
+ ("/etc/xdg/autostart/" (21672 54863 397893 466000) "gnome-keyring-pkcs11.desktop" "gwibber.desktop" "gnome-keyring-gpg.desktop" "pulseaudio.desktop" "user-dirs-update-gtk.desktop" "nm-applet.desktop" "gnome-settings-daemon.desktop" "onboard-autostart.desktop" "gnome-keyring-ssh.desktop" "pulseaudio-kde.desktop" "vino-server.desktop" "nautilus-autostart.desktop" "gnome-user-share.desktop" "deja-dup-monitor.desktop" "print-applet.desktop" "hplip-systray.desktop" "gnome-keyring-secrets.desktop" "gnome-screensaver.desktop" "update-notifier.desktop" "ubuntuone-launch.desktop" "./" "orca-autostart.desktop" "at-spi-dbus-bus.desktop" "gsettings-data-convert.desktop" "bluetooth-applet-unity.desktop" "telepathy-indicator.desktop" "polkit-gnome-authentication-agent-1.desktop" "jockey-gtk.desktop" "zeitgeist-datahub.desktop" "bluetooth-applet.desktop" "user-first-login.desktop" "gnome-sound-applet.desktop" "../" "gdu-notification-daemon.desktop" "gnome-fallback-mount-helper.desktop")
 
- ("/home/v/code/rivet/bjn/" (21971 7803 83016 544000) "login/" "xauth/" "canvas/" "assets/" "multipop/" "utils/" "build_settings.py" "playback/" "enterpriseadmin/" "__init__.pyc" "urlshortener/" "changepassword/" "urls.py" "banners/" "devhome/" "local_settings_example.py" "bjnui/" "systemsettings/" "media/" "debug_settings.py" "manage.py" "Gruntfile_old.js" "local_settings.example.py" "logs/" "header_purejs/" "billing/" "skypecall/" "settings.py" "carmel/" "schedule/" "admin/" "Gruntfile.js" "core/" "locale/" "logging_settings.py" "servicesdashboard/" "users/" "common-billing-test/" "locale_js/" "channel/" "static/" "local_settings.pyc" "blacklist/" "denim_debug_settings.py" "serviceactions/" "common-billing/" "scheduling_v2/" "tely/" "partition/" "zuora/" "skinny-browser/" "enterprise/" "settings.pyc" "command-center/" ".gitignore" "contact/" "packaging_settings.pyc" "modules/" "emails/" "skinny/" "analytics/" "packaging_settings.py" "feature/" "local_settings.py" "monitor.py" "site/" "meet/" "videos/" "common/" "node_modules/" "Makefile" "spector/" "lib/" "scheduling/" "apache/" "run_test.py" "meet-mobile/" "bjnapp/" "Gruntfile.Carmel.js" "templates/" "context_processors.py" "scripts/" "__init__.py" "../" "./")
+ ("/etc/apache2/" (21944 37071 188616 778000) "sites-enabled/" "sites-available/" "magic" "envvars" "mods-enabled/" "envvars~" "ports.conf" "mods-available/" "httpd.conf" "./" "httpd.conf~" "apache2.conf" "ports.conf~" "conf.d/" "../")
 
- ("/home/v/code/rivet/build/" (21971 8006 531522 724000) "yuicompressor/" "buildall.sh" "npm-debug.log" "forTranslators.sh" "installBuildDependencies.sh" "../" "fromTranslators.sh" "checkExceptionHandling.py" "build.py" "./" "hooks/")
+ ("/etc/network/" (21539 41045 642537 788000) "if-down.d/" "run/" "if-pre-up.d/" "interfaces" "if-up.d/" "devnames" "./" "if-post-down.d/" "../")
 
- ("/usr/local/zookeeper-3.4.5/conf/" (21971 8385 696415 553000) "zoo_sample.cfg" "configuration.xsl" "log4j.properties" "../" "./")
+ ("/home/denimuser/.emacs.d/" (21989 35801 721063 741000) "session.107b0b88d0cbc13a74142069493590931000000031750050" "tramp" "session.10fd525be64ea00dc143065708151562300000028470045" "session.10d29fc5d97b264091143995904154041500000025580051" "init.el" "session.10ad371423f23f99f0141802047745171100000233180045" "session.10c51ed2b9830f3a28143981003357867000000034130063" "session.1091ef4dee5ec301c141958487762629400000018880042" "session.10bf10c460d59478be142890754482785800000027730050" "session.10125d177384354fd8143581663575234200000264320047" "session.10788afbfefa90d54a14295872787241300000033100046" "session.104593c27a5efdb688142976630332548300000031980046" "session.10130bb25e634e90e414326188978945600000026700048" "session.10515085a59474053141716384564577400000020830044" "session.10e8b4264cb8372a94143738749493098000000031540048" "session.10ab0e90d9a95673fa143022483236938900000026920045" "session.105bdf03279c3e801141559362867480700000020960046" "session.1081f1830ef99ee6a6143350246463360300000039050052" "projectile-bookmarks.eld" "session.1025fd5ea4a04d5331142633799654122400000031560047" "session.10b27e041c98bcbbb2141569578241732900000025740047" "session.104aa6ef765d2eb2de143884524258833000000034930049" "ac-comphist.dat" "session.1073781adeb73026db141888770617244300000036220045" "session.10813a0e5439c7a6bd143264198570504200000033950047" "session.1069e1092e8049a90d141812584918332500000198580045" "session.106de88afe173c9e64142233213315731300000152950046" "backups/" "auto-save-list/" "session.10a494fae6a8b0b913143436309062782100000027580061" "session.108f3baf2544a1e646143140047575926300000035960046" "elpa/" "session.10bb0ece01a5fa9f7142685411957546500000033670049" "session.10ff5741658cfafdf1142900010834454300000026070046" "%backup%~" "session.104b648bb0a357fac9142615101917027500000032590060" "session.10ddfa8d4e64f1d7a0141880777260987600000037770041" "session.105c3fe98fbb81d24d143987788674830800000033250048" "session.1081f1830ef99ee6a6143349145486361000000039050051" "session.10e24e449128c51e92142193918315083500000025870045" "session.10d5988b11711cc36d142657101120545200000035140047" "places" "session.10afc24918c217cbdf143289786691358500000028630050" "session.106216c6cb7a24a6f014373744875196900000027520085" "session.108d85fdc332ac9478142623535163848700000030170048" "session.1067c280a6df7abaa143806793411186700000025930062" "./" "session.102874959fe5cef62214195844921386500000033530055" "session.104f9467c282260588142953575397197500000026980047" "session.108de6b6aef0c53c24142052468915979700000041910045" "url/" "session.10b87e32ac788d522c143339323188303500000026460051" "ido.last" "session.10d0b237f8e81de592143032235970905100000026410047" "session.1015b4a40c8d0f9e99142770058865952600000300210047" "session.10c2a42537958e71e1142166099988914000000121220044" "session.105a16031d2bc69241142684497850551800000026090055" "session.10ca90faff603a6937141778841573411100000023890041" "session.1051f7ea6040b260da141751723168977900000021280043" "session.10982754d2c333c9a0143987815767361000000025160047" "lisp/" "var/" "session.10c1bc65ae18cf89d5143219551315341400000030450048" "../" "session.10b7c1ed47347a71bc142717540897765000000034090052" "tutorial/" "session.1013171c10c6d768a1142114796268316800000024980048" "session.10cbc1095fca2fcd3214313186477142100000198430049" "session.104bb29323f53c512e143634850486246200000246990058")
 
- ("/usr/local/zookeeper-3.4.5/" (20631 29447 0 0) "zookeeper-3.4.5.jar.md5" "conf/" "README.txt" "zookeeper-3.4.5.jar.asc" "zookeeper-3.4.5.jar.sha1" "zookeeper-3.4.5.jar" "LICENSE.txt" "bin/" "CHANGES.txt" "lib/" "build.xml" "ivy.xml" "docs/" "NOTICE.txt" "src/" "recipes/" "../" "contrib/" "dist-maven/" "README_packaging.txt" "./" "ivysettings.xml")
+ ("/home/" (21539 41317 582533 128000) "denimuser/" "./" "../")
 
- ("/usr/local/" (21971 8385 300414 649000) "libexec/" "zookeeper-3.4.5/" "etc/" "man/" "var/" "bin/" "lib/" "src/" "games/" "../" "share/" "include/" "sbin/" "./")
+ ("/home/denimuser/code/seam/services/event-service/node_modules/grunt-contrib-jshint/" (21991 59851 671082 231000) "CHANGELOG" "README.md" "node_modules/" "./" "tasks/" "package.json" "../")
 
- ("/home/v/code/denim/" (21971 3196 964202 907000) "content/" "settings.gradle" "gradle.properties" "java/" "version/" "media/" "tools/" "build.gradle" "logs/" ".gitmodules" ".gradle/" "denim/" "bin/" "npm-debug.log" "proto/" "doxygen/" ".gitignore" "mk/" ".git/" "etc/" "dist/" "loom/" "../" "Makefile" "config/" "lib/" "connector/" "app/" "./" "ci-build.gradle" "unittest/")
+ ("/home/denimuser/code/npm-global/" (21927 15090 977242 258000) "bin/" "./" "lib/" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----
