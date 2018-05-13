@@ -65,7 +65,11 @@
  '(haskell-process-suggest-remove-import-lines t)
  '(haskell-process-type (quote cabal-repl))
  '(haskell-tags-on-save t)
+ '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(magit-commit-arguments nil)
+ '(package-selected-packages
+   (quote
+    (zenburn-theme yaml-mode whitespace-cleanup-mode solarized-theme sml-mode shm rainbow-delimiters powerline paradox nrepl multi-web-mode mocha-snippets markdown-mode magit-push-remote magit-filenotify magit-commit-training-wheels json-mode js2-refactor helm-projectile guide-key-tip groovy-mode grizzl git-gutter-fringe gist flycheck-tip flycheck-hdevtools flycheck-haskell flycheck-color-mode-line fish-mode f erlang dash-at-point company-tern company-ghc auto-complete ack-and-a-half)))
  '(safe-local-variable-values
    (quote
     ((zencoding-
